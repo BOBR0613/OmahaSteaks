@@ -1,0 +1,40 @@
+{
+	"default":{		
+		"btnGetTheDeals":{
+			"type":"xpath",
+			"value":"//div[@id='os_modal']//button[text()='Get The Deals']"
+		},
+		"txtEmail":{
+			"type":"xpath",
+			"value":"//div[@id='os_modal']//input[@id='emailFrom']"
+		},
+		"cbIAgree":{
+			"type":"xpath",
+			"value":"//div[@id='os_modal']//input[@id='os_xe_optin']"
+		},
+		"ele_FirstSKUFormInModal":{
+			"type":"xpath",
+			"value":"(//div[@id='os_modal']//form[.//select[@name='SHIPTO']])[1]"
+		},
+		"eleTodayOnlyDealsModal":{
+			"type":"xpath",
+			"value":"//div[@id='os_modal'][.//div[text()='Today-Only Deals']]"
+		},
+		"lstSKUFormInModal":{
+			"type":"xpath",
+			"value":"//div[@id='os_modal']//form[.//select[@name='SHIPTO']]"
+		},
+		"btnNoThanksOnToDayDeals":{
+			"type":"xpath",
+			"value":"//div[div[text()='Today-Only Deals']]//a[text()='No Thanks']"
+		},
+		"imgCurrentItemImage":{
+			"type":"xpath",
+			"value":".//img[normalize-space(@class)='os_cmb_meal_img']"
+		},
+		"lstEleCycleIcon":{
+			"type":"xpath",
+			"value":".//span[contains(@class,'os_cmb_meal_slide_cir')]"
+		}
+	}
+}

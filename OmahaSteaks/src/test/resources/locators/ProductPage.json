@@ -1,0 +1,103 @@
+{
+	"default": {
+		"lbProductName": {
+			"type": "xpath",
+			"value": "//form[input[@name='sku_asavail']]//h1"
+		},
+		"eleProductIID": {
+			"type": "xpath",
+			"value": "//form[input[@name='sku_asavail']]//span[@class='sku_iid' and text()=\"%s\"]"
+		},		
+		"lnkProductSelectSizeAndCount": {
+			"type": "xpath",
+			"value": "//form[@id='right_sku_form']//div/a[input]/span"
+		},		
+		"lbProductSizeAndCount": {
+			"type": "xpath",
+			"value": "//a[input]/span"
+		},
+		
+		"lnkProductSelectSizeAndCount_mb": {
+			"type": "xpath",
+			"value": "//form[@id='btgForm']//a[@title='Select']"
+		},
+		"cboProductSelectSizeAndCount_mb": {
+			"type": "xpath",
+			"value": "//select[@name='IID']"
+		},
+		"cbbProductSelectSizeAndCount": {
+			"type": "xpath",
+			"value": "//select[@name='IID']"
+		},
+		"cbbProductShipTo": {
+			"type": "xpath",
+			"value": "//select[@name='SHIPTO']"
+		},
+		"cbbProductShipTo_mb": {
+			"type": "xpath",
+			"value": "//form[@id='btgForm']//select[@name='SHIPTO']"
+		},
+		"txtProductNewShipTo": {
+			"type": "xpath",
+			"value": "//form[@id='right_sku_form']//input[@name='NEWSHIPTO']"
+		},
+		"txtProductNewShipTo_mb": {
+			"type": "xpath",
+			"value": "//form[@id='btgForm']//input[@name='NEWSHIPTO']"
+		},		
+		"btnProductAddToCart": {
+			"type": "xpath",
+			"value": "//*[@id='right_sku_form']//button | //*[@id='os_scroll_cont']/div[1]/div[1]/div/div/form/div[3]/div[3]/div[4]/button"
+		},             
+		"eleSizeList": {
+			"type": "xpath",
+			"value": "//tbody[@class='sku_opt_list_cont']//tr[contains(@class,'sku_opt_wnc_grp_c sku_opt_unit_grp')]"
+		},
+		"eleCountList": {
+			"type": "xpath",
+			"value": "//tbody[@class='sku_opt_list_cont']//tr[contains(@class,'sku_opt_wnc_opt_c sku_opt_unit_opt')]"
+		},
+		"eleFirstSize": {
+			"type": "xpath",
+			"value": "//tbody[@class='sku_opt_list_cont']//tr[contains(@class,'sku_opt_wnc_grp_c sku_opt_unit_grp')][1]"
+		},
+		"eleFirstCount": {
+			"type": "xpath",
+			"value": "//tbody[@class='sku_opt_list_cont']//tr[contains(@class,'sku_opt_wnc_opt_c sku_opt_unit_opt')][1]"
+		},
+		"eleSizeAndRating": {
+			"type": "xpath",
+			"value": "(//h1/parent::*//div[contains(@class,'os_style_s')])[2]"
+		},
+		"btnProductAddToCartPopup": {
+			"type": "xpath",
+			"value": "//a[@onclick='return osdev_addToCart(document.upsellForm);']"
+		},
+		"eleUpsellForm": {
+			"type": "xpath",
+			"value": "//form[@name='upsellForm']"
+		},
+		"eleTDCount": {
+			"type": "xpath",
+			"value": "//tr[@class='os_bg_background']/td[.='count']"
+		},
+		"btnCloseAddedToCart": {
+			"type": "xpath",
+			"value": "//span//div[@class='float_r icon-cross2']"
+		},
+		"radAutoshipAndSave": {
+			"type": "xpath",
+			"value": "//form[@id='right_sku_form']//input[@class= 'sku_oto_as' and @value = 'as']"
+		},
+		"cbbDeliveryFrequency": {
+			"type": "xpath",
+			"value": "//form[@id='right_sku_form']//select[@name='sku_freq']"
+		}
+	},
+	"safari": {
+		"lnkProductSelectSizeAndCount": {
+			"type": "xpath",
+			"value": "//form[@id='right_sku_form']//a[input][span]"
+		}
+	}
+}

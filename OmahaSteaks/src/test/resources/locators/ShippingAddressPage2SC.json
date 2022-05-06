@@ -1,0 +1,382 @@
+{
+	"default": {
+		"lnkSendTo": {
+			"type": "xpath",
+			"value": "//div[@class='os_saved_address']//a[@class='os_opt_dd']"
+		},
+		"lnkSendTo_mb": {
+			"type": "xpath",
+			"value": "//div[@class='os_saved_address']//a[@title='Select']"
+		},
+		"eleAddNewAddress": {
+			"type": "xpath",
+			"value": "//div[contains(@class,'dd_complete_results')]/a/span[text()='Add New Address']"
+		},
+		"eleRecipientAddressByIndex": {
+			"type": "xpath",
+			"value": "(//div[contains(@class,'dd_complete_results')]/a)[%d]"
+		},
+		"eleRecipientAddressByRecipientName": {
+			"type": "xpath",
+			"value": "//div[contains(@class,'dd_complete_results')]/a/span[@class='dd_text' and text()=\"%s\"]"
+		},
+		"eleRecipientAddressBySelected": {
+			"type": "xpath",
+			"value": "//span[@class='os_opt_dd_s']"
+		},		
+		"eleNextRecipientAddressBySelected": {
+			"type": "xpath",
+			"value": "(//div[contains(@class,'dd_complete_results')]/a[contains(@class,'dd_selected')]//following-sibling::a)[2]"
+		},
+		"eleNotifyText": {
+			"type": "xpath",
+			"value": "//div[@id='co_sa_notify']//*[@id='co_sa_notify_txt']"
+		},
+		"lnkEditThisAddress": {
+			"type": "xpath",
+			"value": "//div[@id='co_sa_saved']//a[.='Edit this address']"
+		},
+		"lnkEnterANewAddress": {
+			"type": "xpath",
+			"value": "//div[@id='co_sa_saved']//a[.='Enter a new address']"
+		},
+		"txtFirstName": {
+			"type": "xpath",
+			"value": "//input[@id='co_sa_fname']"
+		},
+		"txtLastName": {
+			"type": "xpath",
+			"value": "//input[@id='co_sa_lname']"
+		},
+		"txtCompany": {
+			"type": "xpath",
+			"value": "//input[@id='co_sa_company']"
+		},
+		"txtPhone": {
+			"type": "xpath",
+			"value": "//input[@id='co_sa_phone']"
+		},
+		"tbEmail": {
+			"type": "xpath",
+			"value": "//*[@id='co_sa_email_sh']"
+		},            
+		"txtStreetAddress": {
+			"type": "xpath",
+			"value": "//input[@id='co_sa_ad1']"
+		},
+		"txtAptSuiteEtc": {
+			"type": "xpath",
+			"value": "//input[@id='co_sa_ad2']"
+		},
+		"cbbCountry": {
+			"type": "xpath",
+			"value": "//select[@id='co_sa_country']"
+		},
+		"txtZipCode": {
+			"type": "xpath",
+			"value": "//input[@id ='co_sa_zipcode']"
+		},
+		"txtPostalCode": {
+			"type": "xpath",
+			"value": "//input[@id ='co_sa_intpostalcode']"
+		},
+		"cbbState": {
+			"type": "xpath",
+			"value": "//select[@id ='co_sa_state']"
+		},
+		"cbbProvince": {
+			"type": "xpath",
+			"value": "//select[@id ='co_sa_caprovince']"
+		},
+		"txtCity": {
+			"type": "xpath",
+			"value": "//input[@id='co_sa_city']"
+		},
+		"eleEditContactOrEditMyAddressForm": {
+			"type": "xpath",
+			"value": "//*[normalize-space(text())='Edit Contact' or normalize-space(text())='Edit My Address' or normalize-space(text())='Edit Address']/parent::div"
+		},
+		"txtAddressNicknameInModal": {
+			"type": "xpath",
+			"value": "//input[@id='co_ea_shipto']"
+		},
+		"txtFirstNameInModal": {
+			"type": "xpath",
+			"value": "//input[@id='co_ea_fname']"
+		},
+		"txtLastNameInModal": {
+			"type": "xpath",
+			"value": "//input[@id='co_ea_lname']"
+		},
+		"txtCompanyInModal": {
+			"type": "xpath",
+			"value": "//input[@id='co_ea_company']"
+		},
+		"txtPhoneInModal": {
+			"type": "xpath",
+			"value": "//input[contains(@id,'co_ea_phone_us')]"
+		},
+		"txtEmailInModal": {
+			"type": "xpath",
+			"value": "//input[@id='co_ea_email']"
+		},
+		"txtStreetAddressInModal": {
+			"type": "xpath",
+			"value": "//input[@id='co_ea_ad1']"
+		},
+		"txtAptSuiteEtcInModal": {
+			"type": "xpath",
+			"value": "//input[@id='co_ea_ad2']"
+		},
+		"cbbCountryInModal": {
+			"type": "xpath",
+			"value": "//select[@id='co_ea_country']"
+		},
+		"txtZipCodeInModal": {
+			"type": "xpath",
+			"value": "//input[@id='co_ea_zipcode']"
+		},
+		"txtPostalCodeInModal": {
+			"type": "xpath",
+			"value": "//input[@id='co_ea_intpostalcode']"
+		},
+		"cbbStateInModal": {
+			"type": "xpath",
+			"value": "//select[@id='co_ea_state']"
+		},
+		"cbbProvinceInModal": {
+			"type": "xpath",
+			"value": "//select[@id='co_ea_caprovince']"
+		},
+		"txtCityInModal": {
+			"type": "xpath",
+			"value": "//input[@id='co_ea_city']"
+		},
+		"btnUpdateContactInModal": {
+			"type": "xpath",
+			"value": "//button[@id='co_ea_submit' and text()='Update Contact']"
+		},
+		"lnkEditPhoneNumber": {
+			"type": "xpath",
+			"value": "//div[@id='co_sa_phone_conts']//a/u[text()='edit']"
+		},
+		"lnkAddAPhoneNumber": {
+			"type": "xpath",
+			"value": "//div[@id='co_sa_phone_conts']//a/u[text()='add a phone number']"
+		},
+		"lnkEditEmail": {
+			"type": "xpath",
+			"value": "//div[@id='co_sa_email_conts']//a/u[text()='edit']"
+		},
+		"lnkAddAnEmailAddress": {
+			"type": "xpath",
+			"value": "//div[@id='co_sa_email_conts']//a/u[text()='add an email address']"
+		},
+		"btnContinue": {
+			"type": "xpath",
+			"value": "//button[contains(text(),'Continue')]"
+		},             
+		"btnNext": {
+			"type": "xpath",
+			"value": "//button[@id='os_co_ca_btn' and normalize-space(text())='Next Address']"
+		},
+		"btnNext_mb": {
+			"type": "xpath",
+			"value": "//div[not(@class='pad_s')]/button[@class='os_btn_p_l' and normalize-space(text())='Next Address']"
+		},
+		"btnContinue_mb": {
+			"type": "xpath",
+			"value": "//div[not(@class='pad_s')]/button[@class='os_btn_p_l' and normalize-space(text())='Continue']"
+		},
+		"lnkEditCart": {
+			"type": "xpath",
+			"value": "//div[@id='os_sa_carttotals']//a[text()='edit cart']"
+		},
+		"lnkCart_mb": {
+			"type": "xpath",
+			"value": "//a[@title='Cart']"
+		},
+		"eleSKUByName": {
+			"type": "xpath",
+			"value": "//div[@class='sku_cart pad_l_s']/div[@class='os_style' and contains(normalize-space(text()),\"%s\")]"
+		},
+		"eleSKUByNameNew": {
+			"type": "xpath",
+			"value": "//div[contains(@class,'sku_cart pad_l')]/div[@class='os_style']/a[contains(text(),\"%s\")]"
+		},
+		"eleSKUByText": {
+			"type": "xpath",
+			"value": "//*[@id='co_ba_shpmt_items_1']//div[contains(text(),\"%s\")]"
+		},
+		"eleRecipientAddressField": {
+			"type": "xpath",
+			"value": "//div[@id='co_sa_saved_add']"
+		},
+		"btnEditAddressInPleaseConfirmAddressModal": {
+			"type": "xpath",
+			"value": "//a[@aria-label='Edit Address']"
+		},
+		"btnConfirmAddressInPleaseConfirmAddressModal": {
+			"type": "xpath",
+			"value": "//*[@id='os_sa_confirm_invalid_address']"
+		},
+		"lnkNeedItSooner": {
+			"type": "xpath",
+			"value": "//a[@id='co_sa_va_shipopt'][//span[text()='Need it Sooner']]"
+		},
+		"chbShippingMethodByOption": {
+			"type": "xpath",
+			"value": "//div[@id='co_sa_ship_opts']//input[@name='shipmeth' and @title=\"%s\"]"
+		},
+		"eleShippingMethodByOption": {
+			"type": "xpath",
+			"value": "//div[@id='co_sa_ship_opts']//input[@name='shipmeth' and @title=\"%s\"]/parent::div"
+		},
+		"lnkNextMonth": {
+			"type": "xpath",
+			"value": "//a[@title='Next Month' or @class='dp_arrow dp_arrow_next os_txt_p_m']"
+		},
+		"eleAvailableDayList": {
+			"type": "xpath",
+			"value": "//div[@class='dp_days os_txt_p_xd clearfix']//a"
+		},		
+		"txtGiftMessageTextArea":{
+			"type":"xpath",
+			"value":"//textarea[@id='co_sa_giftmsg']"
+		},
+		"txtGiftSignature":{
+			"type":"xpath",
+			"value":"//input[@id='co_sa_gift_sig']"
+		},
+		"eleAddAGreetingCard":{
+			"type":"xpath",
+			"value":"//div[@class='os_grid_3a'][1]//span[@class='icon-zoom-in2 os_txt_p_m']"
+		},
+		"eleAddAGreetingCard_mb":{
+			"type":"xpath",
+			"value":"//div[div/span[text()='Add a Greeting Card']]"
+		},
+		"eleAddGiftWrap":{
+			"type":"xpath",
+			"value":"//input[@id='co_giftopt_gw']/parent::span"
+		},
+		"eleAddGiftWrap_mb":{
+			"type":"xpath",
+			"value":"//div[div/span[text()='Add Gift Wrap']]|//div[text()='Add Gift Wrap']"
+		},		
+		"eleAddBoth":{
+			"type":"xpath",
+			"value":"//input[@id='co_giftopt_ab']/parent::span"
+		},		
+		"eleAddBoth_mb":{
+			"type":"xpath",
+			"value":"//div[div/span[text()='Add Both']]"
+		},		
+		"imgFirstGreetingCard":{
+			"type":"xpath",
+			"value":"(//img[@class='co_go_card_img'])[1]"
+		},		
+		"eleErrorMessageByField":{
+			"type":"xpath",
+			"value":"//div[label[starts-with(text(),\"%s\")]]/div[@class='os_form_error_r']/span"
+		},		
+		"eleErrorMessageByField_mb":{
+			"type":"xpath",
+			"value":"//div[label[starts-with(text(),\"%s\")]]/div[@class='os_form_error']/span"
+		},
+		"eleErrorMessageAtBottom": {
+			"type": "xpath",
+			"value": "//div[@id='os_email_address_error']/div | //div[@id='os_co_address_error']/div"
+		},
+		"lnkViewItems_mb": {
+			"type": "xpath",
+			"value": "//a[@class='os_sa_view_items']"
+		},
+		"btnClose_mb": {
+			"type": "xpath",
+			"value": "//button[@class='os_leftslideout_close os_btn_s_m']"
+		},
+		"lbMessageWineInCart":{
+			"type":"xpath",
+			"value":"//div[@id='os_sa_shipoptions']//i"
+		},
+		"lbAlertText":{
+			"type":"xpath",
+			"value":"//XCUIElementTypeAlert//XCUIElementTypeStaticText[2]"
+		},
+		"eleRecipientValue":{
+			"type":"xpath",
+			"value":"//div/input[@id='currentSackName']"
+		},
+		"eleProgressTabsTitle":{
+			"type":"xpath",
+			"value":"//div[@class='os_progress_tabs_in']//h1"
+		},
+		"eleShippingError":{
+			"type":"xpath",
+			"value":"//div[@id='os_sa_shipoptions_error']//div[@class='os_sh4 os_h_reg os_style_lhf os_txt_white']"
+		},
+		"eleItemsInShippingError":{
+			"type":"xpath",
+			"value":"//div[@id='os_sa_shipoptions_error']//li"
+		},
+		"lnkRemoveItems":{
+			"type":"xpath",
+			"value":"//a[contains(@class,'os_sa_remove_items os_style')]"
+		},
+		"btnCancelInRemoveThisCart":{
+			"type":"xpath",
+			"value":"//*[@id='os_sa_shipoptions_error']/div[2]/div[2]/a/u/i"
+		},
+		"btnConfirmUpdateInRemoveThisCart":{
+			"type":"xpath",
+			"value":"//a[@id='cart_remove_confirm' and text()='Confirm Update & Continue']"
+		},
+		"eleErrorMessage":{
+			"type":"xpath",
+			"value":"//div[@id='serverError']"
+		},
+		"eleShippingOptions":{
+			"type":"xpath",
+			"value":"//*[contains(.,'Standard Shipping')]"
+		}
+	},
+	"ie": {
+		"cbFirstGreetingCard":{
+			"type":"xpath",
+			"value":"(//div[@class='os_grid_3a' and .//img[@class='co_go_card_img']])[1]//span[@class='os_ctrl']"
+		},
+		"txtFirstName": {
+			"type": "css",
+			"value": "#co_sa_fname"
+		},
+		"txtLastName": {
+			"type": "css",
+			"value": "#co_sa_lname"
+		},
+		"txtCompany": {
+			"type": "css",
+			"value": "#co_sa_company"
+		},
+		"txtPhone": {
+			"type": "css",
+			"value": "#co_sa_phone"
+		},
+		"txtEmail": {
+			"type": "css",
+			"value": "#co_sa_email"
+		},
+		"txtStreetAddress": {
+			"type": "css",
+			"value": "#co_sa_ad1"
+		},
+		"txtAptSuiteEtc": {
+			"type": "css",
+			"value": "#co_sa_ad2"
+		},
+		"cbbCountry": {
+			"type": "css",
+			"value": "select#co_sa_country"
+		}
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"default":{
+		"lnkCategoryByName":{
+			"type":"xpath",
+			"value":"//div[@id='contentcolumn']//a[text()=\"%s\"]"
+		},
+		"lnkCategoryByFullPath":{
+			"type":"xpath",
+			"value":"//div[@id='contentcolumn']//div[@class='mar_t_m border_b'][.//h3/a[text()='%1$s']]//following::i[text()='%2$s']/following-sibling::div//a[text()='%3$s']"
+		}
+	}
+}

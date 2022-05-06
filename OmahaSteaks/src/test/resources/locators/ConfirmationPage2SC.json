@@ -1,0 +1,106 @@
+
+{
+	"default":{
+		"elThankYou":{
+			"type":"xpath",
+			"value":"//div[h1[text()='Order Receipt']]/div[contains(.,'confirm your shipping')]"
+		},           
+		"eleBillingAddressContent":{
+			"type":"xpath",
+			"value":"//div[h3[text()='Billing Address']]//div[contains(@class,'os_saved_add_det os_address')]"
+		},		
+		"elePaymentMethodContent":{
+			"type":"xpath",
+			"value":"//div[h3[text()='Payment Method']]/div[@class='os_style os_ress os_style_lhf mar_t_xs']"
+		},
+		"elePaymentMethodContent_mb":{
+			"type":"xpath",
+			"value":"//div[h3[text()='Payment Method']]/div[@class='os_style_s os_style_lhf mar_t_xs']"
+		},
+		"eleContactInfoContent":{
+			"type":"xpath",
+			"value":"//div[h3[text()='Contact Info']]/div[@class='os_style os_ress os_style_lhf mar_t_xs']"
+		},
+		"eleContactInfoContent_mb":{
+			"type":"xpath",
+			"value":"//div[h3[text()='Contact Info']]/div[@class='os_style_s os_style_lhf mar_t_xs']"
+		},		
+		"eleShippingAddressContent":{
+			"type":"xpath",
+			"value":"//div[@class='co_ba_shpmt'][.//b[@class='os_saved_add_nname' and normalize-space(text())=\"%s\"]]//div[contains(@class,'os_address ')]"
+		},
+		"eleShippingSectionName":{
+			"type":"xpath",
+			"value":"//div[@class='co_ba_shpmt'][.//b[@class='os_saved_add_nname' and normalize-space(text())=\"%s\"]]//h2"
+		},
+		"eleShippingMethodSection":{
+			"type":"xpath",
+			"value":"//div[@class='co_ba_shpmt'][.//b[@class='os_saved_add_nname' and normalize-space(text())=\"%s\"]]//div[contains(@id,'saved_ship_cont')]"
+		},
+		"eleSkuInShippingAddressSection":{
+			"type":"xpath",
+			"value":"//div[@class=\"co_ba_shpmt\"][.//b[@class=\"os_saved_add_nname\" and normalize-space(text())=\"%1$s\"]]//div[@class=\"sku_cart\"]//a[text()=\"%2$s\"]"
+		},
+		"eleSkuInShippingAddressSectionxxx":{
+			"type":"xpath",
+			"value":"//a[text()=\"%2$s\"]"
+		},
+		"eleSpecialBonusBuySkuPrice":{
+			"type":"xpath",
+			"value":"//div[@class='pad_l'][//div[text() = 'Special Bonus Buy']]//span[@class= 'sku_price os_h1 os_txt_action os_style_lhf']"
+		},
+		"eleSpecialBonusBuySkuPrice_mb":{
+			"type":"xpath",
+			"value":"//div[@class='pad_m'][//div[text() = 'Special Bonus Buy']]//span[@class='sku_price os_h2 os_txt_action os_style_lhf']"
+		},
+		"eleRecipientShipment":{
+			"type":"xpath",
+			"value":"//table[//th[text() = 'Shipments']]"
+		},
+		"eleSpecialBonusBuySkuName":{
+			"type":"xpath",
+			"value":"//div/preceding-sibling::div[@class='os_style_l os_style_lhf']"
+		},
+		"ckbSelectRecipientToShipment":{
+			"type":"xpath",
+			"value":"//table[//th[text() = 'Shipments']][.//td[text()=\"%s\"]]//input"
+		},
+		"btnAddToOrder":{
+			"type":"xpath",
+			"value":"//input[@value='Add to Order']"
+		},
+		"eleSpecialBonusBuyModal":{
+			"type":"xpath",
+			"value":"//div/preceding-sibling::div[text() = 'Special Bonus Buy']"
+		},
+		"eleTotalPrice":{
+			"type":"xpath",
+			"value":"//div[@class='border ']//div[contains(@class,'clearfix pad_h_m')]//div[@class='float_r']/b"
+		},
+		"eleListSkuAdded":{
+			"type":"xpath",
+			"value":"//div[@class = 'sku_cart']//a"
+		},
+		"eleOrderNumber":{
+			"type":"xpath",
+			"value":"//div[@class='aboslute_v_center os_label_m os_ress']"
+		},
+		"eleOrderNumber_mb":{
+			"type":"xpath",
+			"value":"//div[@class='os_label_m']"
+		},
+		"eleDeliveriedDateByShippingAddressSection":{
+			"type":"xpath",
+			"value":"//div[@class='co_ba_shpmt'][.//b[@class='os_saved_add_nname' and normalize-space(text())=\"%s\"]]//div[contains(@id,'saved_ship_cont')]//div[@class='mar_t_xxs']"
+		},
+		"eleDeliveriedDateByShippingAddressSection_mb":{
+			"type":"xpath",
+			"value":"//div[@class='co_ba_shpmt'][.//b[@class='os_saved_add_nname' and normalize-space(text())=\"%s\"]]//div[@class='os_style_s os_style_lhf mar_t_xxs ${ship_date_class}']"
+		},
+		"eleOrderTotalShippingFee":{
+			"type":"xpath",
+			"value":"//*[@id=\"os_main\"]/div[1]/div[5]/div/div[1]/div[1]/div[1]/div[2]/div[2]/div[2]/b | //div[text()='Shipping']/following-sibling::div | //*[@class='os_ress_pp_sec']//b[contains(@class,'fn_freeship_text')]"
+		}		
+	}
+	
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<script langauge="JavaScript" type="text/javascript">
+function doMenu(item) {
+ obj=document.getElementById(item);
+ col=document.getElementById("x" + item);
+ if (obj.style.display=="none") {
+  obj.style.display="block";
+  col.innerHTML="[-]";
+ }
+ else {
+  obj.style.display="none";
+  col.innerHTML="[+]";
+ }
+}
+</script>
+<head>
+  <title>Test Results Report - Log Output</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+  </head>
+<body>
+  <h1>Log Output</h1>
+  <p>
+    Combined output from all calls to the log methods of the <a href="http://testng.org/javadocs/org/testng/Reporter.html">TestNG Reporter</a>.    
+  </p>
+<a href="JavaScript:doMenu('log');" id=xmain>[+]</a> Steps:
+  <div id="log">
+                  <b>INFO: </b>TEST CASE: com.omahasteaks.tests.ShippingOptions.TC_ SOP_ 005_ UserCanCompleteCheckoutWithExpressDelivery.TC_ SOP_ 005_ User_ Can_ Complete_ Checkout_ With_ Express_ Delivery_ Shipping
+                        <b style="color: #900C3F;word-break:break-word;"><i style="color: #900C3F">TEST CASE: </i>TC_SOP_005 - User Can Complete Checkout With Express Delivery Shipping</b>
+                        <b style="color: #F800DF;word-break:break-word;"><i style="color: #F800DF">TEST OBJECTIVE: </i>TO_SOP_23 - In Payment & Review page, user can click 'View All Shipping Options' link and select Shipping Method "Express Delivery" on the 'Shipping & Delivery' modal then complete checkout</b>
+                        <b>INFO: </b>From Homepage, enter "47519" into Search textbox and click Search button
+                        <b>INFO: </b>"In Product Page: Add this item to MYSELF - If Exclusive Offer (Upsell offer) appears, click "Add To Cart"
+                        <b>INFO: </b>Go to Shopping Cart Page then click checkout
+                        <b>INFO: </b>In Shipping Address Page:
+- Fill valid information into Shipping Address section
+- Click "Continue"
+                        <b>INFO: </b>In Payment & Review page: Click "View Shipping Options" link 
+                        <b style="color: darkorange;word-break:break-word;"><i>WARNING: </i>There are no "Express Delivery" shipping options</b>
+            </div>
+
+</body>
+</html>

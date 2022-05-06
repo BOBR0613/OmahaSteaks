@@ -1,0 +1,23 @@
+{
+	// Common hub for almost element
+	"default":
+	{
+		"other": "built-in",
+		"desktop-ie": "javascript",
+		"desktop-firefox": "built-in",
+		"desktop-chrome": "built-in",
+		"mac-safari": "built-in",
+		"iphone-safari": "built-in",
+		"ipad-safari": "built-in",
+		"android-chrome": "built-in"
+	},
+	
+	// Hub for link element
+	"pattern1":
+	{
+		"other": "javascript",
+		"mac-safari": "built-in",
+		"iphone-safari": "built-in",
+		"ipad-safari": "built-in"
+	}
+}

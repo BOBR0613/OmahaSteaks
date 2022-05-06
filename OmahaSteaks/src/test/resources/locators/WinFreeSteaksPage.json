@@ -1,0 +1,72 @@
+{
+	"default": {
+		"txtFirstName": {
+			"type": "xpath",
+			"value": "//input[@id='os_contest_fname']"
+		},
+		"txtLastName": {
+			"type": "xpath",
+			"value": "//input[@id='os_contest_lname']"
+		},
+		"txtCity": {
+			"type": "xpath",
+			"value": "//input[@id='os_contest_city']"
+		},
+		"txtPhone": {
+			"type": "xpath",
+			"value": "//input[@id='os_contest_phone']"
+		},
+		"txtEmail": {
+			"type": "xpath",
+			"value": "//input[@id='emailFrom']"
+		},
+		"cbbState": {
+			"type": "xpath",
+			"value": "//div/select[@id ='os_contest_state']"
+		},
+		"cbIAgree": {
+			"type": "xpath",
+			"value": "//form[@id='os_contest_form_free']//input[@name='os_contest_optin']"
+		},
+		"eleIAgree": {
+			"type": "xpath",
+			"value": "//form[@id='os_contest_form_free']//div[input[@name='os_contest_optin']]"
+		},
+		"btnEnterToWin": {
+			"type": "xpath",
+			"value": "//form[@id='os_contest_form_free']//button[text()='Enter To Win']"
+		},
+		"eleThankYou": {
+			"type": "xpath",
+			"value": "//div[contains(@class,'os_grid_pad_t_m')]//div[text()='Thank You']"
+		},
+		"eleErrorMessageByEmail": {
+			"type": "xpath",
+			"value": "//form[@id='os_contest_form_free']//div[@id='emailFrom-error']//span"
+		},
+		"eleErrorMessageByFirstName": {
+			"type": "xpath",
+			"value": "//form[@id='os_contest_form_free']//div[@id='os_contest_fname-error']//span"
+		},
+		"eleErrorMessageByLastName": {
+			"type": "xpath",
+			"value": "//form[@id='os_contest_form_free']//div[@id='os_contest_lname-error']//span"
+		},
+		"eleErrorMessageByCity": {
+			"type": "xpath",
+			"value": "//form[@id='os_contest_form_free']//div[@id='os_contest_city-error']//span"
+		},
+		"eleErrorMessageByState": {
+			"type": "xpath",
+			"value": "//form[@id='os_contest_form_free']//div[@id='os_contest_state-error']//span"
+		},
+		"eleErrorMessageByPhone": {
+			"type": "xpath",
+			"value": "//form[@id='os_contest_form_free']//div[@id='os_contest_phone-error']//span"
+		},
+		"eleErrorMessageByIAgree": {
+			"type": "xpath",
+			"value": "//form[@id='os_contest_form_free']//div[@id='os_contest_optin-error']//span"
+		}
+	}
+}

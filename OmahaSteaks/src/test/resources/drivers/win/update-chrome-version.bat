@@ -1,0 +1,1 @@
+copy /y chromedriver.exe %localappdata%\Programs\appium-desktop\resources\app\node_modules\appium\node_modules\appium-chromedriver\chromedriver\win

@@ -1,0 +1,32 @@
+{
+	"default": {
+		"lstSearchResult": {
+			"type": "xpath",
+			"value": "//div[@class='clearfix']//a/div[@class='border_b']"
+		},
+		"eleFirstSearchResult": {
+			"type": "xpath",
+			"value": "(//div[contains(@class,'clearfix')]//a[div[@class='border_b']])[1]|(//div[contains(@class,'clearfix')]/form//a/div[contains(@class,'border_b')])[1]"
+		},
+		"eleTab": {
+			"type": "xpath",
+			"value": "//span[@class='os_label_m os_ress'][text()=\"%s\"]"
+		},
+		"eleTab_mb": {
+			"type": "xpath",
+			"value": "//div[@selval=\"%s\"]//b"
+		},
+		"eleSortType": {
+			"type": "xpath",
+			"value": "//select[option[text()=\"%s\"]]"
+		},
+		"eleCountNumberByTab": {
+			"type": "xpath",
+			"value": "//span[@class='os_label_m os_ress'][text()='%1$s']/following-sibling::span[@id='%2$s_count']"
+		},
+		"eleCountNumberByTab_mb": {
+			"type": "xpath",
+			"value": "//div[@selval=\"%s\"]/div"
+		}
+	}
+}

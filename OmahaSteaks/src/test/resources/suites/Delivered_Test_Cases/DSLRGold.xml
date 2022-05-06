@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="1" parallel="false">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="com.omahasteaks.utils.config.TestListener" />
+		<listener class-name="com.omahasteaks.utils.config.AnnotationTransformer" />
+	</listeners>
+
+	<test name="Run Chrome Latest">
+		<parameter name="mode" value="desktop" />
+		<parameter name="browser" value="chrome99.local" />
+		<parameter name="reRunFailedTests" value="0" />
+		<parameter name="failurePercentage" value="100" />
+
+		<classes>
+			<class
+				name="com.omahasteaks.tests.SLRGold.TC_GLD_001RenewModalIsShownIfWithinRenewalPeriod" />
+			<class
+				name="com.omahasteaks.tests.SLRGold.TC_GLD_002RenewModalIsNotShownIfNotWithinRenewalPeriod" />
+			<class
+				name="com.omahasteaks.tests.SLRGold.TC_GLD_003ErrorDisplaysWhenUsingARewardCardToPurchaseAMembership" />
+			<class
+				name="com.omahasteaks.tests.SLRGold.TC_GLD_004MembershipCanBeAddedOnShipmentsBelowMinThreshold" />
+		</classes>
+
+
+
+	</test>
+
+</suite>

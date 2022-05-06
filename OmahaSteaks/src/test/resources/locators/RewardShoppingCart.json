@@ -1,0 +1,60 @@
+{
+	"default": {
+		"lnkCheckout": {
+			"type": "xpath",
+			"value": "//input[@name='certcheckout']"
+		},
+		"lnkResumeShopping": {
+			"type": "xpath",
+			"value": "//table//a/img[@alt='Resume Shopping']"
+		},
+		"btnHomePage": {
+			"type": "xpath",
+			"value": "//*[@id='top_home']"
+		},
+		"txtRewardNumber": {
+			"type": "xpath",
+			"value": "(//table//td[@class='bodyfix']/input[@name='cert'])[1]"
+		},
+		"eleSKURow": {
+			"type": "xpath",
+			"value": "//table[./form[@name='cart']]//tr[.//img[@alt='Delete Item']]"
+		},
+		"eleItemSelectionAndPtsOfSKU": {
+			"type": "xpath",
+			"value": "//table[./form[@name='cart']]//tr[.//img[@alt='Delete Item']][%d]//td[count(//table[./form[@name='cart']]//tr[1]//td[contains(text(),\"%s\")]/preceding-sibling::td)+1]"
+		},
+		"eleQtyAndSendToOfSKU": {
+			"type": "xpath",
+			"value": "./select"
+		},
+		"eleSKUByName": {
+			"type": "xpath",
+			"value": "//table[./form[@name='cart']]//tr[.//img[@alt='Delete Item']  and ./td/a[normalize-space(text())=\"%s\"]]"
+		},
+		"linkDelete": {
+			"type": "xpath",
+			"value": ".//img[@alt='Delete Item']"
+		},
+		"cbbQtyOfSKU": {
+			"type": "xpath",
+			"value": ".//select[@name='QTY']"
+		},
+		"cbbShipToOfSKU": {
+			"type": "xpath",
+			"value": ".//select[@name='SHIPTO']"
+		},
+		"eleEmptyCartMessage": {
+			"type": "xpath",
+			"value": "//table//td[b[text()='Your Cart Is Empty!']]"
+		},
+		"txtAllRewardNumbers": {
+			"type": "xpath",
+			"value": ".//input[@name='cert']"
+		},
+		"eleErrorMessageByField": {
+			"type": "xpath",
+			"value": "//table//tr[./td[.//b[text()=\"%s\"]]]//span[@class='body' and not (.//b) and not(.//br)]"
+		}
+	}
+}

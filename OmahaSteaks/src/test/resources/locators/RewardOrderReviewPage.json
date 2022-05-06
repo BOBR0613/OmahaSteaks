@@ -1,0 +1,28 @@
+{
+	"default": {
+		"elePleaseReviewOrderMsg": {
+			"type": "xpath",
+			"value": "//td[contains(text(),'Please review your order information and click the \"Submit Order\" button at the bottom of the page.') and .//b[contains(text(),'Your order will not be completed unless you click \"Submit Order.')]]"
+		},
+		"eleColumnInShippingBagTable": {
+			"type": "xpath",
+			"value": "//table//table[.//td[contains(text(),'SHOPPING BAG FOR')]]//td[contains(text(),\"%s\")]"
+		},
+		"eleTitleOfShoppingBagTable": {
+			"type": "xpath",
+			"value": "//table//td[text()='SHOPPING BAG FOR %s']"
+		},
+		"eleSKUInformationFollowColumn": {
+			"type": "xpath",
+			"value": "//form[@name='checkout']/table/tbody/tr[.//td[text()='SHOPPING BAG FOR %1$s']]//table//td[text()='SELECTIONS']/../following-sibling::tr[%2$s]/td[count(//form[@name='checkout']/table/tbody/tr[.//td[text()='SHOPPING BAG FOR %3$s']]//table//td[text()='%4$s']/preceding-sibling::td)+1]"
+		},
+		"eleSKUInformationFollowRow": {
+			"type": "xpath",
+			"value": "//form[@name='checkout']/table/tbody/tr[.//td[text()='SHOPPING BAG FOR %s']]//td[text()='SELECTIONS']/../following-sibling::tr"
+		},
+		"eleShippingInfomationFields": {
+			"type": "xpath",
+			"value": "//form[@name='checkout']/table/tbody/tr[.//td[text()='SHOPPING BAG FOR %s']]//table//td[contains(text(),'SHIPPING INFO')]/../following-sibling::tr"
+		}
+	}
+}

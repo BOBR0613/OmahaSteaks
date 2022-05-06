@@ -1,0 +1,164 @@
+{
+	"default": {
+		"txtCollectionNumber": {
+			"type": "xpath",
+			"value": "//form[@id='form_collectionNumber']//input[@type='text']"
+		},
+		"btnRedeem": {
+			"type": "xpath",
+			"value": "//form[@id='form_collectionNumber']//button[contains(text(),'REDEEM')]"
+		},
+		"btnRedeemNow": {
+			"type": "xpath",
+			"value": ".//input[contains(@value,'REDEEM')]"
+		},
+		"eleFirstSKU": {
+			"type": "xpath",
+			"value": "//div[./form//input[@type='submit']][1]"
+		},
+		"eleSkuName": {
+			"type": "xpath",
+			"value": ".//form[./input[contains(@value,'REDEEM')]]/preceding-sibling::div/b"
+		},
+		"eleSkuID": {
+			"type": "xpath",
+			"value": ".//form[./input[contains(@value,'REDEEM')]]/preceding-sibling::div/span"
+		},
+		"rdoResidentialAddress": {
+			"type": "xpath",
+			"value": "//input[@name='SA_ADDRESSTYPE' and @value='I']"
+		},
+		"rdoCompanyAddress": {
+			"type": "xpath",
+			"value": "//input[@name='SA_ADDRESSTYPE' and @value='C']"
+		},
+		"txtFirstName": {
+			"type": "xpath",
+			"value": "//input[@name='SA_FNAME']"
+		},
+		"txtLastName": {
+			"type": "xpath",
+			"value": "//input[@name='SA_LNAME']"
+		},
+		"txtPhone": {
+			"type": "xpath",
+			"value": "//input[@name='SA_PHONE']"
+		},
+		"txtCompanyName": {
+			"type": "xpath",
+			"value": "//input[@name='SA_CNAME']"
+		},
+		"txtAddressLine1": {
+			"type": "xpath",
+			"value": "//input[@name='SA_ADDR1']"
+		},
+		"txtAddressLine2": {
+			"type": "xpath",
+			"value": "//input[@name='SA_ADDR2']"
+		},
+		"txtAptSuite": {
+			"type": "xpath",
+			"value": "//input[@name='SA_APT']"
+		},
+		"txtCity": {
+			"type": "xpath",
+			"value": "//input[@name='SA_CITY']"
+		},
+		"cbbCountry": {
+			"type": "xpath",
+			"value": "//select[@name='SA_COUNTRY']"
+		},
+		"cbbState": {
+			"type": "xpath",
+			"value": "//select[@name='SA_STATE']"
+		},
+		"txtZip": {
+			"type": "xpath",
+			"value": "//input[@name='SA_ZIP']"
+		},
+		"txtEmailAddress": {
+			"type": "xpath",
+			"value": "//input[@name='SA_EMAIL']"
+		},
+		"btnContinue": {
+			"type": "xpath",
+			"value": "//input[@name='CONTINUE']"
+		},
+		"eleTabNameSrc": {
+			"type": "xpath",
+			"value": "//center[not (.//b[contains(text(),'Our Unconditional GUARANTEE')])]//img"
+		},
+		"eleGourmetCustomCertificate": {
+			"type": "xpath",
+			"value": "//div[text()='Gourmet' and text()='Custom Certificate']"
+		},
+		"txtDelayDate": {
+			"type": "xpath",
+			"value": "//input[@name='delaydate']"
+		},
+		"rdShippingMethod": {
+			"type": "xpath",
+			"value": "//span[text()=\"%s\"]//input[@name='shipmeth']"
+		},
+		"imgBackToExclusiveOffer": {
+			"type": "xpath",
+			"value": "//table//img[@alt='Back to Exclusive Offer']"
+		},
+		"elePleaseReviewOrderMsg": {
+			"type": "xpath",
+			"value": "//td[contains(text(),'Please review your order information and click the \"Submit Order\" button at the bottom of the page.') and .//b[contains(text(),'Your order will not be completed unless you click \"Submit Order.')]]"
+		},
+		"eleTitleOfShoppingBagTable": {
+			"type": "xpath",
+			"value": "//table//td[text()='SHOPPING BAG FOR %s']"
+		},
+		"eleSKUInformation": {
+			"type": "xpath",
+			"value": "//table//td[contains(text(),'ITEM')]/../following-sibling::tr/td[count(//td[text()=\"%s\"]/preceding-sibling::td)+1]"
+		},
+		"eleShippingInfomationFields": {
+			"type": "xpath",
+			"value": "//table//td[contains(text(),'SHIPPING INFO')]/../following-sibling::tr"
+		},
+		"eleShippingAddressFields": {
+			"type": "xpath",
+			"value": "//table[not (.//span[contains(text(),'Shipping information for')]) and .//input[@name='CONTINUE']]//td[not (./input) and not (.//select)]"
+		},
+		"elePartInShippingBagSection": {
+			"type": "xpath",
+			"value": "//table//table[.//td[contains(text(),'SHOPPING BAG FOR')]]//td[contains(text(),\"%s\")]"
+		},
+		"eleTermsAgreementLinkInFooter": {
+			"type": "xpath",
+			"value": "//a[contains(text(),\"%s\")]"
+		},
+		"eleLinkOfMenu": {
+			"type": "xpath",
+			"value": "//span[@class='body']/a[text()=\"%s\"]"
+		},
+		"eleErrorMessageByField": {
+			"type": "xpath",
+			"value": "//form[@name='checkout']//tr[./td[.//b[text()=\"%s\"]]]//span[not (.//a)]"
+		},
+		"linkAddressFieldInListErrorMessage":{
+			"type":"xpath",
+			"value":"//form[@name='checkout']//a[.//b[text()=\"%s\"]]"
+		},
+		"eleHeaderOfPrivacyPolicyPage":{
+			"type":"xpath",
+			"value":"//p//span[@class='headergold' and contains(text(),\"%s\")]"
+		},
+		"eleErrorMessageInShippingOptions":{
+			"type":"xpath",
+			"value":"//table[//input[@name='delaydate']]/preceding-sibling::span/b"
+		},
+		"eleAllSKUs":{
+			"type":"xpath",
+			"value":"//div[./img[@class='block']]"
+		},
+		"eleSKUByOrderNumber":{
+			"type":"xpath",
+			"value":"//div[./img[@class='block']][%s]"
+		}
+	}
+}

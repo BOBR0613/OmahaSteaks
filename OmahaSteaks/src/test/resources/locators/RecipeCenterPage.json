@@ -1,0 +1,8 @@
+{
+	"default": {
+		"eleRecipeMenuTab": {
+			"type": "xpath",
+			"value": "//div[@id='recipeNav']/ul/li[contains(.,\"%s\")][1]"
+		}
+	}
+}

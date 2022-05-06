@@ -1,0 +1,112 @@
+{
+	"default":{
+		"txtGiftNumber":{
+			"type":"xpath",
+			"value":"//input[@id='gcNumber']"
+		},
+		"btnApply":{
+			"type":"xpath",
+			"value":"//input[starts-with(@name,'ADDCERT')]"
+		},
+		"btnPlaceMyOrder":{
+			"type":"xpath",
+			"value":"//input[starts-with(@name,'sendorder')][starts-with(@value,'Place ')]"
+		},
+		"cbbCreditCardType":{
+			"type":"xpath",
+			"value":"//select[@name='CCTYPE']"
+		},
+		"txtCreditCardNumber":{
+			"type":"xpath",
+			"value":"//input[@name='CCNUM']"
+		},
+		"cbbCreditCardYear":{
+			"type":"xpath",
+			"value":"//select[@name='CCYEAR']"
+		},
+		"cbbCreditCardMonth":{
+			"type":"xpath",
+			"value":"//select[@name='CCMONTH']"
+		},
+		"eleBillingAddressContent":{
+			"type":"xpath",
+			"value":"//div[normalize-space(text())='Billing Address']/following-sibling::div[./input[@value='Edit Billing Address']]"
+		},
+		"eleBillingAddressContent_mb":{
+			"type":"xpath",
+			"value":"//h2[text()='Billing Address']/following-sibling::div[@class='ckogroup'][1]"
+		},
+		"btnEditBillingAddress":{
+			"type":"xpath",
+			"value":"//div[normalize-space(text())='Billing Address']/following-sibling::div/input[@value='Edit Billing Address']"
+		},
+		"btnEditBillingAddress_mb":{
+			"type":"xpath",
+			"value":"./div/input[@value='Edit']"
+		},
+		"eleShippingAddressContent":{
+			"type":"xpath",
+			"value":"//div[@id='positionSack%s']/following-sibling::table[1]/preceding-sibling::div[1]//div[@class='pad_m']"
+		},
+		"eleShippingAddressContent_mb":{
+			"type":"xpath",
+			"value":"//div[@class='os_ship_opts border'][./div[normalize-space(text())='Shipment Information for %s']]//following-sibling::div[1]/div[@class='pad_s']"
+		},
+		"btnEditShippingAddress":{
+			"type":"xpath",
+			"value":"./input[@value='Edit Shipping Address']"
+		},
+		"btnEditShippingAddress_mb":{
+			"type":"xpath",
+			"value":".//input[@value='Edit']"
+		},
+		"lnkRecipientEditShippingAddress":{
+			"type":"xpath",
+			"value":"//input[@value='Edit Shipping Address'][@name='editShipping_%s.x']"
+		},
+		"lnkRecipientViewAllShippingOptions":{
+			"type":"xpath",
+			"value":"//div[@class='os_ship_opts mar_b_m os_bg_background'][.//input[@value='Edit Shipping Address'][@name='editShipping_%s.x']]//a[.//u[text()='View All Shipping Options']]"
+		},
+		"chbShippingOptionByNameInModal":{
+			"type":"xpath",
+			"value":"//div[@id='shipoptWindow']//div[contains(@id,'sortShippingOpt')][.//div[text()=\"%s\"]]//input[(@name='shipmeth')]"
+		},
+		"btnContinueCheckOut":{
+			"type":"xpath",
+			"value":"//div[@id='shipoptWindow']//input[@class='button'][@value='Continue Checkout']"
+		},
+		"chbShippingOptionByNameOfRecipient":{
+			"type":"xpath",
+			"value":"//div[@class='os_ship_opts mar_b_m os_bg_background'][.//input[@value='Edit Shipping Address'][@name='editShipping_%1$s.x']]//div[contains(@class,'shipoptDiv')][.//div[(text()='%2$s')]]//input"
+		},
+		"eleShippingDateByNameOfRecipient":{
+			"type":"xpath",
+			"value":"//div[@class='os_ship_opts mar_b_m os_bg_background'][.//input[@value='Edit Shipping Address'][@name='editShipping_%1$s.x']]//div[contains(@class,'shipoptDiv')][.//div[(text()='%2$s')]]//span"
+		},		
+		"eleGreetingMessageByRecipient":{
+			"type":"xpath",
+			"value":"//table[.//input[@name='editShipping_%s.x']]//td[contains(text(),'Greeting:')]/following-sibling::td"
+		},
+		"eleGreetingCardByRecipientAndCardType":{
+			"type":"xpath",
+			"value":"//table[.//input[@name='editShipping_%1$s.x']]//td[./img[@alt=\"%2$s\"]]"
+		},
+		"btnGoToTheNextMonth":{
+			"type":"xpath",
+			"value":"//table[@id='cal_calendar']//input[@title='Go to the next month']"
+		},
+		"eleAvailableDayList":{
+			"type":"xpath",
+			"value":"//table[@id='cal_calendar']//td[@class='wkday']"
+		},
+		"eleSelectedDay":{
+			"type":"xpath",
+			"value":"//table[@id='cal_calendar']//td[@class='cell_selected']"
+		},			
+		"eleErrorMessageByField":{
+			"type":"xpath",
+			"value":"//div[@id='ErrorBox']//tr[./td//a[text()=\"%s\"]]/td/span[not(./a)]"
+		}
+	}
+}

@@ -1,0 +1,96 @@
+{
+	"default":{		
+		"txtEmailAddress":{
+			"type":"xpath",
+			"value":"//input[@name='USERNAME']"
+		},
+		"txtFirstName_mb":{
+			"type":"xpath",
+			"value":"//input[@name='FNAME']"
+		},
+		"txtLastName_mb":{
+			"type":"xpath",
+			"value":"//input[@name='LNAME']"
+		},
+		"eleEmailAddressErrorMessage":{
+			"type":"xpath",
+			"value":"//div[@id='oc_co_email-error']"
+		},
+		"eleEmailAddressErrorMessage_mb":{
+			"type":"xpath",
+			"value":"//div[@id='oc_accnt_email-error']/span"
+		},
+		"txtPassword":{
+			"type":"xpath",
+			"value":"//input[@name='PASSWORD']"
+		},
+		"elePasswordErrorMessage":{
+			"type":"xpath",
+			"value":"//div[@id='oc_co_na_password-error']"
+		},
+		"elePasswordErrorMessage_mb":{
+			"type":"xpath",
+			"value":"//div[@id='oc_accnt_na_password-error']/span"
+		},
+		"chbShowPassword":{
+			"type":"xpath",
+			"value":"//input[@id='oc_co_na_showpassword']"
+		},
+		"lnkShowPassword_mb":{
+			"type":"xpath",
+			"value":"//div[@id='oc_accnt_na_showpassword']"
+		},
+		"txtCreatePassword":{
+			"type":"xpath",
+			"value":"//input[@name='SIGNUPPASSWORD']"
+		},
+		"btnSignIn":{
+			"type":"xpath",
+			"value":"//button[@id|@class='os_btn_p_m' and normalize-space(text())='Sign In']"
+		},
+		"btnSignIn_mb":{
+			"type":"xpath",
+			"value":"//button[@class='os_btn_p_m' and normalize-space(text())='Sign In']"
+		},
+		"btnCreateAccountAndCheckout":{
+			"type":"xpath",
+			"value":"//span[@id='os_co_ca_btn' and normalize-space(text())='Create Account & Checkout']"
+		},
+		"btnCreateAccountAndCheckout_mb":{
+			"type":"xpath",
+			"value":"//button[@id='os_accnt_ca_btn']"
+		},
+		"btnCheckoutAsGuest":{
+			"type":"xpath",
+			"value":"//a[@class='os_modal os_btn_s_m' and normalize-space(text())='Checkout as Guest']"
+		},
+		"btnProceedAsGuest":{
+			"type":"xpath",
+			"value":"//a[normalize-space(text())='Proceed as Guest']"
+		},
+		"rdNoAccountYet":{
+			"type":"xpath",
+			"value":"//input[@id='os_co_cust_new']"
+		},
+		"rdIHaveAnAccount":{
+			"type":"xpath",
+			"value":"//input[@id='os_co_cust_exist']"
+		},
+		"rdSignIn_mb":{
+			"type":"xpath",
+			"value":"//label[input[@id='os_accnt_cust_exist']]/span"
+		},
+		"rdCreateAccount_mb":{
+			"type":"xpath",
+			"value":"//label[input[@id='os_accnt_cust_new']]/span"
+		},
+		"btnLogIn":{
+			"type":"xpath",
+			"value":"//input[@name='Login']"
+		},
+		"eleSocialNetWorkIcon":{
+			"type":"xpath",
+			"value":"//img[@alt =\"%s\"]"
+		}
+	}
+}

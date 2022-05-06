@@ -1,0 +1,572 @@
+{
+	"default": {
+		"eleItemInCart": {
+			"type": "xpath",
+			"value": "//div[.//input[@name='fromsack' and @value=\"%s\"]]//div[contains(@class,'cart_item')]"
+		},
+		"eleItemByNameInCart": {
+			"type": "xpath",
+			"value": "//div[.//input[@name='fromsack' and @value='%1$s']]//div[contains(@class,'cart_item')][.//a[text()='%2$s']]"
+		},
+		"eleItemByNameInCart_mb": {
+			"type": "xpath",
+			"value": "//div[@class='cart_shpmt mar_t_m' and .//a[@id='%1$s']]//div[contains(@class,'cart_item')][.//a[contains(text(),'%2$s')]]"
+		},
+		"btnContinueShopping": {
+			"type": "xpath",
+			"value": "//a[text()='Continue Shopping']"
+		},
+		"btnContinue": {
+			"type": "xpath",
+			"value": "//*[@id='os_co_ca_btn'] | //*[@id=\"os_cart_summary_c\"]/div[2]/a"
+		},
+		"btnCheckout": {
+			"type": "xpath",
+			"value": "(//*[@id='os_cart_summary_c']/div[2]/a) | (//*[text()='View My Cart'])"
+		},            
+		"btnCheckout_mb": {
+			"type": "xpath",
+			"value": "//a[normalize-space(text())='Checkout']"
+		},
+		"btnContinue_mb": {
+			"type": "xpath",
+			"value": "//div[@id='checkout_btn_fixed']//a[@id='fn_creditcard_btn']"
+		},
+		"lnkSignInToRedeem": {
+			"type": "xpath",
+			"value": "//div[@id='os_cart_summary']//a[./u[text()='Sign In']]"
+		},
+		"lnkSignInToRedeem_mb": {
+			"type": "xpath",
+			"value": "//div[@id='os_cart_summary']//a[.='Sign In']"
+		},
+		"cbbSpecialCartBonusSavingsShipTo": {
+			"type": "xpath",
+			"value": "//form[@class='cbs_options']//select[@name='SHIPTO']"
+		},
+		"cbbTheUpsellSkuShipTo": {
+			"type": "xpath",
+			"value": "//form[@class='sku_options sku_options_sm']//select[@name='SHIPTO']"
+		},
+		"cbbProductShipTo_mb": {
+			"type": "xpath",
+			"value": "//form[@id='os_cart_bs_form']//select[@name='SHIPTO']"
+		},
+		"eleFreeShippingMsg": {
+			"type": "xpath",
+			"value": "//div[contains(@class,'cart_shpmt')][div//a[@id=\"%s\"]]//span"
+		},
+		"eleFreeShippingMembership": {
+			"type": "xpath",
+			"value": "//*[@id='os_cart_slr_summary']/div/div/div[2]/div[1]"
+		},            
+		"btnSlrGoldSignup": {
+			"type": "xpath",
+			"value": "//*[@id=\"os_cart_slr_summary\"]/div/div/div/div[1]/div/div[2]/div/a|//*[@id=\"div_cart_include\"]/div[3]/a/div[3]/span/u "
+		},                                                                                 
+		"btnJoinSlrGoldModal": {
+			"type": "xpath",
+			"value": "//*[@id=\"os_modal_i\"]/span/div[1]/div[2]/div[2]/a|//*[@id='os_leftslideout_cont_new']/span/div[1]/div[2]/div[3]/div[2]/a"
+		},		      
+		"btnJoinSlrGoldSuccessModal": {
+			"type": "xpath",
+			"value": "//*[@id=\"os_modal_i\"]/span/div[1]/div[2]/div[4]/a|//*[@id='os_leftslideout_cont_new']/span/div[1]/div[2]/div[3]/div[3]/a"
+		},		                                                          
+		"lblSlrGoldSuccessMessage": {
+			"type": "xpath",
+			"value": "//*[@id=\"os_cart_slr_summary\"]/div/div/div/div[1]/span[1]|//*[@id='ada_slrAdded']"
+		},                                                                        
+		"LblSpecialCartBonusSavings": {
+			"type": "xpath",
+			"value": "//*[text()='Special Cart Bonus Savings']"
+		},
+		"lblSpecialCartBonusSavings_mb": {
+			"type": "xpath",
+			"value": "//*[@id='SpecialCartAnchor']/a"
+		},
+		"btnCartBonusSavingsAddToCart": {
+			"type": "xpath",
+			"value": "//button[text()='Add to cart']"
+		},
+		"btnTheUpsellSkuAddToCart": {
+			"type": "xpath",
+			"value": "//form[@class='sku_options sku_options_sm']//input[@value='Add to Cart']"
+		},
+		"chbCartBonusSavings_SKU_List": {
+			"type": "xpath",
+			"value": "//form//input[@name='cbs_item_name']"
+		},
+		"chbCartBonusSavings_SKU_By_Index": {
+			"type": "xpath",
+			"value": "(//form//input[@name='cbs_item_name'])[%d]"
+		},
+		"btnCartBonusSavingsAddToCart_mb": {
+			"type": "xpath",
+			"value": "//form[@id='os_cart_bs_form']//button[.='Add To Cart']"
+		},             
+		"eleSkuID": {
+			"type": "xpath",
+			"value": "//div[@id='os_modal_i'][.//div[text()='Added To Cart']]//span[@class='sku_iid']"
+		},
+		"eleSkuSuffix": {
+			"type": "xpath",
+			"value": "//div[@id='os_modal_i'][.//div[text()='Added To Cart']]//span[@class='sku_suffix']"
+		},
+		"lnkSendToSomeoneElse": {
+			"type": "xpath",
+			"value": "//a[@aria-label='Send to someone else']"
+		},
+		"eleSkuName": {
+			"type": "xpath",
+			"value": "//div[@id='os_modal_i'][.//div[text()='Added To Cart']]//span[@class='os_h2 os_style_lhf' or @class='os_style_l os_style_lhf']"
+		},
+		"eleSkuById": {
+			"type": "xpath",
+			"value": "((//div[contains(@class,'cart_shpmt')]/a[contains(@id,\"%s\")]/parent::div)//*[contains(text(),\"%s\")])/parent::div/parent::div"
+		},      
+		"eleSkuById_mb": {
+			"type": "xpath",
+			"value": "//div[@class='cart_shpmt mar_t_m' and .//a[@id=\"%s\"]]//div[contains(@class,'cart_item')][.//span[contains(text(),\"#%s\")]]"
+		},
+		"eleSubItem": {
+			"type": "xpath",
+			"value": ".//li[contains(text(),\"%s\")]"
+		},
+		"eleSubItem_mb": {
+			"type": "xpath",
+			"value": "//div[@class='clearfix mar_b_l pad_m']//div[text()=\"%s\"]"
+		},
+		"lnkRemoveBySkuId": {
+			"type": "xpath",
+			"value": ".//a[@class='cart_removeitem']"
+		},
+		"lnkRemoveBySkuId_mb": {
+			"type": "xpath",
+			"value": ".//a[contains(@class,'cart_removeitem')]//span[@class='icon-bin2']"
+		},
+		"lnkRemoveYesBySkuId": {
+			"type": "xpath",
+			"value": ".//a[@class='cart_removeyes']"
+		},
+		"lnkRemoveNoBySkuId": {
+			"type": "xpath",
+			"value": ".//a[@class='cart_removeno']"
+		},
+		"lnkEditBySkuId": {
+			"type": "xpath",
+			"value": ".//span[@class='cart_editcombo']/a[text()='Edit']"
+		},
+		"lnkEditBySkuId_mb": {
+			"type": "xpath",
+			"value": ".//a[@class='os_leftslideout cart_editcombo']"
+		},
+		"lnkSendToSomeoneElse": {
+			"type": "xpath",
+			"value": ".//a[.='Send to someone else']"
+		},
+		"lnkSendToSomeoneElse_mb": {
+			"type": "xpath",
+			"value": ".//a[span[@class='icon-user-plus']]"
+		},
+		"radAddToOnPopup": {
+			"type": "xpath",
+			"value": "//div[@id='os_modal_i']//input[@id='stse_add']"
+		},
+		"radMoveToOnPopup": {
+			"type": "xpath",
+			"value": "//div[@id='os_modal_i']//input[@id='stse_move']"
+		},
+		"cbbShipToInModal": {
+			"type": "xpath",
+			"value": "//div[@id='os_modal_i']//select[@id='stse_shipto']"
+		},
+		"txtShipToOnPopup": {
+			"type": "xpath",
+			"value": "//div[@id='os_modal_i']//input[@name='stse_shipto_name']"
+		},
+		"btnAddToOnPopup": {
+			"type": "xpath",
+			"value": "//div[@id='os_modal_i']//button[@class='os_btn_p_m mar_t_m' and text()='Add To Cart']"
+		},
+		"btnMoveToOnPopup": {
+			"type": "xpath",
+			"value": "//div[@id='os_modal_i']//button[@class='os_btn_p_m mar_t_m' and text()='Move This Item']"
+		},		
+		"lblMinCartErrorMessage": {
+			"type": "xpath",
+			"value": "//*[@id=\"minicart\"]/div[3]/div[1]|//*[@id='div_cart_include']/div[2]"
+		},
+		"eleEmptyCartMessage": {
+			"type": "xpath",
+			"value": "//div[@id='oc_cart_empt_msg']"
+		},
+		"btnCartRemoveConfirm": {
+			"type": "xpath",
+			"value": "//div[@id='os_modal']//*[@id='cart_remove_confirm']"
+		},
+		"btnCartRemoveCancel": {
+			"type": "xpath",
+			"value": "//div[@id='os_modal']//*[@id='cart_remove_cancel']"
+		},
+		"radOneTimeOrder": {
+			"type": "xpath",
+			"value": ".//input[@class= 'sku_oto_as' and @value = 'oto']"
+		},
+		"radAutoshipAndSave": {
+			"type": "xpath",
+			"value": ".//input[@class= 'sku_oto_as' and @value = 'as']"
+		},
+		"cbbAutoShipFrequency": {
+			"type": "xpath",
+			"value": ".//select[@name='sku_freq']"
+		},
+		"cbbSkuQuantity": {
+			"type": "xpath",
+			"value": ".//form[@class='os_cart_qty_form']/select"
+		},
+		"formShoppingCart": {
+			"type": "xpath",
+			"value": "//div[@id='os_cart_form_cont']"
+		},
+		"panelShoppingCart": {
+			"type": "xpath",
+			"value": "//div[text()='Special Cart Bonus Savings']|//*[@id='minicart']"
+		},
+		"eleCartItem": {
+			"type": "xpath",
+			"value": "//div[starts-with(@class, 'cart_item')]"
+		},
+		"btnAddToCart_InCartSpecial_By_Recipient": {
+			"type": "xpath",
+			"value": "//div[contains(@class,'cart_shpmt')][.//*[contains(@id,\"%s\")]][.//*[text()='IN-CART SPECIAL']]//*[text()='Add to cart']"
+		},
+		"btnAddToCart_InCartSpecial_By_Recipient_mb": {
+			"type": "xpath",
+			"value": "//div[@class='cart_shpmt mar_t_m' and .//a[@id=\"%s\"]]//form[.//span[text()='In-cart Special']]//button[normalize-space(text())='Add']"
+		},
+		"eleSkuName_InCartSpecial_By_Recipient_mb": {
+			"type": "xpath",
+			"value": "//div[@class='cart_shpmt mar_t_m' and .//a[@id=\"%s\"]]//div[@class='os_style' and .//span[text()='In-cart Special']]"
+		},
+		"eleAddedSkuName_InCartSpecial_By_Recipient_mb": {
+			"type": "xpath",
+			"value": "//div[@class='cart_shpmt mar_t_m' and .//a[@id=\"%s\"]]//div[normalize-space(text())=\"%s\"]"
+		},
+		"btnClosePopupModal": {
+			"type": "xpath",
+			"value": "//div[@id='os_modal']//a[contains(@class,'os_modal_close os_btn_s_m') and text()='Close']"
+		},
+		"eleCartList": {
+			"type": "xpath",
+			"value": "//div[form//input[@name='fromsack']]"
+		},
+		"lnkFormSendCartTo": {
+			"type": "xpath",
+			"value": "(//*[contains(@id,\"ada_sackName\")]/u)[%d]"
+		},           
+		"eleFormSendCartTo": {
+			"type": "xpath",
+			"value": "(//*[contains(@id,'ada_sackName')]/u)[%d]"
+		},            
+		"lnkSendMyselfCart": {
+			"type": "xpath",
+			"value": "//*[@id='cart_shipments']/div[2]/div/div[1]/div/div[1]/div"
+		},            
+		"cbbSendTo": {
+			"type": "xpath",
+			"value": "(//div[contains(@class,'cart_shpmt')]//select[@name='SHIPTO'])[%d]"
+		},
+		"txtRecipientName": {
+			"type": "xpath",
+			"value": "(//input[contains(@class,'os_cart_sendto_inp')])[%d]"
+		},
+		"btnSaveSendTo": {
+			"type": "xpath",
+			"value": "(//div[contains(@class,'cart_shpmt')]//button)[%d]"
+		},
+		"buttonSaveSendTo_mb": {
+			"type": "xpath",
+			"value": ".//button[contains(@class,'os_cart_sendto_apply') and text()='SAVE']"
+		},
+		"eleErrorMessageOnPage": {
+			"type": "xpath",
+			"value": "//div[contains(@class,'os_bg_error os_txt_white')]"
+		},
+		"eleErrorMessageInSpecialCart": {
+			"type": "xpath",
+			"value": "//label[@id='names-error']/div"
+		},
+		"eleErrorMessageInSpecialCart_mb": {
+			"type": "xpath",
+			"value": "//div[@id='os_cart_bs_error']/div"
+		},
+		"eleCartShipmentTitleByRecipient": {
+			"type": "xpath",
+			"value": "//*[@id='ada_sackName_%s']/u"
+		},
+		"eleCartShipmentTitleByRecipient_mb": {
+			"type": "xpath",
+			"value": "//div[@class='cart_shpmt mar_t_m']//div[a[@id=\"%s\"]]"
+		},
+		"eleSKUNameInAddedToCart": {
+			"type": "xpath",
+			"value": "//div[@class='os_h3 os_style_lhf']"
+		},
+		"eleSKUNameInAddedToCart_mb": {
+			"type": "xpath",
+			"value": "//div[@class='os_style_l']"
+		},
+		"btnCheckOutWithPayPal": {
+			"type": "xpath",
+			"value": "//div[@id='os_cart_paypal_act']//a"
+		},
+		"btnCreateYourOwnTrio": {
+			"type": "xpath",
+			"value": "//*[@id='minicart']//form/button[contains(text(),'Add to cart')]"
+		},           
+		"lnkCreateYourOwnTrio": {
+			"type": "xpath",
+			"value": "//div[text()='Create Your Own Trio!']/ancestor::a"
+		},
+		"lnkCreateYourOwnTrio_mb": {
+			"type": "xpath",
+			"value": "//div[text()='Create Your Own Trio']"
+		},
+		"eleCreateYourOwnTrioModal": {
+			"type": "xpath",
+			"value": "//div[@id='os_modal_i'][.//div[contains(text(),'Create Your Own Trio')]]"
+		},
+		"eleCreateYourOwnTrioModal_mb": {
+			"type": "xpath",
+			"value": "//div[@id='os_leftslideout_cont_new'][.//div[contains(text(),'Create Your Own')]]"
+		},
+		"cbbQuantity": {
+			"type": "xpath",
+			"value": ".//select[@name='QTY']"
+		},
+		"btnAddToCartInShoppingCart": {
+			"type": "xpath",
+			"value": ".//button[contains(text(),'Add To Cart')]"
+		},
+		"btnAddToCartInShoppingCart_mb": {
+			"type": "xpath",
+			"value": ".//button[text()='Add']"
+		},
+		"chbItems": {
+			"type": "xpath",
+			"value": ".//input[@class='cc_cb'][not(@disabled)]"
+		},
+		"lnkEnterAGiftCardOrVoucher": {
+			"type": "xpath",
+			"value": "//*[@id='os_cart_summary']/div/div[3]/div[3]/a[1]"
+		},
+		"lnkEnterAGiftCardOrVoucher_mb": {
+			"type": "xpath",
+			"value": "//div[@id='os_cart_summary']//a[@class='os_leftslideout' and ./u[text()='Add Gift Card/Voucher']]"
+		},
+		"lnkViewItems_mb": {
+			"type": "xpath",
+			"value": ".//u/i[text()='view items']"
+		},
+		"lnkCloseViewItemsModal_mb": {
+			"type": "xpath",
+			"value": "//a[@class='os_leftslideout_close os_btn_s_m']"
+		},
+		"eleItemSubtotal": {
+			"type": "xpath",
+			"value": "//div[@id='os_cart_summary']//div[text()='Item Subtotal']//following-sibling::div"
+		},
+		"lblReWardCardCode": {
+			"type": "xpath",
+			"value": "//span[@id='giftCardList']//div[contains(@class,'os_cart_gc')]//div[./a[@id=\"%s\"]]"
+		},
+		"btnRemoveReWardCardCode": {
+			"type": "xpath",
+			"value": "//span[@id='giftCardList']//a[contains(@class,'os_cart_remove_gc')][@id=\"%s\"]"
+		},
+		"eleRemainingCardBalance": {
+			"type": "xpath",
+			"value": "//div[text()='Remaining Card Balance']//following-sibling::div/b"
+		},
+		"eleAmountApplied": {
+			"type": "xpath",
+			"value": "//div[text()='Amount Applied']//following-sibling::div/b"
+		},
+		"eleGiftCardByName": {
+			"type": "xpath",
+			"value": "//div[.//input[@name='fromsack' and @value='%1$s']]//div[contains(@class,'cart_item')]//a[contains(text(),\"%2$s\")]"
+		},
+		"eleGiftCardByName_mb": {
+			"type": "xpath",
+			"value": "//div[.//input[@name='fromsack' and @value='%1$s']]//div[contains(@class,'cart_item')]//a[normalize-space(text())='%2$s']"
+		},
+		"lblAdditionalSavings": {
+			"type": "xpath",
+			"value": "//div[text()='Additional Savings']"
+		},
+		"eleWeAreSorryModal": {
+			"type": "xpath",
+			"value": "//div[@id='os_modal_i']//div[text()=\"We're Sorry\"]"
+		},
+		"eleWeAreSorryModal_mb": {
+			"type": "xpath",
+			"value": "//div[@id='os_leftslideout_cont_new']//div[text()=\"We're Sorry\"]"
+		},
+		"eleCartSummarySection": {
+			"type": "xpath",
+			"value": "//div[@id='os_cart_summary_c']"
+		},
+		"btnAddToCart_TreatYourself": {
+			"type": "xpath",
+			"value": "//div[div[contains(text(),\"DON'T FORGET YOURSELF\")]]//button[text()='Add To Cart']"
+		},
+		"btnAddToCart_TreatYourself_mb": {
+			"type": "xpath",
+			"value": "//div[./i[contains(text(),\"Don't forget to get yourself something\")]]/following-sibling::div//button[text()='Add To Cart']"
+		},
+		"eleSkuID_TreatYourself": {
+			"type": "xpath",
+			"value": "//div[div[contains(text(),\"DON'T FORGET YOURSELF\")]]//span[contains(@class,'sku_num os_txt_p_m')]"
+		},
+		"eleSkuID_TreatYourself_mb": {
+			"type": "xpath",
+			"value": "//div[./i[contains(text(),\"Don't forget to get yourself something\")]]/following-sibling::div//span[contains(@class,'sku_num os_txt_p_m')]"
+		},
+		"eleTreatYourself": {
+			"type": "xpath",
+			"value": "//div[div[contains(text(),\"DON'T FORGET YOURSELF! -\")]]"
+		},
+		"eleTreatYourself_mb": {
+			"type": "xpath",
+			"value": "//div[./i[contains(text(),\"Don't forget to get yourself something\")]]/following-sibling::div//form[contains(@class,'sku_options')]"
+		},
+		"eleCartShipmentByRecipient": {
+			"type": "xpath",
+			"value": "//div[div[form//input[@name='fromsack' and @value=\"%s\"]]]"
+		},
+		"eleCartShipmentByRecipient_mb": {
+			"type": "xpath",
+			"value": "//div[@class='cart_shpmt mar_t_m' and .//a[@id=\"%s\"]]"
+		},
+		"eleSelectEditCart_mb": {
+			"type": "xpath",
+			"value": "//div[@id='cart_shipments']//a[@id=\"%s\"]/following-sibling::span"
+		},
+		"eleStkLoverRwd": {
+			"type": "xpath",
+			"value": "//div[@id='os_cart_slr_summary']//a[b[text()=\"%s\"]]"
+		},
+		"eleStkLoverRwdSignIn": {
+			"type": "xpath",
+			"value": "//*[@id='os_cart_slr_summary']/div/div/div[1]//div/a/b"
+		},            
+		"eleSLRSignIn": {
+			"type": "xpath",
+			"value": "//*[@id='os_cart_slr_summary']/div/div/div[1]//a"
+		},
+		"eleStkGoldRwdRedeemPoints" : {
+			"type" : "xpath",
+			"value" : "/html/body/div[2]/div[1]/div[1]/div[3]/div/div[3]/div[2]/div/div/div[1]/div/div[2]/a/b[text()='REDEEM POINTS']"
+		},
+		"eleSelectYourSteakloverRewardsModal": {
+			"type": "xpath",
+			"value": "//div[@id='os_modal_i']//div[./div[text()='Select Your Steaklover Rewards!']]"
+		},
+		"eleSelectYourSteakloverRewardsModal_mb": {
+			"type": "xpath",
+			"value": "//div[@id='os_leftslideout_cont_new']//form[@id='slr_form' and //div[text()='Select Your Rewards']]"
+		},
+		"eleYourBalancePts": {
+			"type": "xpath",
+			"value": "//div[@id='os_cart_slr_summary']//div[@class='os_table']//div[text()='YOUR BALANCE']/following-sibling::div"
+		},
+		"eleSLRRewards": {
+			"type": "xpath",
+			"value": "//div[@class='slr_tabs os_progress_tabs']//label[contains(@class,'slr_reward')]/div"
+		},
+		"eleFirstSLRReward": {
+			"type": "xpath",
+			"value": "//div[@class='slr_tabs os_progress_tabs']//label[contains(@class,'slr_reward')][1]"
+		},
+		"chkSKUInSelectStloverRwdModal": {
+			"type": "xpath",
+			"value": ".//input[@name='rewardid']"
+		},
+		"cbbShipToInSelectStloverRwdModal": {
+			"type": "xpath",
+			"value": "//select[@id='slr_shipto']"
+		},
+		"eleSKUNameInSelectStloverRwdModal": {
+			"type": "xpath",
+			"value": ".//div[@class='os_style']"
+		},
+		"elePointsInSelectStwloverRwdModal": {
+			"type": "xpath",
+			"value": ".//div[contains(@class,'slr_cost')]"
+		},
+		"elePointsInSelectStwloverRwdModal_mb": {
+			"type": "xpath",
+			"value": ".//div[contains(@class,'os_style_s')]"
+		},
+		"eleSteakloverRewardsModal": {
+			"type": "xpath",
+			"value": "//div[@id='os_modal_i']//div[@class='clearfix' and //div[text()='Steaklover Rewards']]"
+		},
+		"eleSKUNameInStloverRwdModal": {
+			"type": "xpath",
+			"value": "//div[@id='os_modal_i']//div[@class='clearfix' and //div[text()='Steaklover Rewards']]//div[@class='os_style']/span[contains(@class,'h3')]"
+		},
+		"elePremiseOfCartSection": {
+			"type": "xpath",
+			"value": "(//div[contains(@class,'cart_shpmt')]//a[@id=\"%s\"])[1]//span"
+		},
+		"elePremiseOfCartSection_mb": {
+			"type": "xpath",
+			"value": "//div[@class='cart_shpmt mar_t_m' and .//a[@id=\"%s\"]]//div[@id='cart_prem_1'][.//i[text()='This cart qualifies for ']/span[text()='FREE SHIPPING']]"
+		},
+		"eleSkuByName": {
+			"type": "xpath",
+			"value": "(//div[contains(@class,'cart_shpmt')][//a[contains(@id,\"%s\")]]) //div[contains(@class,'cart_item ')][.//*[contains(text(),\"%s\")]]"
+		},
+		"eleFreeItem": {
+			"type": "xpath",
+			"value": "//div[@class='cart_shpmt']/a[contains(@id,\"%s\")]/parent::div//*[contains(text(),\"%s\")]"
+		},            
+		"eleSkuByName_mb": {
+			"type": "xpath",
+			"value": "//div[@class='cart_shpmt mar_t_m' and .//a[@id=\"%s\"]]//div[contains(@class,'cart_item')][.//div[normalize-space(text())=\"%s\"]]"
+		},
+		"lblMessageInStloverRwd": {
+			"type": "xpath",
+			"value": "//div[@id='os_cart_slr_summary']//div[starts-with(@class,'mar_t') and contains(@class,'txt_c')]"
+		},
+		"eleTheQtyOfFreeFood": {
+			"type": "xpath",
+			"value": "(//div[contains(@class,'cart_shpmt')][//a[contains(@id,\"%s\")]]) //div[contains(@class,'cart_item ')][.//*[contains(text(),\"%s\")]]//*[contains(text(),'Qty')]"
+		},                                                                                                                                           
+		"eleThePriceOfFreeFood": {
+			"type": "xpath",
+			"value": "(//div[contains(@class,'cart_shpmt')][//a[contains(@id,\"%s\")]]) //div[contains(@class,'cart_item ')][.//*[contains(text(),\"%s\")]]//span[@class='sku_price_total']"
+		},
+		"eleAvailablePoints": {
+			"type": "xpath",
+			"value": "//div[@id='os_modal_i']//div[@id='slr_form_sum_c']//span[@id='slr_remain_s']"
+		},
+		"eleAvailablePoints_mb": {
+			"type": "xpath",
+			"value": "//div[@id='os_leftslideout_fxd_ft']//span[@id='slr_remain_s']"
+		},
+		"eleErrorHighlighted": {
+			"type": "xpath",
+			"value": "//div[@id='os_modal_i']//div[@class='border']//div[contains(@class,'os_bg_error')]"
+		},
+		"eleErrorHighlighted_mb": {
+			"type": "xpath",
+			"value": "//div[@id='os_leftslideout_cont_new']//div[@class='os_bg_p_d']//div[contains(@class,'os_bg_error')]"
+		},
+		"lnkSignInOnGoldMembership": {
+			"type": "xpath",
+			"value": "//u[text()='Sign In']"
+		}
+	}
+}

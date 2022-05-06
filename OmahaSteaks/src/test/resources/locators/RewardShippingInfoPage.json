@@ -1,0 +1,68 @@
+{
+	"default": {
+		"rdoResidentialAddress": {
+			"type": "xpath",
+			"value": "//input[@name='SA_ADDRESSTYPE' and @value='I']"
+		},
+		"rdoCompanyAddress": {
+			"type": "xpath",
+			"value": "//input[@name='SA_ADDRESSTYPE' and @value='C']"
+		},
+		"txtFirstName": {
+			"type": "xpath",
+			"value": "//input[@name='SA_FNAME']"
+		},
+		"txtLastName": {
+			"type": "xpath",
+			"value": "//input[@name='SA_LNAME']"
+		},
+		"txtPhone": {
+			"type": "xpath",
+			"value": "//input[@name='SA_PHONE']"
+		},
+		"txtCompanyName": {
+			"type": "xpath",
+			"value": "//input[@name='SA_CNAME']"
+		},
+		"txtAddressLine1": {
+			"type": "xpath",
+			"value": "//input[@name='SA_ADDR1']"
+		},
+		"txtAddressLine2": {
+			"type": "xpath",
+			"value": "//input[@name='SA_ADDR2']"
+		},
+		"txtAptSuite": {
+			"type": "xpath",
+			"value": "//input[@name='SA_APT']"
+		},
+		"txtCity": {
+			"type": "xpath",
+			"value": "//input[@name='SA_CITY']"
+		},
+		"cbbCountry": {
+			"type": "xpath",
+			"value": "//select[@name='SA_COUNTRY']"
+		},
+		"cbbState": {
+			"type": "xpath",
+			"value": "//select[@name='SA_STATE']"
+		},
+		"txtZip": {
+			"type": "xpath",
+			"value": "//input[@name='SA_ZIP']"
+		},
+		"eleShippingAddressFields": {
+			"type": "xpath",
+			"value": "//table[not (.//span[contains(text(),'Shipping information for')]) and .//input[@name='CONTINUE']]//td[@class='headcolumn' and not (./input) and not (.//select)]"
+		},
+		"eleErrorMessageByField": {
+			"type": "xpath",
+			"value": "//form[@name='checkout']//tr[./td[.//b[text()=\"%s\"]]]//span[not (.//a)]"
+		},
+		"linkAddressFieldInListErrorMessage":{
+			"type":"xpath",
+			"value":"//form[@name='checkout']//a[.//b[text()=\"%s\"]]"
+		}
+	}
+}

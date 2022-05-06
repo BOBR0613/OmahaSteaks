@@ -1,0 +1,41 @@
+[
+	{	"keyWord" : "steaks",
+		"results": ["filet", "filets", "steaks"]
+	},
+	{	"keyWord" : "bratwurst",
+		"results": ["bratwurst"]
+	},
+	{	"keyWord" : "t-bone",
+		"results": ["t-bone", "steaks", "porterhouse"]
+	},
+	{	"keyWord" : "combo",
+		"results": ["anniversary", "combo", "pleasure", "block", "best", "anniversary", "grill mates", "fanfare", "banquet"]
+	},
+	{	"keyWord" : "lamb",
+		"results": ["loin", "lamb", "chops"]
+	},
+	{	"keyWord" : "strips",
+		"results": ["boneless", "strips"]
+	},
+	{	"keyWord" : "filet",
+		"results": ["filets", "Anniversary", "Banquet", "combo class", "mignons"]
+	},
+	{	"keyWord" : "sirloins",
+		"results": ["top", "sirloins"]
+	},
+	{	"keyWord" : "rib",
+		"results": ["ribs", "rib", "rib eyes", "ribeye", "ribeyes", "prime rib"]
+	},
+	{	"keyWord" : "burger",
+		"results": ["burger", "burgers", "gourmet", "omaha steaks", "franks", "bratwurst", "brisket", "private reserve"]
+	},
+	{	"keyWord" : "roast",
+		"results": ["roast", "tenderloin"]
+	},
+	{	"keyWord" : "poultry",
+		"results": ["poultry", "breasts", "chicken"]
+	},
+	{	"keyWord" : "franks",
+		"results": ["franks"]
+	}
+]

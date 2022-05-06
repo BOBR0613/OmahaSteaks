@@ -1,0 +1,126 @@
+{
+	"default": {
+		"txtZipCode": {
+			"type": "xpath",
+			"value": "//input[@id='topZipCode']"
+		},
+		"btnSubmitZipCode": {
+			"type": "xpath",
+			"value": "//button[@aria-label='Submit Zip Code']"
+		},
+		"btnAddToCartInQuickViewModal": {
+			"type": "xpath",
+			"value": "//*[@id='sku_options_modal']//button[text()='Add To Cart']"
+		},
+		"btnAddToCartInModal": {
+			"type": "xpath",
+			"value": "//*[@id='sku_options_modal']/div/div[3]/div/div[1]/div/div[2]/div[4]/button"
+		},
+		"ele_FirstSKUFormInModal": {
+			"type": "xpath",
+			"value": "(//div[@id='os_modal_i']//form[.//select[@title='Ship to']][.//input[@name='sku_asavail']])[1]"
+		},
+		"ele_FirstSKUForm": {
+			"type": "xpath",
+			"value": "(//form[.//select[@title='Ship to']][.//input[@name='sku_asavail']][not(.//ancestor::div[contains(@class,'slide_pane')])])[1]"
+		},
+		"ele_FirstSKUAddToCart": {
+			"type": "xpath",
+			"value": "(//form[.//select[@title='Ship to']][.//input[@name='sku_asavail']])[1]//button[text()='Add To Cart']"
+		},
+		"lnkMeatsCategory": {
+			"type": "xpath",
+			"value": "//*[@id='os_nav_t_01']//a[text()=\"%s\"]"
+		},
+		"eleFirstSKUQuickViewLink": {
+			"type": "xpath",
+			"value": "(//*[text()='Quick View'])[1]"
+		},             
+		"lstOmahaSteaksLinks": {
+			"type": "xpath",
+			"value": "//div[@id='contentcolumn'][.//h1[text()='Omaha Steaks Sitemap']]//table//a"
+		},
+		"lnkOmahaSteaksLinkByIndex": {
+			"type": "xpath",
+			"value": "(//div[@id='contentcolumn'][.//h1[text()='Omaha Steaks Sitemap']]//table//a)[%d]"
+		},
+		"eleFirstSizeAndCount": {
+			"type": "xpath",
+			"value": "//tbody[@class='sku_opt_list_cont']//tr[1]"
+		},
+		"btnBuyGiftCard": {
+			"type": "xpath",
+			"value": "//a[./img[@alt='Buy Gift Card']]"
+		},
+		"btnBuyEGiftCard": {
+			"type": "xpath",
+			"value": "//a[./img[@alt='Buy E-Gift Card']]"
+		},
+		"eleMainGiftCard": {
+			"type": "xpath",
+			"value": "//form[.//*[contains(text(),\"%s\")]]"
+		},
+		
+		"tbGiftCardAmount": {
+			"type": "xpath",
+			"value": ".//*[@name='ITMPRC']"
+		},
+		"cmbGiftCardShipto": {
+			"type": "xpath",
+			"value": ".//*[@name='SHIPTO']"
+		},
+		"tbGiftCardShiptoName": {
+			"type": "xpath",
+			"value": ".//*[@name='NEWSHIPTO']"
+		},
+		"cmbGiftCardQty": {
+			"type": "xpath",
+			"value": ".//*[@name='QTY']"
+		},
+		"btnGiftCardAdd": {
+			"type": "xpath",
+			"value": ".//button"
+		},
+		
+		"eleGiftCardFormByType_mb": {
+			"type": "xpath",
+			"value": "//*[@id='os_scroll_cont']//form|//*[@id='os_main_cont']//form"
+		},
+		"cboGiftCardQty": {
+			"type": "xpath",
+			"value": ".//select[@name='QTY']"
+		},
+		"txtMainGiftCardAmount": {
+			"type": "xpath",
+			"value": "/html/body/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[3]/div/div/div/div/div/form/div[2]/div/a/div[2]/div[2]/input"
+		},
+		"txtGiftCardAmount": {
+			"type": "xpath",
+			"value": ".//input[@name='ITMPRC']"
+		},
+		"cboMainGiftCardShipTo": {
+			"type": "xpath",
+			"value": "/html/body/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[3]/div/div/div/div/div/form/div[3]/div[2]/div[1]/select"
+		},
+		"cboGiftCardShipTo": {
+			"type": "xpath",
+			"value": ".//select[@name='SHIPTO']|//*[@id='os_scroll_cont']//select"
+		},
+		"btnAddToCartInMainGiftCardForm": {
+			"type": "xpath",
+			"value": "/html/body/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[3]/div/div/div/div/div/form/div[3]/div[2]/div[4]/button[contains(text(),'Add')]"
+		},
+		"btnAddToCartInGiftCardForm": {
+			"type": "xpath",
+			"value": ".//button[contains(text(),'Add')]"
+		},
+		"btnAddToCartInGiftCardForm_mb": {
+			"type": "xpath",
+			"value": ".//button[normalize-space(text())='Add To Cart']"
+		},
+		"txtNewShipTo": {
+			"type": "xpath",
+			"value": ".//input[@name='NEWSHIPTO']"
+		}
+	}
+}

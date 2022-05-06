@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="1" parallel="false">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="com.omahasteaks.utils.config.TestListener" /> 
+	</listeners>
+
+	<test name="Smoke Chrome Desktop">
+		<parameter name="mode" value="desktop" />
+		<parameter name="browser" value="chrome.remote" />
+		<parameter name="reRunFailedTests" value="0" />
+		<parameter name="failurePercentage" value="100" />
+
+		<classes>
+			<class name="com.omahasteaks.tests.AddToCart.NegativeCases.TC_ATCN_001_WarningWhenSubmittingInvalidDataIntoRecipientTextboxInProductionPage" />
+			<class name="com.omahasteaks.tests.AddToCart.NegativeCases.TC_ATCN_002_WarningWhenUncheckingAllItemsInSPecialCartBonusSavings" />
+			<class name="com.omahasteaks.tests.AddToCart.NegativeCases.TC_ATCN_003_WarningWhenSubmittingInvalidDataIntoRecipientTextboxInMyCart" />
+		</classes>
+
+
+
+	</test>
+
+</suite>

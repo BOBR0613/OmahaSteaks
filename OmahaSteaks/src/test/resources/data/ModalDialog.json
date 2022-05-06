@@ -1,0 +1,21 @@
+{
+	"name": "ExpectedPopupModal",
+	"expectedTitles": [
+		"Added To Cart",
+		"Combo Changes Saved",
+		"Confirm This Cart Update",
+		"Exclusive Offer",
+		"Send To Someone Else",
+		"When Will It Arrive?",
+		"Moved In Cart",
+		"Please Confirm Address",
+		"Gift Message",
+		"Gifting Options",
+		"Gifting Options",
+		"Edit My Address",
+		"Edit Address",
+		"Shipping & Delivery",
+		"Shipping Options",
+		"Enter Your Gift Card or Voucher Number" 
+	]
+}

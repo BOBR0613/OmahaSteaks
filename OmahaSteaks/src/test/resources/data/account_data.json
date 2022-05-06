@@ -1,0 +1,182 @@
+[
+	{
+		"email": "testuser@omastk.com",
+		"password": "testuser2018",
+		"type": "REACTANT",
+		"platform": "desktop"
+	},
+	{
+		"email": "slrmember01@omastk.com",
+		"password": "slrmember01",
+		"type": "REACTANT",
+		"platform": "desktop"
+	},
+	{
+		"email": "slrmember@gmail.com",
+		"password": "New4242mwmw",
+		"type": "REACTANT",
+		"platform": "desktop"
+	},
+	{
+		"email": "slrmember01@omahasteaks.com",
+		"password": "slrmember01",
+		"type": "REACTANT",
+		"platform": "desktop"
+	},
+	{
+		"email": "slrmember09@omahasteaks.com",
+		"password": "slrmember09",
+		"type": "REACTANT",
+		"platform": "desktop"
+	},
+	{
+		"email": "slrmember02@omastk.com",
+		"password": "slrmember02",
+		"type": "REACTANT",
+		"platform": "desktop"
+	},
+	{
+		"email": "slrDesktop01@omastk.com",
+		"password": "slrDesktop01",
+		"type": "REACTANT",
+		"platform": "desktop"
+	},
+	{
+		"email": "slrgold01@omahasteaks.com",
+		"password": "slrgold01",
+		"type": "REACTANT",
+		"platform": "desktop"
+	},		
+	{
+		"email": "slrgold02@omahasteaks.com",
+		"password": "slrgold02",
+		"type": "REACTANT",
+		"platform": "desktop"
+	},		
+	{
+		"email": "slrgoldrenew02@omastk.com",
+		"password": "slrgoldrenew02",
+		"type": "REACTANT",
+		"platform": "desktop"
+	},	
+	{
+		"email": "goldaccount2@omastk.com",
+		"password": "goldaccount2",
+		"type": "REACTANT",
+		"platform": "desktop"
+	},
+	{
+		"email": "testDesktop01@omahasteaks.com",
+		"password": "qaR3gT3st01",
+		"type": "EXISTING",
+		"platform": "desktop"
+	},
+	{
+		"email": "testDesktop02@omahasteaks.com",
+		"password": "qaR3gT3st02",
+		"type": "EXISTING",
+		"platform": "desktop"
+	},
+	{
+		"email": "testDesktop03@omahasteaks.com",
+		"password": "qaR3gT3st03",
+		"type": "EXISTING",
+		"platform": "desktop"
+	},
+	{
+		"email": "testDesktop04@omahasteaks.com",
+		"password": "qaR3gT3st04",
+		"type": "EXISTING",
+		"platform": "desktop"
+	},
+	{
+		"email": "testDesktop05@omahasteaks.com",
+		"password": "qaR3gT3st05",
+		"type": "EXISTING",
+		"platform": "desktop"
+	},
+	{
+		"email": "testDesktop06@omahasteaks.com",
+		"password": "qaR3gT3st06",
+		"type": "EXISTING",
+		"platform": "desktop"
+	},
+	{
+		"email": "testDesktop07@omahasteaks.com",
+		"password": "qaR3gT3st07",
+		"type": "EXISTING",
+		"platform": "desktop"
+	},
+	{
+		"email": "testDesktop08@omahasteaks.com",
+		"password": "qaR3gT3st08",
+		"type": "EXISTING",
+		"platform": "desktop"
+	},
+	{
+		"email": "testDesktop09@omahasteaks.com",
+		"password": "qaR3gT3st09",
+		"type": "EXISTING",
+		"platform": "desktop"
+	},
+	{
+		"email": "testDesktop11@omahasteaks.com",
+		"password": "qaR3gT3st11",
+		"type": "EXISTING",
+		"platform": "desktop"
+	},
+	{
+		"email": "testMobile01@omahasteaks.com",
+		"password": "qaR3gT3st01",
+		"type": "EXISTING",
+		"platform": "mobile"
+	},
+	{
+		"email": "testMobile02@omahasteaks.com",
+		"password": "qaR3gT3st02",
+		"type": "EXISTING",
+		"platform": "mobile"
+	},
+	{
+		"email": "testMobile03@omahasteaks.com",
+		"password": "qaR3gT3st03",
+		"type": "EXISTING",
+		"platform": "mobile"
+	},
+	{
+		"email": "osimember10@omahasteaks.com",
+		"password": "osimember10",
+		"type": "EXISTING",
+		"platform": "mobile"
+	},
+	{
+		"email": "testMobile04@omahasteaks.com",
+		"password": "qaR3gT3st04",
+		"type": "EXISTING",
+		"platform": "mobile"
+	},
+	{
+		"email": "testMobile05@omahasteaks.com",
+		"password": "qaR3gT3st05",
+		"type": "EXISTING",
+		"platform": "mobile"
+	},
+	{
+		"email": "testMobile06@omahasteaks.com",
+		"password": "qaR3gT3st06",
+		"type": "EXISTING",
+		"platform": "mobile"
+	},
+	{
+		"email": "testMobile07@omahasteaks.com",
+		"password": "qaR3gT3st07",
+		"type": "EXISTING",
+		"platform": "mobile"
+	},
+	{
+		"email": "testMobile08@omahasteaks.com",
+		"password": "qaR3gT3st08",
+		"type": "EXISTING",
+		"platform": "mobile"
+	}
+]

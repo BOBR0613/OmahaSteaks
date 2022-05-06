@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="1" parallel="false">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="com.omahasteaks.utils.config.TestListener" /> 
+		<listener class-name="com.omahasteaks.utils.config.AnnotationTransformer"/>
+	</listeners>
+	
+	<test name="Run Chrome local">
+		<parameter name="mode" value="desktop" />
+		<parameter name="browser" value="chrome76.local" />	
+		<parameter name="reRunFailedTests" value="0" />
+		<parameter name="failurePercentage" value="100" />
+		
+		<classes>
+ 			<class name="com.omahasteaks.tests.SLRGold.TC_GLD_001RenewModalIsShownIfWithinRenewalPeriod"/>   
+		  	<class name="com.omahasteaks.tests.SLRGold.TC_GLD_002RenewModalIsNotShownIfNotWithinRenewalPeriod"/>
+
+            <!-- RewardsCertificate Negative test cases -->
+			<class name="com.omahasteaks.tests.RewardsCertificate.NegativeCases.TC_CRN_005_CustomerService_SendUsAnEmail_WarningMessageDisplaysWhenFillingInvalidInforIntoAllFields"/>
+			<class name="com.omahasteaks.tests.RewardsCertificate.NegativeCases.TC_CRN_006_WarningMessageDisplaysInDetailPageWhenFillingInvalidRecipientName"/>
+			<class name="com.omahasteaks.tests.RewardsCertificate.NegativeCases.TC_CRN_008_WarningMessageDisplaysWhenNoResultsWereFound"/>
+					
+			<!-- Rewards Certificate Positive test cases -->
+			<class name="com.omahasteaks.tests.RewardsCertificate.PositiveCases.TC_CRP_003_UserCanAddTheSameSKUToCartForMySelfAndRecipient" />
+			<class name="com.omahasteaks.tests.RewardsCertificate.PositiveCases.TC_CRP_005_EditQuantityAndRecipientInTheShoppingCart"/>
+			<class name="com.omahasteaks.tests.RewardsCertificate.PositiveCases.TC_CRP_009_DetailPageDisplaysCorrectlyAndUserCanAddNewRecipientName"/>
+			<class name="com.omahasteaks.tests.RewardsCertificate.PositiveCases.TC_CRP_011_UserCanGoToShoppingCartPageWhenClickingCartIcon"/>
+			<class name="com.omahasteaks.tests.RewardsCertificate.PositiveCases.TC_CRP_012_ShoppingCartTable_VerifyTheInfoOfAddedSKUsOnMyCartAndRecipientCart"/>
+			<class name="com.omahasteaks.tests.RewardsCertificate.PositiveCases.TC_CRP_013_SearchByPoint"/>
+			<class name="com.omahasteaks.tests.RewardsCertificate.PositiveCases.TC_CRP_014_SearchByKeyWord"/>
+			<class name="com.omahasteaks.tests.RewardsCertificate.PositiveCases.TC_CRP_017_CustomerService_ThePageDisplaysWhenClickingOnEachSubLink"/>
+			<class name="com.omahasteaks.tests.RewardsCertificate.PositiveCases.TC_CRP_018_CustomerServices_SendUsAnEmail_UserCanResetDateByClickingOnResetButton"/>
+			<class name="com.omahasteaks.tests.RewardsCertificate.PositiveCases.TC_CRP_019_VerifyLinksOnTheFooter"/>
+			<class name="com.omahasteaks.tests.RewardsCertificate.PositiveCases.TC_CRP_020_VerifyTheCompanyInfoPage"/>
+
+			<!-- Steaklover Rewards Positive test cases -->
+ 			<class name="com.omahasteaks.tests.SteakloverRewardsMembership.TC_SLR_005_SLRGold_CannotEditQuantiyAndRemoveMonthlyFreeFood"/>
+			<class name="com.omahasteaks.tests.SteakloverRewardsMembership.TC_SLR_006_SLRGoldAccount_CanRemoveFreeFoodWhichSelectedFromThePopup"/>
+ 			<class name="com.omahasteaks.tests.SteakloverRewardsMembership.TC_SLR_008_RegularAccount_CartValueGreaterThan49_99_NoMonthlyFreeFood"/>
+			<class name="com.omahasteaks.tests.SteakloverRewardsMembership.TC_SLR_009_SLRGoldAccount_TheUserStatusIsGoldAndHaveMonthlyFreeFood"/>
+			<class name="com.omahasteaks.tests.SteakloverRewardsMembership.TC_SLR_010_SLRAccount_TheUserStatusIsRewardMemberAndNoMonthlyFreeFood"/>
+			<class name="com.omahasteaks.tests.SteakloverRewardsMembership.TC_SLR_011_GoldAccount_DoNotEnoughPointsToRedeemRewards"/>
+			<class name="com.omahasteaks.tests.SteakloverRewardsMembership.TC_SLR_012_RegularAccount_TheSteakloverRewardsPopUpDisplaysWhenClickingOnSLROption"/>
+					
+			<!-- Collection Center Negative test cases -->
+			<class name="com.omahasteaks.tests.CollectionCenter.NegativeCases.TC_CCN_001_ErrorMessageDisplaysForEachMandatoryFieldEmptyInShippingInformationPage" />
+			<class name="com.omahasteaks.tests.CollectionCenter.NegativeCases.TC_CCN_002_WarningMessageDisplaysForMandatoryFieldsInRedemptionCenterPageEmpty" /> 
+			<class name="com.omahasteaks.tests.CollectionCenter.NegativeCases.TC_CCN_003_WarningMessageDisplaysWhenFillingShippingAddressWithInvalidData"/>
+			
+			<!-- Collection Center Positive test cases -->
+			<class name="com.omahasteaks.tests.CollectionCenter.PositiveCases.TC_CCP_001_UserCanReviewTheirOrderWhenFillingValidMandatoryFieldsInResidentiaAndLeavingDelayedArrivalDateEmpty"/>
+			<class name="com.omahasteaks.tests.CollectionCenter.PositiveCases.TC_CCP_002_UserCanReviewTheirOrderWhenFillingValidMandatoryFieldsInCompanyAndEnteringValidDelayedArrivalDate"/>
+			<class name="com.omahasteaks.tests.CollectionCenter.PositiveCases.TC_CCP_003_UserCanReviewTheirOrderWhenFillingValidAllFieldsInResidentialAddress"/>
+			<class name="com.omahasteaks.tests.CollectionCenter.PositiveCases.TC_CCP_004_UserCanReviewTheirOrderWhenFillingValidAllFieldsInCompanyAddress"/>
+			
+                         
+ 			<class name="com.omahasteaks.tests.SalePage.NegativeCases.TC_SPN_001_WarningMessageDisplaysWhenFillingInvalidEmailAddressInEarnAnExtra10PercentOff"/>  
+			 
+			<class name="com.omahasteaks.tests.SalePage.PositiveCases.TC_SPP_001_ProgressiveOffersTabsAreClickable"/>
+			<class name="com.omahasteaks.tests.SalePage.PositiveCases.TC_SPP_002_UserCanRegisterEmailToReceiveEmailInEarnAnExtra10PercentOffTab"/>
+			 
+			<class name="com.omahasteaks.tests.SearchResultPage.TC_SRP_001_ItemsAndPackagesAndMealsTabsAreDisplayed"/>
+			 
+			<class name="com.omahasteaks.tests.AddToCart.NegativeCases.TC_ATCN_001_WarningWhenSubmittingInvalidDataIntoRecipientTextboxInProductionPage" />
+
+			<class name="com.omahasteaks.tests.AddToCart.PositiveCases.TC_ATCP_007_MoveExistingSKUFromMyCartToSomeoneElse" />
+			<class name="com.omahasteaks.tests.AddToCart.PositiveCases.TC_ATCP_008_AddFreeShipPackageByClickOnFreeShipOfferLink" />
+ 			<class name="com.omahasteaks.tests.AddToCart.PositiveCases.TC_ATCP_012_AddSKUFromWineDepartmentPage" />
+			
+			<!-- MemberShip Account Negative test cases -->
+			<class name="com.omahasteaks.tests.MembershipAccount.NegativeCases.TC_MAN_004_WarningMessageDisplaysForInvalidDataForAddressFieldsInEditBillingAddressPage" />
+			<class name="com.omahasteaks.tests.MembershipAccount.NegativeCases.TC_MAN_005_EditShippingAddressWithEmptyEachMandatoryField" />
+			<class name="com.omahasteaks.tests.MembershipAccount.NegativeCases.TC_MAN_006_WarningMessageDisplaysWhenEditingShippingAddressWithInvalidData" />
+			<class name="com.omahasteaks.tests.MembershipAccount.NegativeCases.TC_MAN_007_EditShippingAddressForRecipientWithEmptyEachMandatoryField" />
+			<class name="com.omahasteaks.tests.MembershipAccount.NegativeCases.TC_MAN_008_WarningMessageDisplaysWhenEditingShippingAddressForRecipientWithInvalidData"/>
+			<class name="com.omahasteaks.tests.MembershipAccount.NegativeCases.TC_MAN_009_WarningMessageDisplaysWhenFillingInvalidDataInEmailPreferencesTabOnPopup"/>
+			<class name="com.omahasteaks.tests.MembershipAccount.NegativeCases.TC_MAN_010_WarningMessageDisplaysWhenFillingInvalidDataInPhonePreferencesTabOnPopup"/>
+			<class name="com.omahasteaks.tests.MembershipAccount.NegativeCases.TC_MAN_011_WarningMessageDisplaysWhenLoggingInWithInvalidData"/>
+			<class name="com.omahasteaks.tests.MembershipAccount.NegativeCases.TC_MAN_012_WarningMessageDisplaysWhenEditingEmailAddressWithInvaldData"/>
+			
+			
+			<!-- MemberShip Account Positive test cases -->
+			<class name="com.omahasteaks.tests.MembershipAccount.PositiveCases.TC_MAP_003_UserCanChangeEmailAndUpdateEmailAndPhonePreferences" />
+			<class name="com.omahasteaks.tests.MembershipAccount.PositiveCases.TC_MAP_004_UserCanSeeSteakloverRewardPoint" />
+			<class name="com.omahasteaks.tests.MembershipAccount.PositiveCases.TC_MAP_006_UserCanAddEditAndDeleteNewRecipientShippingAddressInAddressBook" />
+
+
+		<!-- Stores page Positive test cases -->
+			<class name="com.omahasteaks.tests.StoresPage.PositiveCases.TC_SP_001_NearestStoresAddressDisplaysWhenFillingValidZipcodeIntoZipCodeField"/>
+			
+			<!-- Stores page Negative test cases -->
+			<class name="com.omahasteaks.tests.StoresPage.NegativeCases.TC_SN_001_WarningMessageDisplaysWhenNoStoresFoundWithinFiftyMeters"/>		
+			
+			<!-- Recipe Center page Positive test cases -->
+			<class name="com.omahasteaks.tests.RecipeCenterPage.TC_RC_001_RecipeCenterMenuDisplaysInRecipeCenterPage"/>
+				
+			<!-- Win Free Steaks Page Positive testcase-->
+			<class name="com.omahasteaks.tests.WinFreeSteaksPage.PositiveCases.TC_WSP_001_MessageThankYouDisplaysWhenSigningUpSuccessfullyInWinFreeSteaksPage"/>
+				
+			<!-- Win Free Steaks Page Negative testcase-->
+			<class name="com.omahasteaks.tests.WinFreeSteaksPage.NegativeCases.TC_WSN_001_WarningMessagesDisplayForBlankAllFieldsWhenSigningUp"/>
+			<class name="com.omahasteaks.tests.WinFreeSteaksPage.NegativeCases.TC_WSN_002_WarningMessagesDisplayWhenSigningUpWithInvalidEmailAddressAndPhoneNumber"/>
+
+			<!-- HomePage Negative test cases -->	
+			<class name="com.omahasteaks.tests.HomePage.NegativeCases.TC_HPN_001_WarningMessageDisplaysWhenFillingInvalidEmailAddressInFooter" />
+			
+			<!-- HomePage Positive test cases -->
+			<!-- 	<class name="com.omahasteaks.tests.HomePage.PositiveCases.TC_HPP_001_CheckAllLinksAndImagesInHomepage" />  -->
+			<class name="com.omahasteaks.tests.HomePage.PositiveCases.TC_HPP_002_CheckURLWillBeRedirectedToLiveRewardSite" />
+			<class name="com.omahasteaks.tests.HomePage.PositiveCases.TC_HPP_003_TermsOfUseAndPrivacyPolicyAndSiteMapPagesDisplayWhenClickingTheseItemsInOurStorySection" />
+			<class name="com.omahasteaks.tests.HomePage.PositiveCases.TC_HPP_004_UserCanSubscribeAndUnsubcribeToEmailInHomepage" />
+
+ 		</classes>
+
+
+
+	</test>
+
+</suite>

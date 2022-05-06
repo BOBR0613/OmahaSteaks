@@ -1,0 +1,42 @@
+{
+	"default": {
+		"modalDialog": {
+			"type": "xpath",
+			"value": "//div[@id='os_modal']|//div[@id='os_landing_cmpng_ovly']"
+		},
+		"btnCloseModal": {
+			"type": "xpath",
+			"value": "//div[@id='os_modal']//div[@id='os_modal_close']|//div[@id='os_landing_cmpng_ovly']//div[@id='os_landing_cmpng_close']"
+		},
+		"titleCandidate": {
+			"type": "xpath",
+			"values": [
+				"//div[@id='os_modal']//div[@class='os_card_ds']//div[contains(@class,'os_sh2')]",
+				"//div[@id='os_modal']//div[contains(@class,'os_sh2')]",
+				"//div[@id='os_modal']//div[contains(@class,'os_sh') and text()='Exclusive Offer']",
+				"//div[@id='os_modal']//div[@class='clearfix']//div[contains(@class,'os_sh1')]",
+				"//div[@id='os_modal']//div[@class='clearfix']//div[contains(@class,'os_txt_white')]",
+				"//div[@id='os_modal']//div[@class='os_bg_p_d os_txt_white os_h1']",
+				"//div[@id='os_modal']//div[@class='mar_b_m']/h2",
+				"//div[@id='os_modal']//div[@class='os_h1 txt_c']",
+				"//div[@id='os_modal']//div[@class='os_h1 os_style_lhf']" 
+			]
+		},
+		"iFrameSavor": {
+			"type": "xpath",
+			"value": "//*[@id='attentive_creative']"
+		},           
+		"btnCloseSavor": {
+			"type": "xpath",
+			"value": "//*[@id='closeIconContainer']"
+		}, 
+		"iFrameAppBanner": {
+			"type": "xpath",
+			"value": "//iframe[@id='branch-banner-iframe']"
+		},
+		"btnCloseAppBanner": {
+			"type": "id",
+			"value": "branch-banner-close1"
+		}
+	}
+}

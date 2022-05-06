@@ -1,0 +1,233 @@
+{
+	"default": {
+		"txtSearch": {
+			"type": "xpath",
+			"value": "//form[@name='SearchForm']/table//input[@name='PHRASE']"
+		},
+		"btnSearch": {
+			"type": "xpath",
+			"value": "(//form[@name='SearchForm']/table//input)[2]"
+		},
+		"eleSearchForm": {
+			"type": "xpath",
+			"value": "//form[@name='SearchForm']"
+		},
+		"cbbType": {
+			"type": "xpath",
+			"value": ".//select[@name='TYPE']"
+		},
+		"lnkCheckOut": {
+			"type": "xpath",
+			"value": "(//table//tr[td[@class='minicart']]/following-sibling::tr[not(./td[@class='minifade'])]//a/img)[1]"
+		},
+		"lblOutOfStock":{
+			"type": "xpath",
+			"value": "//*[text()=\"Error We're sorry, this item is temporarily out of stock.\"]"
+		},
+		"lnkFirstSKU": {
+			"type": "xpath",
+			"value": "//tr[./td[@class='tselect' and ./a]][1]//a"
+		},
+		"lnkSecondSKU": {
+			"type": "xpath",
+			"value": "//tr[./td[@class='tselect' and ./a]][2]//a"
+		},
+		"lnkThirdSKU": {
+			"type": "xpath",
+			"value": "//tr[./td[@class='tselect' and ./a]][3]//a"
+		},
+		"lnkFourthSKU": {
+			"type": "xpath",
+			"value": "//tr[./td[@class='tselect' and ./a]][4]//a"
+		},
+		"lnkFifthSKU": {
+			"type": "xpath",
+			"value": "//tr[./td[@class='tselect' and ./a]][5]//a"
+		},
+		"lnkSixthSKU": {
+			"type": "xpath",
+			"value": "//tr[./td[@class='tselect' and ./a]][6]//a"
+		},
+		"lnkSeventhSKU": {
+			"type": "xpath",
+			"value": "//tr[./td[@class='tselect' and ./a]][7]//a"
+		},
+		"lnkNinthSKU": {
+			"type": "xpath",
+			"value": "//tr[./td[@class='tselect' and ./a]][8]//a"
+		},
+		"lnkFirstSKU4PT": {
+			"type": "xpath",
+			"value": "//tr[./td[@class='tselect' and ./a]][2]//a"
+		},
+		"lnkSecondSKU4PT": {
+			"type": "xpath",
+			"value": "//tr[./td[@class='tselect' and ./a]][3]//a"
+		},
+		"lnkThirdSKU4PT": {
+			"type": "xpath",
+			"value": "//tr[./td[@class='tselect' and ./a]][4]//a"
+		},
+		"lnkFourthSKU4PT": {
+			"type": "xpath",
+			"value": "//tr[./td[@class='tselect' and ./a]][5]//a"
+		},
+		"lnkFirstSKU6PT": {
+			"type": "xpath",
+			"value": "//tr[./td[@class='tselect' and ./a]][2]//a"
+		},
+		"lnkSecondSKU6PT": {
+			"type": "xpath",
+			"value": "//tr[./td[@class='tselect' and ./a]][3]//a"
+		},
+		"lnkThirdSKU6PT": {
+			"type": "xpath",
+			"value": "//tr[./td[@class='tselect' and ./a]][4]//a"
+		},
+		"lnkFourthSKU6PT": {
+			"type": "xpath",
+			"value": "//tr[./td[@class='tselect' and ./a]][5]//a"
+		},
+		"eleFirstSKUName": {
+			"type": "xpath",
+			"value": "//table//div[@class='headergold']"
+		},
+		"eleSKU": {
+			"type": "xpath",
+			"value": "//table//tr[./form]//td[./b[contains(normalize-space(text()),\"%s\")]]"
+		},
+		"cbbSelectShipTo": {
+			"type": "xpath",
+			"value": ".//select[@name='SHIPTO']"
+		},
+		"btnSelect": {
+			"type": "xpath",
+			"value": "//table//td[//select[@name='SHIPTO']]//td/input[@type='image']"
+		},
+		"txtRecipientName": {
+			"type": "xpath",
+			"value": "//input[@name='NEWSHIPTO']"
+		},
+		"btnSelectSomeoneElse": {
+			"type": "xpath",
+			"value": "//table//td[//input[@name='NEWSHIPTO']]//td/input"
+		},
+		"lblResultsHdg": {
+			"type": "xpath",
+			"value": "//*[text()='Search Results']"
+		},
+		"eleTabNameSrc": {
+			"type": "xpath",
+			"value": "//center[not (.//b[contains(text(),'Our Unconditional GUARANTEE')])]//img"
+		},
+		"lnkContinue": {
+			"type": "xpath",
+			"value": "//input[@name='CONTINUE']"
+		},
+		"eleListCaterogies": {
+			"type": "xpath",
+			"value": "//div[@class='categories']"
+		},
+		"eleCaterogy": {
+			"type": "xpath",
+			"value": "//div[@class='categories']/div[@class='cgy']//b[contains(text(),\"%s\")]"
+		},
+		"eleTopMenu": {
+			"type": "xpath",
+			"value": "//a[text()=\"%s\"]"
+		},
+		"eleSKUOfBlazingBartgains": {
+			"type": "xpath",
+			"value": "(//table[.//div[text()='Blazing Bargains']]//td/a[not (./img)])[1]"
+		},
+		"lbShoppingCategory": {
+			"type": "xpath",
+			"value": "//table//div[@class='headergold']"
+		},
+		"lbYourCartEmptyInShoppingCartSection": {
+			"type": "xpath",
+			"value": "//table//td[@class='minicart' and ./b[text()='Your cart is empty.']]"
+		},
+		"eleCartIcon": {
+			"type": "xpath",
+			"value": "(//table//tr[td[@class='minicart']]/following-sibling::tr[not(./td[@class='minifade'])]//a/img)[2]"
+		},
+		"eleSKURowInShoppingCartSection": {
+			"type": "xpath",
+			"value": "//div[text()='Shopping Cart']//following-sibling::table[//td[@class='minicart']]//tr[./td[@class='minifade'|@class='minicart' and ./a]]"
+		},
+		"eleSKUInShoppingCartSection": {
+			"type": "xpath",
+			"value": "//div[text()='Shopping Cart']//following-sibling::table[//td[@class='minicart']]//tr[./td[text()='%1$s'] and .//a[text()='%2$s'] and ./td[text()='%3$s']]"
+		},
+		"eleSubtotal": {
+			"type": "xpath",
+			"value": "//div[text()='Shopping Cart']//following-sibling::table//td[@class='minicart' and ./b[contains(text(),'Subtotal')]]"
+		},
+		"eleSearchResultPoints": {
+			"type": "xpath",
+			"value": "//td[@class='tpoints']"
+		},
+		"eleRowWhichContainsSKU": {
+			"type": "xpath",
+			"value": "//tr[./td[@class='tselect' and ./a]]"
+		},
+		"eleLinkInCustomerService": {
+			"type": "xpath",
+			"value": "//table//span[@class='gold']/following-sibling::a[text()=\"%s\"]"
+		},
+		"lblHeaderPage":{
+			"type":"xpath",
+			"value":"//table//span[@class='headergold']|//span/p[@class='headergold']"
+		},
+		"txtEmail":{
+			"type":"xpath",
+			"value":"//input[@name='emailFrom']"
+		},
+		"txtEmailMsg":{
+			"type":"xpath",
+			"value":"//textarea[@name='body']"
+		},
+		"lnkReset":{
+			"type":"xpath",
+			"value":"//a[./img[@alt='Reset']]"
+		},
+		"eleDescriptionOfItem": {
+			"type": "xpath",
+			"value": "//table//span[@class='body']"
+		},
+		"lnkSKU": {
+			"type": "xpath",
+			"value": "//td[@class='tselect']//a"
+		},
+		"eleOutOfStockMsg": {
+			"type": "xpath",
+			"value": "//b[text()=\"Error We're sorry, this item is temporarily out of stock.\"]"
+		},
+		"eleTermsAgreementLinkInFooter": {
+			"type": "xpath",
+			"value": "//a[contains(text(),\"%s\")]"
+		},
+		"eleHeaderOfPage":{
+			"type":"xpath",
+			"value":"//p//span[@class='headergold' and contains(text(),\"%s\")]"
+		},
+		"eleErrorMessageInContactUspage": {
+			"type": "xpath",
+			"value": "//table//tr[./td[./span[.//a[./b[text()=\"%s\"]]]]]//span[not(.//a)]"
+		},
+		"lnkSubmit":{
+			"type":"xpath",
+			"value":"//input[@name='submit']"
+		},
+		"lnkAddressFieldInListErrorMessage":{
+			"type":"xpath",
+			"value":"//table//a[.//b[text()='Message Email Address']]"
+		},
+		"lblNoSearchResultsFound": {
+			"type": "xpath",
+			"value": "//table//td[@class='body' and ./b[text()='Sorry, no search results were found.']]"
+		}
+		
+	}
+}

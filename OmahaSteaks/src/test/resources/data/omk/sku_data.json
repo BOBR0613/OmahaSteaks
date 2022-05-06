@@ -1,0 +1,99 @@
+[
+	{
+		"id": "66671",
+		"name": "Deluxe Stock Up Collection",
+		"type": "FREESHIP",
+		"status": "EXISTING"
+	}, 
+	{
+		"id": "47519",
+		"name": "Bacon-Wrapped Filet Mignons",
+		"type": "ITEM",
+		"status": "EXISTING"
+	},
+	{
+		"id": "3343",
+		"name": "Private Reserve Ribeye Crown Steaks",
+		"type": "PACKAGES",
+		"status": "EXISTING"
+	}, 
+	{
+		"id": "70237",
+		"name": "Classic Ribeye Pack",
+		"type": "OVER100",
+		"status": "EXISTING"
+	},
+	{
+		"id": "686",
+		"name": "Boneless Heart of Prime Rib Roast",
+		"type": "ITEM",
+		"status": "EXISTING"
+	},	 
+	{
+		"id": "67199",
+		"name": "Deluxe Top Sirloins Feast",
+		"type": "ITEM",
+		"status": "EXISTING"
+	},
+	{
+		"id": "2595",
+		"name": "Live Maine Lobsters & Meal Kit",
+		"type": "SEAFOOD",
+		"status": "EXISTING"
+	},
+	{
+		"id": "69224",
+		"name": "Value Freezer Filler",
+		"type": "FREESHIP",
+		"status": "EXISTING"
+	}, 
+	{
+		"id": "6261",
+		"name": "90+ Point Red & White Gift Set",
+		"type": "WINE",
+		"status": "EXISTING"
+	},
+	{
+		"id": "6039",
+		"name": "Grand Tour de France Wine Gift Set",
+		"type": "WINE",
+		"status": "EXISTING"
+	},
+	{
+		"id": "6045",
+		"name": "Quintessential White Wine Gift Set",
+		"type": "WINE",
+		"status": "EXISTING"
+	},
+	{
+		"id": "3312",
+		"name": "Private Reserve® Angus Burgers",
+		"type": "BURGERS",
+		"status": "EXISTING"
+	},
+	{
+		"id": "70793",
+		"name": "Custom Assortment with FREE Dessert",
+		"type": "MEAL",
+		"status": "CUSTOM"
+	},
+	{
+		"id": "3169",
+		"name": "Smoked Brisket Burnt Ends",
+		"type": "UNDER50",
+		"status": "EXISTING"
+	},
+	{
+		"id": "1709",
+		"name": "Caramel Apple Tartlets",
+		"type": "DESSERT",
+		"status": "EXISTING"
+	},
+	{
+		"id": "3119",
+		"name": "Split Lobster Tail Skewers",
+		"type": "SEAFOOD",
+		"status": "EXISTING"
+	}
+	
+]

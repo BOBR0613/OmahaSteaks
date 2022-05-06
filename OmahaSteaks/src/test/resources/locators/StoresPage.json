@@ -1,0 +1,28 @@
+{
+	"default": {
+		"eleMenuTab": {
+			"type": "xpath",
+			"value": "//div[@id='navbar']//a[contains(text(),\"%s\")]"
+		},
+		"txtZipCode": {
+			"type": "xpath",
+			"value": "//input[@name='searchZip']"
+		},
+		"btnSubmit": {
+			"type": "xpath",
+			"value": "//input[@name='submit']"
+		},
+		"eleNearestStoresAddress": {
+			"type": "xpath",
+			"value": "//div[h1[text()='Nearest Stores']]//div[@class='store_detail']"
+		},
+		"eleNoStoresFound": {
+			"type": "xpath",
+			"value": "//div[h1[text()='Nearest Stores']][contains(.,'No stores found within 50 miles.')]"
+		},
+		"eleErrorMessage": {
+			"type": "xpath",
+			"value": "//div[@id='ErrorBox']"
+		}
+	}
+}

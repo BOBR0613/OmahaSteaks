@@ -1,0 +1,92 @@
+{
+	"default": {
+		"txtFirstName": {
+			"type": "xpath",
+			"value": "//input[@name='BA_FNAME']"
+		},
+		"txtLastName": {
+			"type": "xpath",
+			"value": "//input[@name='BA_LNAME']"
+		},
+		"txtCompanyName": {
+			"type": "xpath",
+			"value": "//input[@name='BA_CNAME']"
+		},
+		"txtStreetAddress": {
+			"type": "xpath",
+			"value": "//input[@name='BA_ADDR1']"
+		},
+		"txtStreetAddress2": {
+			"type": "xpath",
+			"value": "//input[@name='BA_ADDR2']"
+		},
+		"txtAptSuite": {
+			"type": "xpath",
+			"value": "//input[@name='BA_APT']"
+		},
+		"txtZipCode": {
+			"type": "xpath",
+			"value": "//input[@name='BA_ZIP']"
+		},
+		"txtCity": {
+			"type": "xpath",
+			"value": "//input[@name='BA_CITY']"
+		},
+		"cbbState": {
+			"type": "xpath",
+			"value": "//select[@name='BA_STATE']"
+		},
+		"txtPhoneNumber": {
+			"type": "xpath",
+			"value": "//input[@name='BA_PHONE']"
+		},
+		"cbbCountry": {
+			"type": "xpath",
+			"value": "//select[@name='BA_COUNTRY']"
+		},
+		"txtEmail": {
+			"type": "xpath",
+			"value": "//input[@name='BA_EMAIL']"
+		},
+		"txtConfirmEmail": {
+			"type": "xpath",
+			"value": "//input[@name='BA_EMAILCONFIRM']"
+		},
+		"cbIAgree": {
+			"type": "xpath",
+			"value": "//input[@id='termsCheckbox']"
+		},
+		"btnContinueCheckout": {
+			"type": "xpath",
+			"value": "//input[@value='Continue Checkout']"
+		},
+		"cbbbirthdayMonth": {
+			"type": "xpath",
+			"value": "//select[@name='BIRTHDAYMM']"
+		},
+		"cbbbirthdayDay": {
+			"type": "xpath",
+			"value": "//select[@name='BIRTHDAYDD']"
+		},
+		"cbbbirthdayYear": {
+			"type": "xpath",
+			"value": "//select[@name='BIRTHDAYYYYY']"
+		},
+		"btnConfirmAddress": {
+			"type": "xpath",
+			"value": "//a[@onclick='confirmAddress()']"
+		},
+		"eleErrorMessageByField": {
+			"type": "xpath",
+			"value": "//div[@id='ErrorBox']//tr[./td//a[text()=\"%s\"]]/td/span[not(./a)]"
+		},
+		"eleAddressWarning": {
+			"type": "xpath",
+			"value": "//div[@id='stdaddr_msgtxt']"
+		},
+		"lblBirthday": {
+			"type": "xpath",
+			"value": "//label[normalize-space(text())='Birthday']/span"
+		}
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"default": {
+		"btnShopNow_List": {
+			"type": "xpath",
+			"value": "//div[contains(@class,'os_btn')][normalize-space(text())='Shop Now']"
+		},
+		"btnShopNowByIndex": {
+			"type": "xpath",
+			"value": "(//div[contains(@class,'os_btn')][normalize-space(text())='Shop Now'])[%d]"
+		},
+		"btnShopNowByIndex_mb": {
+			"type": "xpath",
+			"value": "(//div[@class='os_grid_pad_h_m os_grid_pad_b_l']/a)[%d]"
+		},
+		"eleFirstSKUForm": {
+			"type": "xpath",
+			"value": "(//form[.//input[@name='sku_asavail']])[2]"
+		},
+		"lnkSelectYourFreeGift": {
+			"type": "xpath",
+			"value": ".//a[span[text()='Select Your Free Gift']]"
+		},
+		"lnkSelectYourFreeGift_mb": {
+			"type": "xpath",
+			"value": ".//a[@title='Select']"
+		},
+		"eleFirstSKUGift": {
+			"type": "xpath",
+			"value": "//div[@class='sku_opt_list_cont']/div[1]"
+		},
+		"eleFirstSKUGift_mb": {
+			"type": "xpath",
+			"value": "//div[@class='sku_opt_wnc_sc sku_opt_wnc_sc_unit']/div[1]"
+		}
+	}
+}

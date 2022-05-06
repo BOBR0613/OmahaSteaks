@@ -1,0 +1,268 @@
+{
+	"default": {
+		"eleHeader": {
+			"type": "xpath",
+			"value": "//div[@id='os_hdr']"
+		},
+		"eleDepartmentMenu": {
+			"type": "xpath",
+			"value": "//div[@id='os_nav_tabs']"
+		},
+		"lnkDepartmentMenu": {
+			"type": "xpath",
+			"value": "./a[contains(@class,'os_nav_tab_link')]"
+		},
+		"eleCenterStage": {
+			"type": "xpath",
+			"value": "//div[contains(@class,'os_hp_slider')]"
+		},
+		"eleProgressiveOffers": {
+			"type": "xpath",
+			"value": "//div[contains(@class,'os_progress_tabs clearfix')]"
+		},
+		"eleFooter": {
+			"type": "xpath",
+			"value": "//div[@id='os_ftr']"
+		},
+		"eleAllLinks": {
+			"type": "xpath",
+			"value": ".//a"
+		},
+		"eleAllImages": {
+			"type": "xpath",
+			"value": ".//img"
+		},
+		"eleImageForCheckLinkExist": {
+			"type": "xpath",
+			"value": ".//a//img[@src=\"%s\"]"
+		},
+		"eleImage": {
+			"type": "xpath",
+			"value": ".//a[@href=\"%s\"]//img"
+		},
+		"eleLinkByHrefAndText": {
+			"type": "xpath",
+			"value": ".//a[substring(@href, string-length(@href) - string-length('%1$s') +1) = '%1$s'  and text()='%2$s']"
+		},
+		"eleImageByHrefAndSrc": {
+			"type": "xpath",
+			"value": ".//a[substring(@href, string-length(@href) - string-length('%1$s') +1) = '%1$s']//img[substring(@src, string-length(@src) - string-length('%2$s') +1) = '%2$s']"
+		},
+		"eleImagebySrc": {
+			"type": "xpath",
+			"value": ".//img[substring(@src, string-length(@src) - string-length('%1$s') +1) = '%1$s']"
+		},
+		"eleLinkbyHref": {
+			"type": "xpath",
+			"value": ".//a[substring(@href, string-length(@href) - string-length('%1$s') +1) = '%1$s']"
+		},
+		"eleAllSections": {
+			"type": "xpath",
+			"value": "//html"
+		},
+		"eleMenuByClass": {
+			"type": "xpath",
+			"value": "//div[@id='os_nav_tabs']//div[@class='os_nav_tab']"
+		},
+		"eleMenuByIndex": {
+			"type": "xpath",
+			"value": "(//div[@id='os_nav_tabs']//div[@class='os_nav_tab'])[%d]"
+		},
+		"eleProgressiveOffersByClass": {
+			"type": "xpath",
+			"value": "(//div[contains(@class,'os_progress_tabs clearfix')]//div[@class='tabList clearfix'])[1]//a"
+		},
+		"eleProgressiveOffersByIndex": {
+			"type": "xpath",
+			"value": "((//div[contains(@class,'os_progress_tabs clearfix')]//div[@class='tabList clearfix'])[1]//a)[%d]"
+		},
+		"eleItemsOfProgressiveOffers": {
+			"type": "xpath",
+			"value": "//div[contains(@class,'os_progress_tabs clearfix')]//div[@class='os_progress_cont pad_b_l mar_t_m']"
+		},
+		"eleCenterStagesByClass": {
+			"type": "xpath",
+			"value": "(//div[contains(@id,'rotators')]//div[@class='os_hp_pane_steps'])[1]//a"
+		},
+		"eleCenterStagesByIndex": {
+			"type": "xpath",
+			"value": "((//div[contains(@id,'rotators')]//div[@class='os_hp_pane_steps'])[1]//a)[%d]"
+		},
+		"eleImageByDataOriginal": {
+			"type": "xpath",
+			"value": ".//a//img[@data-original=\"%s\"]"
+		},
+		"linkSocialMedia": {
+			"type": "xpath",
+			"value": "//div[div[text()='Connect With Us']]//a[@href=\"%s\"]"
+		},
+		"eleMenuByText": {
+			"type": "xpath",
+			"value": "//div[@id='os_nav_tabs']//div[@class='os_nav_tab']//a[text()=\"%s\"]"
+		},
+		"eleOpenMenu_mb": {
+			"type": "xpath",
+			"value": "//div[@id='os_nav_rel_util']//span[@class='os_nav_open icon-menu7 mar_l_m']"
+		},
+		"btnCloseMenu_mb": {
+			"type": "xpath",
+			"value": "//div[@id='os_nav_mar']"
+		},
+		"eleDepartmentMenu_mb": {
+			"type": "xpath",
+			"value": "//div[@class='os_lnk_list os_label_m os_style mar_b_m']"
+		},
+		"linkSocialMedia_mb": {
+			"type": "xpath",
+			"value": "//div[@class='os_txt_p_l']//a[@href=\"%s\"]"
+		},
+		"eleProgressiveOffersByClass_mb": {
+			"type": "xpath",
+			"value": "//div[@class='clearfix mar_b_m']//div[@class='os_style_t os_txt_caps os_txt_p_d']"
+		},
+		"eleProgressiveOffersByIndex_mb": {
+			"type": "xpath",
+			"value": "(//div[@class='clearfix mar_b_m']//div[@class='os_style_t os_txt_caps os_txt_p_d'])[%d]"
+		},
+		"eleItemsOfProgressiveOffers_mb": {
+			"type": "xpath",
+			"value": "(//div[@class='mar_b_l'])[1]"
+		},
+		"eleHeader_mb": {
+			"type": "xpath",
+			"value": "//div[@id='os_hdr']"
+		},
+		"eleTermsAgreementLinkInFooter": {
+			"type": "xpath",
+			"value": "//*[@id='os_ftr']//a[text()=\"%s\"]"
+		},
+		"eleTermsOfUseModal": {
+			"type": "xpath",
+			"value": "//h1[text()='Terms of Use']"
+		},
+		"elePrivacyPolicyModal": {
+			"type": "xpath",
+			"value": "//h1[text()='Your Privacy Rights']"
+		},
+		"elePrivacyPolicyPage": {
+			"type": "xpath",
+			"value": "//h1[text()='Your Privacy Rights']"
+		},		
+		"eleLinkInFooterBySection": {
+			"type": "xpath",
+			"value": "//a[text()=\"%s\"]"
+		},
+		"btnSignUp": {
+			"type": "xpath",
+			"value": "//*[@id='os_ftr']/div[3]/div/div/div[1]/div[1]/div/div[3]/div/div/a"			
+		},
+		"txtEmailLabel": {
+			"type": "xpath",
+			"value": "//*[@id='input0label']"
+		},     
+		"txtEmailInput": {
+			"type": "xpath",
+			"value": "//*[@id='fieldCaptureForm']/div/div/input"
+		},     		     
+		"btnJoin": {
+			"type": "xpath",
+			"value": "//*[@id='ctabutton1']"
+		},
+		"cbIAgree": {
+			"type": "xpath",
+			"value": "//form[@id='os_esu_ft']//input[@name='os_esu_ft_optin']"
+		},
+		"eleYouareInModal": {
+			"type": "xpath",
+			"value": "//div[@id='os_modal_i']//div[text()=\"You're In!\"]"
+		},
+		"eleOptionsContactPreferences": {
+			"type": "xpath",
+			"value": "//span[contains(text(),\"%s\")]/preceding-sibling::input[1]"
+		},
+		"txtEmailAddressInContactPreferences": {
+			"type": "xpath",
+			"value": "//input[@id='emailForm_email']"
+		},
+		"btnUpdatePreferences": {
+			"type": "xpath",
+			"value": "//form[@id='os_epref_form']//input[@name='SUBMIT1']"
+		},
+		"eleContactPreferencesUpdatedModal": {
+			"type": "xpath",
+			"value": "//div[@id='os_modal_i']//div[text()='Contact Preferences Updated']"
+		},
+		"eleEmailError": {
+			"type": "xpath",
+			"value": "//*[@id='input0input-error']"
+		},
+		"eleIAgreeError": {
+			"type": "xpath",
+			"value": "(//div[@id='os_esu_ft_optin-error']/span)"
+		},
+		"elePromotionBar": {
+			"type": "xpath",
+			"value": "//div[@class='os_bg_action']//a[%d]"
+		},
+		"elePromotionBar_mb": {
+			"type": "xpath",
+			"value": "//div[contains(@class,'os_banner_promo')][%d]"
+		},
+		"elePromotionBoldText": {
+			"type": "xpath",
+			"value": "./b[normalize-space(text())=\"%s\"]"
+		},
+		"elePromotionBoldText_LeftBanner_mb": {
+			"type": "xpath",
+			"value": ".//span[@class='os_style']"
+		},
+		"eleExpanedText_LeftBanner_mb": {
+			"type": "xpath",
+			"value": "//div[contains(@class,'os_banner_promo')]/div[@class='os_exp_coll_cont']/a"
+		},
+		"elePromotionBoldText_RightBanner_mb": {
+			"type": "xpath",
+			"value": ".//b[@class='os_txt_action']"
+		},
+		"elePromotionPopup": {
+			"type": "xpath",
+			"value": "//div[@id='os_modal_i']//div[contains(@class,'os_bg_background')]/div[contains(@class,'h1')]"
+		}, 
+		"elePromotion_LeftBar_mb": {
+			"type": "xpath",
+			"value": "//div[contains(@class,'os_banner_promo')]/div[contains(@class,'os_exp_coll_btn')]"
+		},
+		"elePromotion_RightBar_mb": {
+			"type": "xpath",
+			"value": "//div[contains(@class,'os_banner_promo')]/a"
+		},
+		"eleFirstSku": {
+			"type": "xpath",
+			"value": "//*[@id='indexTabPanel1']/div[2]/form"
+		},
+		"eleFirstIID": {
+			"type": "xpath",
+			"value": "./a/div[3]/div[2]/div/span/span/span[1]"
+		},
+		"eleFirstName": {
+			"type": "xpath",
+			"value": "./a/div[3]/div[1]"
+		},             
+		"eleFirstPrice": {
+			"type": "xpath",
+			"value": "./a/div[4]/div[2]/div[2]/span[1]"
+		},
+		"cbbSelectShipTo": {
+			"type": "xpath",
+			"value": "./div[3]/div[3]/button"
+		},
+		"txtShipTo": {
+			"type": "xpath",
+			"value": "./div[3]/div[2]/input"
+		},
+		"btnFirstAddToCart": {
+			"type": "xpath",
+			"value": "./div[3]/div[3]/button"
+		}
+	}
+}

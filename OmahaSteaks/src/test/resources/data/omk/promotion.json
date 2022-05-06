@@ -1,0 +1,90 @@
+{
+	"topLeftBanner": [
+		{
+			"startingDate": "11/01/19",
+			"endingDate": "11/24/19",
+			"textToLocate": "",
+			"expectedText": "Thanksgiving Dinner 8 days left for standard delivery!",
+			"titleText": "Thanksgiving Dinner",
+			"url": "/buy/Meals/Thanksgiving-Dinner"
+		},
+		{
+			"startingDate": "11/23/19",
+			"endingDate": "11/26/19",
+			"textToLocate": "",
+			"expectedText": "Thanksgiving Dinner Standard shipping for most locations!",
+			"titleText": "Thanksgiving Dinner",
+			"url": "/buy/Meals/Thanksgiving-Dinner"
+		},
+		{
+			"startingDate": "11/26/19",
+			"endingDate": "11/27/19",
+			"textToLocate": "",
+			"expectedText": "Thanksgiving Dinner Expedited shipping included!",
+			"titleText": "Last Minute Gifts",
+			"url": "/products/Gift-Center/Last-Minute-Gifts"
+		},
+		{
+			"startingDate": "11/27/19",
+			"endingDate": "11/28/19",
+			"textToLocate": "",
+			"expectedText": "Thanksgiving Dinner Still available at our stores.",
+			"titleText": "Stores",
+			"url": "/info/Stores"
+		},
+		{
+			"startingDate": "00/00/00",
+			"endingDate": "99/99/99",
+			"textToLocate": "",
+			"expectedText": "Thanksgiving Dinner 10 days left for standard delivery!",
+			"titleText": "Thanksgiving Dinner",
+			"url": "/buy/Meals/Thanksgiving-Dinner"
+		}
+	],
+	"topRightBanner": [
+		{
+			"startingDate": "11/01/19",
+			"endingDate": "11/30/19",
+			"textToLocate": "",
+			"expectedText": "Get a $30 E-Reward Card with Holiday Gifts",
+			"titleText": "$30 E-Reward Card",
+			"url": ""
+		},
+		{
+			"startingDate": "12/01/19",
+			"endingDate": "12/08/19",
+			"textToLocate": "",
+			"expectedText": "Get a $30 E-Reward Card with Holiday Gifts",
+			"titleText": "$30 E-Reward Card",
+			"url": ""
+		},
+		{
+			"startingDate": "00/00/00",
+			"endingDate": "99/99/99",
+			"textToLocate": "",
+			"expectedText": "",
+			"titleText": "$30 E-Reward Card",
+			"url": ""
+		}
+	],
+	"deliveryOptions": [
+		{
+			"startingDate": "11/25/19",
+			"endingDate": "12/19/19",
+			"textToLocate": "Christmas Delivery",
+			"expectedText": "10-17 business days before Christmas Get a FREE $30 Reward Card"
+		},
+		{
+			"startingDate": "11/01/19",
+			"endingDate": "11/24/19",
+			"textToLocate": "For Thanksgiving delivery",
+			"expectedText": "Arrives in time for the holiday"
+		},
+		{
+			"startingDate": "00/00/00",
+			"endingDate": "99/99/99",
+			"textToLocate": "For Thanksgiving delivery",
+			"expectedText": ""
+		}
+	]
+}

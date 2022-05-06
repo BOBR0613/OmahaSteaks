@@ -1,0 +1,24 @@
+{
+	"default":{	
+		"btnContinueCheckout":{
+			"type":"xpath",
+			"value":"//a[text()='Continue Checkout']"
+		},
+		"eleComboTreatYourself":{
+			"type":"xpath",
+			"value":"//form[.//div[text()=\"%s\"]]"
+		},
+		"cbbShipTo":{
+			"type":"xpath",
+			"value":".//select[@name='SHIPTO']"
+		},
+		"txtNewShipTo":{
+			"type":"xpath",
+			"value":".//input[@name='NEWSHIPTO']"
+		},
+		"btnAddToCart":{
+			"type":"xpath",
+			"value":".//button[text()='Add To Cart']"
+		}		
+	}
+}

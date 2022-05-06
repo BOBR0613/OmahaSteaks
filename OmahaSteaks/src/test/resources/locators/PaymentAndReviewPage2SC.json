@@ -1,0 +1,510 @@
+{
+	"default": {
+		"chkboxSameAsMyAddress": {
+			"type": "xpath",
+			"value": "//input[@id='co_ba_same']"
+		},
+		"eleRecipientSection": {
+			"type": "xpath",
+			"value": "//div[@id='co_ba_shpmt_%s']"
+		},
+		"eleRecipientSectionTitle": {
+			"type": "xpath",
+			"value": "//div[@id='co_ba_shpmt_%s']//h2"
+		},
+		"eleRecipientSectionTitle_mb": {
+			"type": "xpath",
+			"value": "//div[@id='co_ba_shpmt_%s']//h3"
+		},
+		"spanSameAsMyAddress": {
+			"type": "xpath",
+			"value": "//div[input[@id='co_ba_same']]/span[@class='os_ctrl']"
+		},
+		"txtFirstName": {
+			"type": "xpath",
+			"value": "//input[@id='co_ba_fname']"
+		},
+		"txtLastName": {
+			"type": "xpath",
+			"value": "//input[@id='co_ba_lname']"
+		},
+		"txtCompany": {
+			"type": "xpath",
+			"value": "//input[@id='co_ba_company']"
+		},
+		"txtPhoneNumber": {
+			"type": "xpath",
+			"value": "//input[@id='co_ba_phone_us']"
+		},
+		"txtEmail": {
+			"type": "xpath",
+			"value": "//input[@id='co_ba_email']"
+		},
+		"txtStreetAddress": {
+			"type": "xpath",
+			"value": "//input[@id='co_ba_ad1']"
+		},
+		"txtAptSuite": {
+			"type": "xpath",
+			"value": "//input[@id='co_ba_ad2']"
+		},
+		"cbbCountry": {
+			"type": "xpath",
+			"value": "//select[@id='co_ba_country']"
+		},
+		"txtZipCode": {
+			"type": "xpath",
+			"value": "//input[@id='co_ba_zipcode']"
+		},
+		"cbbState": {
+			"type": "xpath",
+			"value": "//select[@id='co_ba_state']"
+		},
+		"txtCity": {
+			"type": "xpath",
+			"value": "//input[@id='co_ba_city']"
+		},
+		"txtCardNumber": {
+			"type": "xpath",
+			"value": "//input[@id='co_ba_cc_I']"
+		},
+		"txtCardExpire": {
+			"type": "xpath",
+			"value": "//input[@id='co_ba_exp_I']"
+		},
+		"txtCardCVV": {
+			"type": "xpath",
+			"value": "//input[@id='co_ba_cvv_I']"
+		},		
+		"txtCardCVV2": {
+			"type": "xpath",
+			"value": "//input[@id='co_ba_cvv_II']"
+		},		 
+		"eleCreditCardType": {
+			"type": "xpath",
+			"value": "//div[./input[@id='co_ba_cc_I']]/div/span"
+		},
+		"txtFirstCardAmount": {
+			"type": "xpath",
+			"value": "//input[@id='co_ba_amnt_I']"
+		},
+		"txtSecondCreditCardNumber": {
+			"type": "xpath",
+			"value": "//input[@id='co_ba_cc_II']"
+		},
+		"txtSecondCreditCardExpire": {
+			"type": "xpath",
+			"value": "//input[@id='co_ba_exp_II']"
+		},
+		"txtSecondCardAmount": {
+			"type": "xpath",
+			"value": "//input[@id='co_ba_amnt_II']"
+		},
+		"btnPlaceOrder": {
+			"type": "xpath",
+			"value": "//button[@id='os_ba_submit']"
+		},
+		"btnPlaceOrder_mb": {
+			"type": "xpath",
+			"value": "//div[not(@class='pad_s')]/div[@id='os_ba_cc_submit']/button[@id='os_ba_submit']"
+		},
+		"linkEditShippingAddr": {
+			"type": "xpath",
+			"value": "//div[@id='co_ba_shpmt_%s']//a[text()='Edit this address']"
+		},
+		"linkEditShippingAddr_mb": {
+			"type": "xpath",
+			"value": "//a[text()='Edit this address']"
+		},
+		"linkEditBillingAddress": {
+			"type": "xpath",
+			"value": "//div[@id='os_ba_address']//a[text()='Edit this address']"
+		},
+		"eleShippingAddressContent": {
+			"type": "xpath",
+			"value": "//div[@id='co_ba_shpmt_%s']//div[contains(@class,'os_saved_add_det')]"
+		},
+		"eleShippingAddressName_mb": {
+			"type": "xpath",
+			"value": "//div[@id='co_ba_shpmt_%s']//b[@class='os_saved_add_name']"
+		},
+		"lnkPayWithTwoCards": {
+			"type": "xpath",
+			"value": "//a[@id='co_ba_twocards_show']"
+		},
+		"lnkRemove2ndCard": {
+			"type": "xpath",
+			"value": "//a[@id='co_ba_twocards_hide']"
+		},
+		"lnkEditGiftOptionByRecipientName": {
+			"type": "xpath",
+			"value": "//div[@id='co_ba_shpmt_%s']//a[@class='os_style_s os_ba_giftopt_edit' and contains(@href,'editgiftoption')]"
+		},
+		"imgGreetingCardImageByRecipientName": {
+			"type": "xpath",
+			"value": "//div[@id='co_ba_giftopts_%s']//img"
+		},
+		"lnkEditGiftMessageByRecipientName": {
+			"type": "xpath",
+			"value": "//*[contains(@id,'co_ba_giftopts')]/div[2]/div[2]/div[2]/div/div/div[2]/a"
+		},
+		"lnkViewAllShippingOptionsByRecipientName": {
+			"type": "xpath",
+			"value": "//div[@id='co_ba_shpmt_%s']//div[contains(@id,'saved_ship_cont_')]//a[@class='os_ship_opt_edit os_label_s' and contains(@href,'editshippingoptions')]"
+		},
+		"lnkViewAllShippingOptionsByRecipientName_mb": {
+			"type": "xpath",
+			"value": "//div[@id='co_ba_shpmt_%1$s']//div[contains(@id,'saved_ship_cont')]//a[contains(.,'View All Shipping Options')] | //div[@id='co_ba_shpmt_%1$s']//div[contains(@id,'saved_ship_cont')]//div[@class='os_sh3 aboslute_v_center']/span[@class='icon-arrow-right2']"
+		},
+		"eleShippingSectionByRecipientName": {
+			"type": "xpath",
+			"value": "//div[@id='co_ba_shpmt_%s']//div[contains(@id,'saved_ship_cont')]"
+		},
+		"eleDeliveryDate": {
+			"type": "xpath",
+			"value": ".//div[contains(@class,'mar_t_xxs')]"
+		},
+		"lbGiftMessage": {
+			"type": "xpath",
+			"value": "//*[contains(@id,'co_ba_giftopts')]//div/i"
+		},
+		"lbGiftMessage_mb": {
+			"type": "xpath",
+			"value": "//div[@id='co_ba_shpmt_%s']//div[@class='os_style_s os_style_lhf']/i"
+		},
+		"lbGiftWrapAndGreetingCard": {
+			"type": "xpath",
+			"value": "//div[@id='co_ba_shpmt_%s']//div[@class='os_style os_ress os_style_lhf']"
+		},
+		"lbGiftWrapAndGreetingCard_mb": {
+			"type": "xpath",
+			"value": "//div[@id='co_ba_giftopts_%s']//div[@class='os_style os_style_lhf']"
+		},
+		"lnkAddGiftWrapAndGreetingCard": {
+			"type": "xpath",
+			"value": "//div[@id='co_ba_shpmt_%s']//a/span[@class='os_ul_a_t' and text()='Greeting Card & Gift Wrap']"
+		},
+		"lnkAddGiftMessage": {
+			"type": "xpath",
+			"value": "//div[@id='co_ba_shpmt_%s']//a/span[text()='Gift Message']"
+		},
+		"btnSaveAndContinueInModal": {
+			"type": "xpath",
+			"value": "//button[@id='co_sm_submit' and normalize-space(text())='Save & Continue']"
+		},
+		"btnCancelInModal": {
+			"type": "xpath",
+			"value": "//*[@class='os_btn_s_m' and text()='Cancel']"
+		},
+		"btnUpdateContactInModal": {
+			"type": "xpath",
+			"value": "//button[@id='co_ea_submit' and text()='Update Contact']"
+		},
+		"btnNoThanksGifting": {
+			"type": "xpath",
+			"value": "//a[@id='co_ba_giftopt_none']"
+		},
+		"cbbGiftMessageInModal": {
+			"type": "xpath",
+			"value": "//select[@id='canned_msg']"
+		},
+		"txtGiftMessageInModal": {
+			"type": "xpath",
+			"value": "//form[@id='os_edit_gift_opt_form']/div[3]/div[1]/textarea"
+		},
+		"txtSignatureInModal": {
+			"type": "xpath",
+			"value": "//input[@id='gift_sig']"
+		},
+		"btnSubmitGiftMessage": {
+			"type": "xpath",
+			"value": "//button[text()='Submit']"
+		},
+		"lbMessageWineInCart": {
+			"type": "xpath",
+			"value": "//div[@id='co_ba_shpmt_%1$s']//div[contains(@id,'co_ba_shpmt_items')]//div[contains(@class,'os_style_s')]//i"
+		},
+		"lbMessageWineInCart_mb": {
+			"type": "xpath",
+			"value": "//div[@id='co_ba_shpmt_%s']//div[contains(@id,'saved_ship_cont')]//div[@class='os_style_s os_style_lhf border pad_s os_bg_background mar_t_m']/i"
+		},
+		"eleTotalPrice": {
+			"type": "xpath",
+			"value": "//div[@id='os_ba_carttotals']//div[@class='os_style_l float_r']/b"
+		},
+		"eleShippingMethodInModalByOption": {
+			"type": "xpath",
+			"value": "//div[input[@name='shipmeth' and @title=\"%s\"]]"
+		},
+		"eleShippingMethodsList": {
+			"type": "xpath",
+			"value": "//div[input[@name='shipmeth']]/b"
+		},
+		"eleShippingMethodsList_mb": {
+			"type": "xpath",
+			"value": "//label[.//input[@name='shipmeth']]//div[contains(@style,'display')]/b"
+		},
+		"chbShippingMethodByOption": {
+			"type": "xpath",
+			"value": "//input[@name='shipmeth' and @title=\"%s\"]"
+		},
+		"eleShippingEstimatedDeliveryByOptionInModal": {
+			"type": "xpath",
+			"value": "//div[@id='os_modal_i']//input[@name='shipmeth' and @title=\"%s\"]/parent::div/following-sibling::div[@class='float_l mar_l_xs']"
+		},
+		"eleShippingEstimatedDeliveryByOptionInModal_mb": {
+			"type": "xpath",
+			"value": "//div/b[text()=\"%s\"]/following-sibling::div"
+		},
+		"eleShippingCostByOptionInModal": {
+			"type": "xpath",
+			"value": "//div[@id='os_modal_i']//input[@name='shipmeth' and @title=\"%s\"]/parent::div/following-sibling::div[contains(@class,'float_r')]/b"
+		},
+		"eleShippingCostByOptionInModal_mb": {
+			"type": "xpath",
+			"value": "//input[@name='shipmeth' and @title=\"%s\"]/parent::div/following-sibling::div[contains(@class,'float_r')]/b"
+		},
+		"eleErrorMessage": {
+			"type": "xpath",
+			"value": "//div[@id='serverError']"
+		},
+		"eleErrorMessageInModal": {
+			"type": "xpath",
+			"value": "//div[@id='serverAddressError']"
+		},
+		"eleErrorMessageAtBottom": {
+			"type": "xpath",
+			"value": "//div[@id='os_ea_address_error']|//div[@id='os_co_address_error']"
+		},
+		"eleAddAGreetingCardInModal": {
+			"type": "xpath",
+			"value": "//div[input[@id='co_ba_giftopt_gc']]"
+		},
+		"eleAddGiftWrapInModal": {
+			"type": "xpath",
+			"value": "//div[input[@id='co_ba_giftopt_gw']]"
+		},
+		"eleAddBothInModal": {
+			"type": "xpath",
+			"value": "//div[input[@id='co_ba_giftopt_ab']]"
+		},
+		"imgSecondGreetingCardImageInModal": {
+			"type": "xpath",
+			"value": "(//div[@id='co_ba_go_cards_cont']//img[@class='co_go_card_img'])[2]"
+		},
+		"eleErrorMessageByField": {
+			"type": "xpath",
+			"value": "//div[label[starts-with(text(),\"%s\")]]/div[@class='os_form_error_r']/span"
+		},
+		"eleErrorMessageByField_mb": {
+			"type": "xpath",
+			"value": "//div[label[starts-with(text(),\"%s\")]]/div[@class='os_form_error']/span"
+		},
+		"txtFirstNameInModal": {
+			"type": "xpath",
+			"value": "//input[@id='co_ea_fname']"
+		},
+		"txtLastNameInModal": {
+			"type": "xpath",
+			"value": "//input[@id='co_ea_lname']"
+		},
+		"txtCompanyInModal": {
+			"type": "xpath",
+			"value": "//input[@id='co_ea_company']"
+		},
+		"txtPhoneInModal": {
+			"type": "xpath",
+			"value": "//input[contains(@id,'co_ea_phone_us')]"
+		},
+		"txtEmailInModal": {
+			"type": "xpath",
+			"value": "//input[@id='co_ea_email']"
+		},
+		"txtStreetAddressInModal": {
+			"type": "xpath",
+			"value": "//input[@id='co_ea_ad1']"
+		},
+		"txtAptSuiteEtcInModal": {
+			"type": "xpath",
+			"value": "//input[@id='co_ea_ad2']"
+		},
+		"cbbCountryInModal": {
+			"type": "xpath",
+			"value": "//select[@id='co_ea_country']"
+		},
+		"txtZipCodeInModal": {
+			"type": "xpath",
+			"value": "//input[@id='co_ea_zipcode']"
+		},
+		"cbbStateInModal": {
+			"type": "xpath",
+			"value": "//select[@id='co_ea_state']"
+		},
+		"txtCityInModal": {
+			"type": "xpath",
+			"value": "//input[@id='co_ea_city']"
+		},
+		"btnCancelInModal_mb": {
+			"type": "xpath",
+			"value": "//div[@class='float_r icon-cross2']"
+		},
+		"eleAvailableDayList": {
+			"type": "xpath",
+			"value": "//div[@class='dp_days os_txt_p_xd clearfix']//a"
+		},
+		"eleSelectedDay": {
+			"type": "xpath",
+			"value": "//div[@class='dp_days os_txt_p_xd clearfix']//a[contains(@class,'chosen_day')]//span"
+		},
+		"eleSKUInRecipientSection": {
+			"type": "xpath",
+			"value": "//div[@id='co_ba_shpmt_%1$s']//div[contains(@class,'sku_cart')]/div[contains(normalize-space(text()),\"%2$s\")]"
+		},
+		"eleSKUNoteInRecipientSection": {
+			"type": "xpath",
+			"value": "//div[@id='co_ba_shpmt_%s']//div[contains(@id,'co_ba_shpmt_items')]//div[contains(text(),\"%s\")]//ancestor::div[@class='os_grid_5a os_s3']/following-sibling::div"
+		},
+		"eleSKUNoteInRecipientSection_mb": {
+			"type": "xpath",
+			"value": "//div[@id='co_ba_shpmt_%1$s'][//div[normalize-space(text())='%2$s']]//div[@class='os_style_s os_style_lhf mar_t_xs']"
+		},
+		"elePayPalTab": {
+			"type": "xpath",
+			"value": "//a[@id='co_bm_paypal_tab']"
+		},
+		"btnCheckOutWithPayPal": {
+			"type": "xpath",
+			"value": "//div[@id='co_bm_paypal']//a"
+		},
+		"lnkApplyAVoucher": {
+			"type": "xpath",
+			"value": "//*[@id='co_ba_gc_cont']//*[contains(text(),'Reward Card')]"
+		},            
+		"lnkEditCartByRecipient": {
+			"type": "xpath",
+			"value": "//div[@id='co_ba_shpmt_%s']//i[text()='edit']"
+		},
+		"eleTotalShippingFee": {
+			"type": "xpath",
+			"value": "//*[@id='os_ba_carttotals']/div[1]/div[2]/div[2]/div[2]/b"
+		},            
+		"eleExtraShippingFee": {
+			"type": "xpath",
+			"value": "//div[@id='co_ba_shpmt_%s']//div[@class='mar_t_s']/div[@class='float_r']"
+		},
+		"eleExtraShippingFee_mb": {
+			"type": "xpath",
+			"value": "//div[@id='co_ba_shpmt_%s']//div[@class='mar_t_xs os_style']"
+		},
+		"eleTaxAmount": {
+			"type": "xpath",
+			"value": "//div[text()='Tax']/following-sibling::div/b"
+		},
+		"eleCreditCardTab": {
+			"type": "xpath",
+			"value": "//a[@id='co_bm_cc_tab']"
+		},
+		"lblReWardCardCode": {
+			"type": "xpath",
+			"value": "//div[@id='co_ba_gc_cont']//div[contains(text(),\"%s\")]"
+		},
+		"btnRemoveReWardCardCode": {
+			"type": "xpath",
+			"value": "//div[@id='co_ba_gc_cont']//a[@class='co_ba_gcv_remove'][@id = \"%s\"]"
+		},
+		"lblRemainingCardBalance": {
+			"type": "xpath",
+			"value": "//div[text()='Remaining Card Balance']//following-sibling::div/b"
+		},
+		"eleAmountApplied": {
+			"type": "xpath",
+			"value": "//div[text()='Amount Applied']//following-sibling::div/b"
+		},
+		"elePromotionMsg": {
+			"type": "xpath",
+			"value": "//div[@id='co_ba_shpmt_%s']//div[contains(@id,'saved_ship_cont_')]//div[starts-with(@class,'mar_b_')]"
+		},
+		"eleShippingMethodLst": {
+			"type": "xpath",
+			"value": "//div[@id='co_ba_shpmt_%s']//div[input[contains(@name,'shipmeth')]]/b"
+		},
+		"cbShippingOptionsLst": {
+			"type": "xpath",
+			"value": "//div[@id='co_ba_shpmt_%s']//input[contains(@name,'shipmeth')]"
+		},
+		"cbShippingMethodByOption": {
+			"type": "xpath",
+			"value": "//div[@id='co_ba_shpmt_%1$s']//input[contains(@name,'shipmeth') and @title=\"%2$s\"] "
+		},
+		"eleShippingMethodByOption": {
+			"type": "xpath",
+			"value": "//div[@id='co_ba_shpmt_%1$s']//div[input[contains(@name,'shipmeth') and @title=\"%2$s\"]]"
+		},
+		"lbPromotionMsgInShippingAndDeliveryPopup": {
+			"type": "xpath",
+			"value": "//div[@id='os_modal']//label[div[input[@name='shipmeth' and @title=\"%s\"]]]//div[@class='os_style_s']"
+		},
+		"lbPromotionMsgInShippingAndDeliveryPopup_mb": {
+			"type": "xpath",
+			"value": "//div[@id='os_leftslideout_cont_new']//div[input[@name='shipment_id']]//div[b[text()=\"%s\"]]/div/div"
+		},
+		"linkDetail": {
+			"type": "xpath",
+			"value": "//div[@id='co_ba_shpmt_%s']//div[contains(@id,'saved_ship_cont_')]//a[.='details']"
+		},
+		"cbShippingOption": {
+			"type": "xpath",
+			"value": "//div[@id='co_ba_shpmt_%1$s']//input[contains(@name,'shipmeth') and @title=\"%2$s\"]"
+		},
+		"eleWeAreSorryModal": {
+			"type": "xpath",
+			"value": "//div[@id='os_modal_i']//div[text()=\"We're Sorry\"]"
+		},
+		"eleWeAreSorryModal_mb": {
+			"type": "xpath",
+			"value": "//div[@id='os_leftslideout_cont_new']//div[text()=\"We're Sorry\"]"
+		},
+		"elePromotionMsgAfterUpdateShippingMethod": {
+			"type": "xpath",
+			"value": "//div[@id='co_ba_shpmt_%s']//div[contains(@id,'saved_ship_cont_')]//div[contains(@class,'mar_t_xxs')]/div"
+		},
+		"titleShippingAndDeliveryPopup": {
+			"type": "xpath",
+			"value": "//div[@id='os_modal']//div[text()='Shipping & Delivery']"
+		},
+		"titleShippingAndDeliveryPopup_mb": {
+			"type": "xpath",
+			"value": "//div[@id='os_leftslideout_cont_new']//span[text()='Shipping & Delivery']"
+		},
+		"eleShippingSectionByRecipientName_mb": {
+			"type": "xpath",
+			"value": "//div[@id='co_ba_shpmt_%s']//div[contains(@id,'saved_ship_cont')]/a"
+		},
+		"eleShippingCostByOption": {
+			"type": "xpath",
+			"value": "//div[@id='co_ba_shpmt_%1$s']//div[input[contains(@name,'shipmeth') and @title=\"%2$s\"]]/following-sibling::div"
+		},
+		"lblCartChanged": {
+		    "type": "xpath",
+		    "value": "//*[@id='serverError']/ul/li"
+		},
+		"eleProcessing": {
+			"type": "xpath",
+			"value": "//span[@id='os_ba_processing']"
+		},
+		"eleProcessing_mb": {
+			"type": "xpath",
+			"value": "//div[not(@class='pad_s')]/div[@id='os_ba_cc_submit']/span[@id='os_ba_processing']"
+		},
+		"promotionMsgForShippingOption": {
+			"type": "xpath",
+			"value": "//div[contains(@id,'co_ba_shpmt')]//div[contains(@id,'saved_ship_cont')]//label[.//b[text()=\"%s\"]]//div[contains(@class,'os_style_s')]"
+		}
+	},
+	"ie": {
+		"cbSecondGreetingCardImageInModal": {
+			"type": "xpath",
+			"value": "(//div[@id='co_ba_go_cards_cont']//div[img[@class='co_go_card_img']])[2]//span[@class='os_ctrl']"
+		}
+	}
+}

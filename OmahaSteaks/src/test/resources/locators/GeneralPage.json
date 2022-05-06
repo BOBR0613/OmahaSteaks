@@ -1,0 +1,428 @@
+{
+	"default": {
+		"elePopModal": {
+			"type": "xpath",
+			"value": "//*[@id='os_modal']|//*[@id='os_leftslideout_cont_new']"
+		},
+		"eleExclusiveOfferPopup": {
+			"type": "xpath",
+			"value": "//*[@id='os_modal_i']//*[text()='Exclusive Offer']"
+		},
+		"eleExclusiveOfferTitle": {
+			"type": "xpath",
+			"value": "//*[@id='os_modal_i']//*[@id='patc_add_this']/div[1]"
+		},
+		"eleExclusiveOfferIID": {
+			"type": "xpath",
+			"value": "(//*[@id='os_modal_i']//input[@name='IID'])[2]"
+		},
+		"eleExclusiveOfferPrice": {
+			"type": "xpath",
+			"value": "//*[@id='os_modal_i']//span[contains(text(),'$')]"
+		}, 
+		"eleExclusiveOfferAddToCart": {
+			"type": "xpath",
+			"value": "//*[@id='os_modal_i']/span/div[1]/div/form/div/div[2]/a|//*[@id=\"buttonZone\"]/div[1]/div[1]/a"
+		},             
+		"eleExclusiveOfferNoThanks": {
+			"type": "xpath",
+			"value": "//*[@id='os_patc_ups_nt'] | //*[@id='os_modal_i']/span/div[1]/div/div[3]/div[2]/div/div[2]/a"
+		},
+		"eleAddToCartPopup": {
+			"type": "xpath",
+			"value": "//*[@id='os_patc']"
+		},
+		"eleAddToCartShipto": {
+			"type": "xpath",
+			"value": "//h2[contains(text(),'Ship To')]|//*[@id='os_patc']/div[2]/div[2]/div"
+		},           
+		"eleAddToCartItemTitle": {
+			"type": "xpath",
+			"value": "(//*[@id='os_patc_items']//h3)[%d]"
+		},            
+		"eleAddToCartItemIID": {
+			"type": "xpath",
+			"value": "(//*[@id='os_patc_items']//h3)[%d]/parent::div//span[@class='os_txt_p_m'] | (//h3)[%d]/parent::div//*[@class='sku_iid'] |  (//h3/parent::div//*[@class='sku_iid'])[%d]"
+		},     
+		"eleAddToCartItemSuffix": {
+			"type": "xpath",
+			"value": "(//*[@id='os_patc_items']//h3)[%d]/parent::div//span[@class='os_txt_p_m']"
+		},
+		"eleAddToCartItemPrice": {
+			"type": "xpath",
+			"value": "(//*[@id='os_patc_items']//h3)[%d]/parent::div//span[@class='fn_item_price os_h2'] | (//*[@id='os_patc_items']//h3)[%d]/parent::div/div[2]//span[contains(@class,'sku_full_price_total')]"
+		},                   
+		"eleAddToCartItemPrice2": {
+			"type": "xpath",
+			"value": "(//*[@id='os_patc_items']//h3)[%d]/parent::div/div[2]//span[contains(@class,'sku_price_total')] "
+		},                                           
+		"eleAddToCartItemQty": {
+			"type": "xpath",
+			"value": "(//div[@id='os_modal']//*[@class='sku_qty'])[%d]|(//*[@id='os_patc_items']//*[@id='patc_add_this']/div[3]/span[1])[%d]"
+		},
+		"eleAddToCartItemList": {
+			"type": "xpath",
+			"value": "//*[@id=\"os_patc_items\"]/div"
+		},
+		"eleAddToCartContinueShopping": {
+			"type": "xpath",
+			"value": "//*[contains(text(),'Continue Shopping')]"
+		},
+		"eleAddToCartCheckout": {
+			"type": "xpath",
+			"value": "(//a[text()='Checkout'])|(//*[text()='View My Cart'])"
+		},            
+		"eleAddToCartViewCart": {
+			"type": "xpath",
+			"value": "(//*[@id='os_patc_cs_co']/div[2]/div/a) | (//*[@id='os_patc_seccont']/div[1]/a)"
+		},             
+		"eleAddToCartUnlock": {
+			"type": "xpath",
+			"value": " //*[@id='os_patc_cti']/div/div/div[1]/a/div[2]/b|//*[text()='Congratulations!']|//*[contains(text(),'unlock')]|//div[text()='Special Deal Unlocked']|//*[@id='os_patc_cti']/div/div/a/div[2]/b|//div[text()='Special Deal Unlocked']|//div[text()='New Deal Unlocked']"
+		},                                                                                                                                                                                                        
+		"eleAddToCartUnlockNoThanks": {
+			"type": "xpath",
+			"value": "//*[contains(@class,'fn_hts_nothanks')]" 
+		},
+		"eleAddToCartUnlockAddItem": {
+			"type": "xpath",
+			"value": "//*[@id='patc_cart_tier_item']/div/div[2]/form/div[1]/button | //button[text()='Add to cart']"
+		},                                                                    
+		"eleAddToCartUnlockItemTitle": {
+			"type": "xpath",
+			"value": "//*[@id='patc_cart_tier_item']/div/div[3]/div[2]|//form[@name='upsellForm']//*[@id='patc_add_this']/div[1]"
+		},
+		"eleAddToCartUnlockItemPrice": {
+			"type": "xpath",
+			"value": "//*[@class='sku_price_total']|//form[@name='upsellForm']//*[@id='patc_add_this']/div[1]"
+		},
+		"eleOnFreeShipPackages": {
+			"type": "xpath",
+			"value": "//a[text()='Free Shipping Packages']"
+		},            
+		"btnCloseAddedToCart": {
+			"type": "xpath",
+			"value": "//*[@id='os_modal_close']"
+		},
+		"eleNavTabs": {
+			"type": "xpath",
+			"value": "//div[@id='os_nav_tabs']"
+		},
+		"eleNavCont_mb": {
+			"type": "xpath",
+			"value": "//div[@id='os_nav_cont']"
+		},
+		"eleSelectSizeAndCountWhenError_mb": {
+			"type": "xpath",
+			"value": "//div[@id='IID-error'][.//span[contains(text(),'Please Select Your Size & ')]]/parent::div/following-sibling::a[@class='os_opt_dd']"
+		},
+		"mainCategory": {
+			"type": "xpath",
+			"value": "//div[@class='os_nav_tab'][a[text()=\"%s\"]]"
+		},
+		"linkMainCategory": {
+			"type": "xpath",
+			"value": "//div[@class='os_nav_tab']/a[text()=\"%s\"]"
+		},
+		"mainCategory_mb": {
+			"type": "xpath",
+			"value": "//a[text()=\"%s\"]"
+		},
+		"btnViewMyCart": {
+			"type": "xpath",
+			"value": "(//div[@id='os_modal']//a[text()='Checkout']|//a[text()='View My Cart'])[1]"
+		},		
+		"btnCheckOut": {
+			"type": "xpath",
+			"value": "(//div[@id='os_modal']//*[text()='Checkout'])|(//div[@id='os_modal']//*[text()='View My Cart'])"
+		},            
+		"lnkMyCart": {
+			"type": "xpath",
+			"value": "//a[.//span[contains(@class,'icon-cart')]]"
+		},
+		"lnkMyCart_mb": {
+			"type": "xpath",
+			"value": "//a[./span[@class='os_cart_icon']/span[@class='icon-cart mar_r_m']]|//a[.//span[contains(@class,'icon-cart')]]"
+		},
+		"subCategory": {
+			"type": "xpath",
+			"value": ".//div[@class='clearfix'][not(./a)]/ div[not(./div[@class='clearfix'])]//a[text()=\"%s\"]"
+		},
+		"subCategory_mb": {
+			"type": "xpath",
+			"value": "//div[@class='os_txt_p_d pad_t_s' and text()=\"%s\"]"
+		},
+		"eleSku": {
+			"type": "xpath",
+			"value": "//form[@class='sku_options sku_opt_noscroll'][./a//div[normalize-space(text())=\"%s\"]]"
+		},
+		"eleSizeItem": {
+			"type": "xpath",
+			"value": ".//table[@class='sku_opt_table']//tr/td[text()=\"%s\"]/following-sibling::td/span"
+		},
+		"eleCountItem": {
+			"type": "xpath",
+			"value": ".//table[@class='sku_opt_table']//tr/td/span[text()=\"%s\"]"
+		},
+		"cbbSelectSizeAndCount": {
+			"type": "xpath",
+			"value": ".//a/span[@class='os_opt_dd_s']"
+		},
+		"cbbSelectShipTo": {
+			"type": "xpath",
+			"value": ".//select[@name='SHIPTO']"
+		}, 
+		"eleSelectShipTo": {
+			"type": "xpath",
+			"value": "//select[@name='SHIPTO']"
+		},
+		"cbbSelectShipTo_iPad": {
+			"type": "xpath",
+			"value": "(//form[.//select[@name='SHIPTO']][.//input[@name='sku_asavail']][not(.//ancestor::div[contains(@class,'slide_pane')])])[1]//select[@name='SHIPTO']"
+		},
+		"txtShipTo": {
+			"type": "xpath",
+			"value": ".//input[@name='NEWSHIPTO']"
+		},
+		"txtShipTo_iPad": {
+			"type": "xpath",
+			"value": "(//form[.//select[@name='SHIPTO']][.//input[@name='sku_asavail']][not(.//ancestor::div[contains(@class,'slide_pane')])])[1]//input[@name='NEWSHIPTO']"
+		},
+		"btnAddToCart": {
+			"type": "xpath",
+			"value": ".//button[contains(text(),'Add')]"
+		},
+		"btnAddToCart_iPad": {
+			"type": "xpath",
+			"value": "(//form[.//select[@name='SHIPTO']][.//input[@name='sku_asavail']][not(.//ancestor::div[contains(@class,'slide_pane')])])[1]//button[text()='Add To Cart']|(//form[.//select[@name='SHIPTO']][.//input[@name='sku_asavail']][not(.//ancestor::div[contains(@class,'slide_pane')])])[1]//button[span[@class='icon-cart'] and normalize-space(text())='Add']"
+		},
+		"elePrice": {
+			"type": "xpath",
+			"value": ".//div/span[contains(@class,'sku_price os_h1')]"
+		},
+		"eleItemAddedToCartOnPopup": {
+			"type": "xpath",
+			"value": "//div[@class='os_card_ds'][.//div[@class='os_label_m' and text()='Ship To: %1$s']][.//div[text()='%2$s']][.//div/span[text()='%3$s %5$s|%5$s %4$s count%5$s%5$s']]"
+		},
+		"lnkSignIn": {
+			"type": "xpath",
+			"value": "//a/span[text()='Sign In']"
+		},
+		"lnkSignIn_mb": {
+			"type": "xpath",
+			"value": "//a[@class='os_ul_a']/span[contains(@class,'icon-user')]"
+		},
+		"txtSearch": {
+			"type": "xpath",
+			"value": "//input[@id='searcharg']"
+		},
+		"btnSearch": {
+			"type": "xpath",
+			"value": "//button[contains(@class,'os_btn_s_m_sw')]"
+		},
+		"eleOpenMenu_mb": {
+			"type": "xpath",
+			"value": "//*[@id='os_header']/div/div/div"
+		},
+		"formSearch": {
+			"type": "xpath",
+			"value": "//form[@id='os_hd_search_form']"
+		},
+		"formSearch_mb": {
+			"type": "xpath",
+			"value": "//form[@class='os_hd_search_form']"
+		},
+		"btnCloseAddedToCartPage_mb": {
+			"type": "xpath",
+			"value": "//div[@class='os_tablecell_vm pad_m']"
+		},
+		"eleCartNumber": {
+			"type": "xpath",
+			"value": "//span[@class='os_cart_icon']/span[contains(@class,'os_cart_count_c')]/span"
+		},
+		"btnCloseModal": {
+			"type": "xpath",
+			"value": "//div[@id='os_modal']//div[@id='os_modal_close']|//div[@id='os_modal']//a[text()='Close']|//span//div[@class='float_r icon-cross2']"
+		},
+		"btnContinueInModal": {
+			"type": "xpath",
+			"value": "//div[@id='os_modal']//*[text()='Continue']"
+		},
+		"eleAddedToCartModal": {
+			"type": "xpath",
+			"value": "//div[@id='os_modal_i']//div[@class='os_card_ds']|//div[@id='os_modal_i']//*[text()='Added to Cart']"
+		},
+		"eleAddedToCartModal_mb": {
+			"type": "xpath",
+			"value": "//div[@id='os_patc']"
+		},
+		"eleAddedToCartShipToLabel": {
+			"type": "xpath",
+			"value": "//*[contains(text(),'Ship To:')]"
+		},
+		"eleAddedToCartShipToLabel_mb": {
+			"type": "xpath",
+			"value": "//div[@id='os_patc']//div[@class='os_label_s']"
+		},
+		"eleAddedToCartSKUList": {
+			"type": "xpath",
+			"value": "//form[@class='sku_total_price sku_patc']"
+		},
+		"eleAddedToCartSKUList_mb": {
+			"type": "xpath",
+			"value": "//div[@id='os_patc']//div[@id='os_patc_items']//form[contains(@class,'sku_total_price')]"
+		},
+		"eleAddedToCartSKUNameList": {
+			"type": "xpath",
+			"value": "//div[@id='os_patc_items']//form[@class='sku_total_price sku_patc']//div[@class='os_h3 os_style_lhf']"
+		},
+		"eleAddedToCartSKUNameList_mb": {
+			"type": "xpath",
+			"value": "//div[@id='os_patc_items']//form[@class='sku_total_price os_patc_item_form sku_patc']//div[@class='os_style_l']"
+		},
+		"eleAddedToCartSKU_iidList": {
+			"type": "xpath",
+			"value": "//span[@class='sku_iid']"
+		},
+		"eleAddedToCartSKU_iidList_mb": {
+			"type": "xpath",
+			"value": "//div[@id='os_patc_items']//form[@class='sku_total_price os_patc_item_form sku_patc']//span[@class='sku_iid']"
+		},
+		"eleAddedToCartSKU_suffixList": {
+			"type": "xpath",
+			"value": "//div[@id='os_patc_items']//form[@class='sku_total_price sku_patc']//span[@class='sku_suffix']"
+		},
+		"eleAddedToCartSKU_suffixList_mb": {
+			"type": "xpath",
+			"value": "//div[@id='os_patc_items']//form[@class='sku_total_price os_patc_item_form sku_patc']//span[@class='sku_suffix']"
+		},
+		"eleSpecialDealUnlockedModal": {
+			"type": "xpath",
+			"value": "//*[text()='Special Deal Unlocked']|//*[text()='Congratulations!']"
+		},
+		"eleSpecialDealUnlockedModal_mb": {
+			"type": "xpath",
+			"value": "//div[@id='patc_cart_tier_item']//div[contains(.,' Special Deal Unlocked')]"
+		},
+		"btnSpecialDealUnlocked_AddToCart": {
+			"type": "xpath",
+			"value": ".//div[text()='Add to cart']"
+		},
+		"btnSpecialDealUnlocked_AddToCart_mb": {
+			"type": "xpath",
+			"value": ".//div[text()=' Add']"
+		},
+		"btnSpecialDealUnlocked_NoThanks": {
+			"type": "xpath",
+			"value": ".//div[text()='No Thanks']"
+		},
+		"eleLoadingIcon": {
+			"type": "xpath",
+			"value": "//div[@id='os_spinner']|//span[@class='icon-spinner3']|//div[@class='os_postload_cont']"
+		},
+		"eleEmptyRecipientWarning": {
+			"type": "xpath",
+			"value": "//*[@id='stse_shipto-error']/span | //*[@id='stse_shipto_name-error']/span | //*[@id='NEWSHIPTO-error']/span"
+		},       
+		"eleMessagePopup": {
+			"type": "xpath",
+			"value": "//*[@id='modalDiv']/div/div|//div[@id='os_modal_i']/div|//div[@id='os_modal_i']//div[@class='pad_t_l']|//div[@id='os_modal_i']//div[@class='pad_t_m']"
+		},
+		"lnkDepartment": {
+			"type": "xpath",
+			"value": "//div[@class='os_nav_tab'][./a[text()=\"%s\"]]"
+		},
+		"eleCategoryWithSubCategory": {
+			"type": "xpath",
+			"value": "//div[@class='pad_b_m border_b'][//h2[text()='%1$s']]//a[contains(text(),'%2$s')]"
+		},
+		"eleCategoryWithSubCategory_mb": {
+			"type": "xpath",
+			"value": "//div[.//b[normalize-space(text())='%1$s']]//a[contains(text(),'%2$s')]"
+		},
+		"lnkSideMenuItem": {
+			"type": "xpath",
+			"value": "//a[contains(@aria-label,\"%s\")]"
+		},
+		"lnkSideMenuItem_mb": {
+			"type": "xpath",
+			"value": "//a[text()=\"%s\"]"
+		},
+		"eleFirstSizeAndCount": {
+			"type": "xpath",
+			"value": "//tbody[@class='sku_opt_list_cont']//tr[1]/td[contains(@class,'txt_c pad_t')]"
+		},
+		"eleFirstCount": {
+			"type": "xpath",
+			"value": "//tbody[@class='sku_opt_list_cont']//tr[1]/td[contains(@class,'txt_c pad_t')]/span"
+		},
+		"ele_FirstSKUSelectSizeAndCount": {
+			"type": "xpath",
+			"value": "(//form[.//select[@name='SHIPTO']][.//input[@name='sku_asavail']])[1]//a[./span[@class='os_opt_dd_s']]"
+		},
+		"eleMyAccountInTopModal": {
+			"type": "xpath",
+			"value": "//div[contains(@class,'border')]//span[text()='My Account' or text()='Sign In']"
+		},
+		"eleMyAccountInTopModal_mb": {
+			"type": "xpath",
+			"value": "//a[.//span[contains(@class,'icon-user')]]"
+		},
+		"ele_FirstSKUForm": {
+			"type": "xpath",
+			"value": "//form[contains(@class,'sku')]"
+		},            
+		"ele_FirstSKUName": {
+			"type": "xpath",
+			"value": "(//form[.//select[@name='SHIPTO']][.//input[@name='sku_asavail']][not(.//ancestor::div[contains(@class,'slide_pane')])][.//button[contains(text(),'Add')]])[1]/div[2]/a/div|(//form[.//select[@name='SHIPTO']][.//input[@name='sku_asavail']][not(.//ancestor::div[contains(@class,'slide_pane')])][.//button[contains(text(),'Add')]])[1]/a/div[2]/div[1]|(//form[.//select[@name='SHIPTO']][.//input[@name='sku_asavail']][not(.//ancestor::div[contains(@class,'slide_pane')])][.//button[contains(text(),'Add')]])[1]/div/div/div[2]/a/div[1]/div[1]"
+		},            
+		"ele_FirstSkuPrice": {
+			"type": "xpath",
+			"value": "(//form[.//select[@name='SHIPTO']][.//input[@name='sku_asavail']][not(.//ancestor::div[contains(@class,'slide_pane')])][.//button[contains(text(),'Add')]])[1]/div[2]/a/div|(//form[.//select[@name='SHIPTO']][.//input[@name='sku_asavail']][not(.//ancestor::div[contains(@class,'slide_pane')])][.//button[contains(text(),'Add')]])[1]/a/div[2]/div[1]|(//form[.//select[@name='SHIPTO']][.//input[@name='sku_asavail']][not(.//ancestor::div[contains(@class,'slide_pane')])][.//button[contains(text(),'Add')]])[1]/div/div/div[2]/a/div[1]/div[1]//*[contains(@class,'sku_price')]"
+		},            
+		"eleSkuPrice": {
+			"type": "xpath",
+			"value": "//div[contains(.,'Added To Cart')][@class='clearfix']//span[@class='sku_price_total']"
+		},
+		"eleWineRestrictionLabel": {
+			"type": "xpath",
+			"value": "//*[@id='os_patc_items']/div/div[3]/div[1] | //div[@class='os_patc_item pad_t_m pad_b_m pad_l_l pad_r_l clearfix border_t']/div[2] | //div[@class='border_t mar_t_s']"
+		},             
+		"lnkLogo": {
+   			"type": "xpath",
+   			"value": "//*[@id='os_checkout_header']/div/div/div/div/div/a/img"
+  		},
+		"JFYModal": {
+			"type": "xpath",
+			"value": "//div[@id='os_modal_i']//div[text()='Just For You']"
+		},
+		"txtNumberInVoucherModal": {
+			"type": "xpath",
+			"value": "//input[@id='co_ba_gc_num']"
+		},
+		"btnSubmitInVoucherModal": {
+			"type": "xpath",
+			"value": "//button[@id='gc_submit_btn']"
+		},
+		"eleErrorMessageInVoucherModal": {
+			"type": "xpath",
+			"value": "//*[@id='os_leftslideout_cont_new']//p | //*[@id='os_modal_i']/span/div/div/div/div[2]/p|//*[@id='co_ba_gc_num-error']/span"
+		},           
+		"lnkSignOut": {
+			"type": "xpath",
+			"value": "//div[contains(@class,'border_t pad_s os_style os_bg_background')]/a|//div[contains(@class,'pad_b_m')]//a[@class='os_txt_p_m']"
+		},
+		"eleFirstSKUOutOfStock": {
+			"type": "xpath",
+			"value": "(//form[@class='sku_options sku_opt_noscroll'])[1]//*[text()='Out of Stock']"
+		},
+		"eleWinFreeSteaksPage": {
+			"type": "xpath",
+			"value": "//*[@id='mealsandoccasions']//*[text()='Enter Today']"
+		},
+		"lnkStores": {
+			"type": "xpath",
+			"value": "//a[span[text()='Stores']]"
+		}
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"default": {
+		"eleProgressiveOffersByClass": {
+			"type": "xpath",
+			"value": "//*[@id='saleTabPromos']//*[@role=\"tab\"]"
+		},
+		"eleProgressiveOffersByIndex": {
+			"type": "xpath",
+			"value": "(//*[@id='saleTabPromos']//*[@role=\"tab\"])[%d]"
+		},
+		"eleProgressiveOffersByName": {
+			"type": "xpath",
+			"value": "//*[@id='saleTabPromos']//*[contains(text(),\"%s\")]"
+		},
+		"eleProgressiveOffersByName_mb": {
+			"type": "xpath",
+			"value": "//*[@id='saleTabPromos']//div[b[normalize-space(text())=\"%s\"]]"
+		},
+		"txtEmailInProgressiveOffersTab": {
+			"type": "xpath",
+			"value": "//form[@id='os_xe_form']//input[@name='emailFrom']"
+		},
+		"eleEmailError": {
+			"type": "xpath",
+			"value": "(//div[@id='emailFrom-error']/span)"
+		},
+		"eleIAgreeError": {
+			"type": "xpath",
+			"value": "(//div[@id='os_esu_ft_optin-error']/span)"
+		},
+		"btnSubmit": {
+			"type": "xpath",
+			"value": "//form[@id='os_xe_form']//button[text()='Submit']"
+		},
+		"cbIAgree": {
+			"type": "xpath",
+			"value": "//form[@id='os_xe_form']//input[@name='os_esu_ft_optin']"
+		},
+		"eleYouareInModal": {
+			"type": "xpath",
+			"value": "//div[@id='os_modal_i']//div[text()=\"You're In!\"]"
+		}
+	}
+}

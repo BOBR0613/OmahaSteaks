@@ -1,0 +1,476 @@
+{
+	"default": {
+		"eleAddressBook": {
+			"type": "xpath",
+			"value": "//span[@class='icon-address-book']"
+		},
+		"eleFreeFoodItemPoints": {
+			"type": "xpath",
+			"value": "//td[@class='osd_txt_gold']"
+		},		
+		"btnRenewGoldMbr": {
+			"type": "xpath",
+			"value": "//button[contains(text(),'RENEW NOW')]"
+		},		
+		"btnEditAddressByRecipientName": {
+			"type": "xpath",
+			"value": "(//td[text()=\"%s\"]/parent::tr/following-sibling::tr)[1]//*[@alt='Edit Address']"
+		},
+		"lstBtnDeleteAddressByRecipientName": {
+			"type": "xpath",
+			"value": "//tr[td[@class='memberbar' and contains(text(),\"%s\")]]/following-sibling::tr[1]//input[@alt='Delete Address']"
+		},
+		"btnDeleteAddressByRecipientName": {
+			"type": "xpath",
+			"value": "(//tr[td[@class='memberbar' and contains(text(),\"%s\")]]/following-sibling::tr[1]//input[@alt='Delete Address'])[1]"
+		},
+		"lstBtnDeleteAddressByRecipientName_mb": {
+			"type": "xpath",
+			"value": "//div[em[contains(text(),\"%s\")]]//a[text()='Delete']"
+		},
+		"btnDeleteAddressByRecipientName_mb": {
+			"type": "xpath",
+			"value": "(//div[em[contains(text(),\"%s\")]]//a[text()='Delete'])[1]"
+		},
+		"btnDeleteAddressBook": {
+			"type": "xpath",
+			"value": "//input[@name='DELETE']"
+		},
+		"btnEditAddressByRecipientName_mb": {
+			"type": "xpath",
+			"value": "//div[em[text()=\"%s\"]]//a[text()='Edit']"
+		},
+		"txtFirstName": {
+			"type": "xpath",
+			"value": "//input[@name='firstName']"
+		},
+		"txtLastName": {
+			"type": "xpath",
+			"value": "//input[@name='lastName']"
+		},
+		"txtPhone": {
+			"type": "xpath",
+			"value": "//input[@name='phoneDay']"
+		},
+		"txtCompanyName": {
+			"type": "xpath",
+			"value": "//input[@name='companyName']"
+		},
+		"txtAddress1": {
+			"type": "xpath",
+			"value": "//input[@name='address1']"
+		},
+		"txtAddress2": {
+			"type": "xpath",
+			"value": "//input[@name='address2']"
+		},
+		"txtAptSuite": {
+			"type": "xpath",
+			"value": "//input[@name='apartment']"
+		},
+		"txtCity": {
+			"type": "xpath",
+			"value": "//input[@name='city']"
+		},
+		"txtZip": {
+			"type": "xpath",
+			"value": "//input[@name='zipCode']"
+		},
+		"cbbCountry": {
+			"type": "xpath",
+			"value": "//select[@name='country']"
+		},
+		"cbbState": {
+			"type": "xpath",
+			"value": "//select[@name='state']"
+		},
+		"btnUpdate": {
+			"type": "xpath",
+			"value": "//input[@name='SUBMIT']"
+		},
+		"radOption": {
+			"type": "xpath",
+			"value": "//div[.//input[@checked]]/input[@value]"
+		},
+		"cbbTitle": {
+			"type": "xpath",
+			"value": "//td/select[@id='title']"
+		},
+		"btnEditBillingAddress": {
+			"type": "xpath",
+			"value": " //div[@id='os_scroll_cont']//tr[td[text()='BILLING ADDRESS']]//following::tr[1]//img"
+		},
+		"btnEditBillingAddress_mb": {
+			"type": "xpath",
+			"value": "//div[@id='billing_address']/div[@class='mbraddrlinks']/a[text()='Edit']"
+		},
+		"cbbbirthdayMonth": {
+			"type": "xpath",
+			"value": "//select[@id='BIRTHDAYMM']"
+		},
+		"cbbbirthdayDay": {
+			"type": "xpath",
+			"value": "//select[@id='BIRTHDAYDD']"
+		},
+		"cbCheckShippingAddressSameBillingAddress": {
+			"type": "xpath",
+			"value": "//input[@id='shipSameAsBilling']"
+		},
+		"eleInformationBillingAddress": {
+			"type": "xpath",
+			"value": "//div[@id='os_scroll_cont']//tr[td[text()='BILLING ADDRESS']]//following::tr[1]/td[1]"
+		},
+		"lblBillingAddress": {
+			"type": "xpath",
+			"value": "//div[@id='os_scroll_cont'][.//tr[contains(.,'BILLING ADDRESS')]]"
+		},
+		"eleInformationBillingAddress_mb": {
+			"type": "xpath",
+			"value": "//a[text()='My Billing Address']//following::div[@id='billing_address']"
+		},
+		"eleInformationMyselfShippingAddress": {
+			"type": "xpath",
+			"value": "//div[@id='os_scroll_cont']//tr[td[text()='Myself']]//following::tr[1]/td[1]"
+		},
+		"eleInformationMyselfShippingAddress_mb": {
+			"type": "xpath",
+			"value": "//a[text()='My Shipping Address']//following::div[@id='shipping_address']"
+		},
+		"txtEmailAddress": {
+			"type": "xpath",
+			"value": "//input[@name='USERNAME']"
+		},
+		"txtPassword": {
+			"type": "xpath",
+			"value": "//input[@name='PASSWORD']"
+		},
+		"txtConfirmPassword": {
+			"type": "xpath",
+			"value": "//input[@name='CONFIRMPASSWORD']"
+		},
+		"btnJoin": {
+			"type": "xpath",
+			"value": "//input[@alt='Create New Account']"
+		},
+		"btnJoin_mb": {
+			"type": "xpath",
+			"value": "//input[@value='Create Account']"
+		},
+		"eleContactPreferences": {
+			"type": "xpath",
+			"value": "//div[div[text()='Account Settings']]//a[text()='Contact Preferences']"
+		},
+		"eleOptionSeeDeal": {
+			"type": "xpath",
+			"value": "//form[@id='os_epref_form_m']/div[@class='mar_t_m']/input[@id='os_epref_1_%s_m']"
+		},
+		"eleOtionSteakloverRewards": {
+			"type": "xpath",
+			"value": "//form[@id='os_epref_form_m']/div[@class='mar_t_m']/input[@id='os_epref_2_%s_m']"
+		},
+		"btnUpdatePreferences": {
+			"type": "xpath",
+			"value": "//form[@id='os_epref_form_m']//button[text()='Update Preferences']"
+		},
+		"btnUpdatePhonePreferences": {
+			"type": "xpath",
+			"value": "//form[@id='os_ppref_form_m']//button[text()='Update Preferences']"
+		},
+		"btnMakeAdditionalChanges": {
+			"type": "xpath",
+			"value": "//a[normalize-space(text())='Make Additional Changes']"
+		},
+		"btnMakeAdditionalChanges_mb": {
+			"type": "xpath",
+			"value": "//a[contains(.,'Make Additional Changes')]"
+		},
+		"lnkAccountSettings": {
+			"type": "xpath",
+			"value": "//div[div[text()='Account Settings']]//a[text()=\"%s\"]"
+		},
+		"lnkMyOmahaSteaks": {
+			"type": "xpath",
+			"value": "//div[div[text()='My Omaha Steaks']]//a[text()=\"%s\"]"
+		},
+		"lnkAccountSettings_mb": {
+			"type": "xpath",
+			"value": "//div[@class='os_acrdn_content']//a[text()=\"%s\"]"
+		},
+		"eleAccountSettings_mb": {
+			"type": "xpath",
+			"value": "//div[h2[text()='Account Settings']]"
+		},
+		"eleMyOmahaSteaks_mb": {
+			"type": "xpath",
+			"value": "//div[h2[text()='My Omaha Steaks']]"
+		},
+		"cbJoinReward": {
+			"type": "xpath",
+			"value": "//input[@name='enrollLoyalty']"
+		},
+		"btnYesDelete": {
+			"type": "xpath",
+			"value": "//input[normalize-space(@alt)='Yes, Delete My Information']"
+		},
+		"btnYesDelete_mb": {
+			"type": "xpath",
+			"value": "//input[normalize-space(@value)='Delete Account']"
+		},
+		"eleErrorMessage": {
+			"type": "xpath",
+			"value": "//div[@id='errormsg_div1']"
+		},
+		"txtNewEmailForChangeEmailAddress": {
+			"type": "xpath",
+			"value": "//input[@name='BA_EMAIL']"
+		},
+		"txtNewEmailForChangeEmailAddress_mb": {
+			"type": "xpath",
+			"value": "//input[@name='BA_EMAIL']"
+		},
+		"txtConfirmEmailForChangeEmailAddress": {
+			"type": "xpath",
+			"value": "//input[@name='BA_EMAIL_CONFIRM']"
+		},
+		"txtConfirmEmailForChangeEmailAddress_mb": {
+			"type": "xpath",
+			"value": "//input[@name='BA_EMAIL_CONFIRM']"
+		},
+		"btnUpdateChangeEmail": {
+			"type": "xpath",
+			"value": "//input[@name='UPDATE']"
+		},
+		"btnUpdateChangeEmail_mb": {
+			"type": "xpath",
+			"value": "//input[@class='button'][@type='submit']"
+		},
+		"eleWelcomeMembership": {
+			"type": "xpath",
+			"value": "//span[@class='icon-user']//following-sibling::span"
+		},
+		"eleOptionsContactPreferences": {
+			"type": "xpath",
+			"value": "//label[contains(text(),\"%s\")]/preceding-sibling::input[1]"
+		},
+		"eleOptionsContactPreferences_mb": {
+			"type": "xpath",
+			"value": "(//form[@id='os_epref_form_m']//label[contains(.,\"%s\")]//preceding-sibling::input)[1]"
+		},
+		"eleSteakloverRewardsOptionsContactPreferences_mb": {
+			"type": "xpath",
+			"value": "(//form[@id='os_epref_form_m']//label[contains(.,\"%s\")]//preceding-sibling::input)[2]"
+		},
+		"eleOptionsPhonePreferences_mb": {
+			"type": "xpath",
+			"value": "//form[@id='os_ppref_form_m']//label[contains(.,\"%s\")]//preceding-sibling::input"
+		},
+		"elePhonePreferencesTab": {
+			"type": "xpath",
+			"value": "//a[contains(.,'PHONE PREFERENCES')]"
+		},
+		"elePhonePreferencesTab_mb": {
+			"type": "xpath",
+			"value": "(//div[@id='os_modal_i']//div[contains(.,'PHONE')])[4]"
+		},
+		"elePhonePreferencesContent_mb": {
+			"type": "xpath",
+			"value": "(//div[@id='os_modal_i']//div[contains(.,'PHONE')])//div[form[@id='os_ppref_form_m']]"
+		},
+		"txtPhoneForPhonePrerences": {
+			"type": "xpath",
+			"value": "//input[@id='os_ppref_phone']"
+		},
+		"txtPhoneForPhonePrerences_mb": {
+			"type": "xpath",
+			"value": "//input[contains(@class,'os_ppref_phone')]"
+		},
+		"eleCloseContactModal": {
+			"type": "xpath",
+			"value": "//div[@id='os_modal_close']/span"
+		},
+		"btnLogIn": {
+			"type": "xpath",
+			"value": "//input[@name='Login']"
+		},
+		"eleSocialNetworkIconByName": {
+			"type": "xpath",
+			"value": "//img[@alt =\"%s\"]"
+		},
+		"eleRewardsPoint": {
+			"type": "xpath",
+			"value": "//h2[b[text()='Current Point Total']]/following-sibling::strong"
+		},
+		"eleRewardsPoint_mb": {
+			"type": "xpath",
+			"value": "//b[contains(text(),'Current Point Total')]/b"
+		},
+		"btnCreateNewAddress": {
+			"type": "xpath",
+			"value": "//input[@name ='CREATE']"
+		},
+		"btnCreateNewAddress_mb": {
+			"type": "xpath",
+			"value": "//a[contains(text(),'Add New Address')]"
+		},
+		"txtShoppingName": {
+			"type": "xpath",
+			"value": "//input[@name ='nickName']"
+		},
+		"eleInformationRecipientShippingAddress": {
+			"type": "xpath",
+			"value": "//div[@id='os_scroll_cont']//tr[td[text()=\"%s\"]]//following::tr[1]/td[1]"
+		},
+		"eleInformationRecipientShippingAddress_mb": {
+			"type": "xpath",
+			"value": "//div[em[contains(text(),\"%s\")]]"
+		},
+		"lblRecipientShippingAddress": {
+			"type": "xpath",
+			"value": "//table//td[@class='memberbar'][text()=\"%s\"]"
+		},
+		"eleErrorMessageByField": {
+			"type": "xpath",
+			"value": "//div[@id='ErrorBox']//tr[./td//a[contains(text(),\"%s\")]]/td/span[not(./a)]"
+		},
+		"eleErrorMessageByCreateAccountField_mb": {
+			"type": "xpath",
+			"value": "//div[@id='div_eoneError']//div[contains(text(),\"%s\")]"
+		},
+		"eleErrorMessageByField_mb": {
+			"type": "xpath",
+			"value": "//div[@id='div_eoneError']//div[@class='errorbody'][./a[contains(text(),\"%s\")]]"
+		},
+		"radioBtnCompanyAddress": {
+			"type": "xpath",
+			"value": "//input[@id='companyAddress']"
+		},
+		"radioBtnCompanyAddress_mb": {
+			"type": "xpath",
+			"value": "//input[@name='companyFlag' and @value='C']"
+		},
+		"radioBtnResidentialAddress": {
+			"type": "xpath",
+			"value": "//input[@id='residentialAddress']"
+		},
+		"radioBtnResidentialAddress_mb": {
+			"type": "xpath",
+			"value": "//input[@name='companyFlag' and @value='I']"
+		},
+		"btnCancel": {
+			"type": "xpath",
+			"value": "//a[img[contains(@src,'/gifs/new/btn10_cancel1t.gif')]]"
+		},
+		"btnCancel_mb": {
+			"type": "xpath",
+			"value": "//a[text()='Cancel']"
+		},
+		"eleAddressWarning": {
+			"type": "xpath",
+			"value": "//div[@id='stdaddr_msgtxt']"
+		},
+		"eleErrorMsgInEmailPreferencesTab": {
+			"type": "xpath",
+			"value": "//div[@id='BA_EMAIL-error']"
+		},
+		"eleErrorMsgInEmailPreferencesTab_mb": {
+			"type": "xpath",
+			"value": "//div[@id='BA-EMAIL-error']|//div[@id='BA_EMAIL-error']"
+		},
+		"txtEmailAddressInEmailPreferencesTab": {
+			"type": "xpath",
+			"value": "//input[@name='BA_EMAIL']"
+		},
+		"eleErrorForPhoneTxtScheduleYourCallTimesPopup": {
+			"type": "xpath",
+			"value": "//div[@id='BA_PHONE-error']"
+		},
+		"linkScheduleMyCallTimes": {
+			"type": "xpath",
+			"value": "//i[text()='Schedule my call times']"
+		},
+		"eleWarningDoNotCallMe": {
+			"type": "xpath",
+			"value": "//div[@id='os_ppref_ps_warn_m']"
+		},
+		"eleWarningDoNotCallMe_mb": {
+			"type": "xpath",
+			"value": "//div[@class='os_ppref_ps_warn']"
+		},
+		"eleErrorForPhoneTxtInPhonePreferencesTab": {
+			"type": "xpath",
+			"value": "//div[@id='os_ppref_phone-error']"
+		},
+		"eleErrorForPhoneTxtInPhonePreferencesTab_mb": {
+			"type": "xpath",
+			"value": "//div[@id='BA_PHONE-error']"
+		},
+		"txtPhoneInPhoneNumberPreferencesTab": {
+			"type": "xpath",
+			"value": "//input[@name='BA_PHONE']"
+		},
+		"btnSubmitInScheduleYourCallTimesPopup": {
+			"type": "xpath",
+			"value": "//button[text()='Submit']"
+		},
+		"eleErrorBox": {
+			"type": "xpath",
+			"value": "//div[@id='ErrorBox']"
+		},
+		"eleErrorBox_mb": {
+			"type": "xpath",
+			"value": "//div[@id='errormsg_div1']"
+		},
+		"eleValidationConfirmEmailAddress": {
+			"type": "xpath",
+			"value": "//div[@id='ErrorDiv']"
+		},
+		"eleErrorEmailAddressWasNotChanged": {
+			"type": "xpath",
+			"value": "//div[@id='ErrorBox']//tr[./td//a[contains(text(),'Email address')]]/td/span[not(./a)]"
+		},
+		"eleErrorEmailAddressWasNotChanged_mb": {
+			"type": "xpath",
+			"value": "//div[@id='div_eoneError']//div[@class='errorbody'][contains(text(),'Email')]"
+		},
+		"eleNameOfMonthlyFreeFood": {
+			"type": "xpath",
+			"value": "//table[@class='rewardsTable']//tr[./td[text()='FREE']]//td[1]"
+		},
+		"eleMinPoint": {
+			"type": "xpath",
+			"value": "//table[@class='rewardsTable']//td[@class='txt_c']"
+		},
+		"eleJoinSteakloverRewardsModal": {
+			"type": "xpath",
+			"value": "//div[@id='os_modal_i']//div[@id='loyaltyJoinWindow' and //img[@src='/gifs/os/slr_mark.svg']]"
+		},
+		"eleRewardTab_mb": {
+			"type": "xpath",
+			"value": "//a[@id='rewardsTab']"
+		},
+		"btnJoinToday": {
+			"type": "xpath",
+			"value": "//a[text()='Join Today']"
+		},
+		"btnJoinToday_mb": {
+			"type": "xpath",
+			"value": "//button[text()='Join Today']"
+		},
+		"eleHeading1": {
+			"type": "xpath",
+			"value": "//h1[contains(@class,'os_h1')]"
+		},
+		"eleUserStatusInSLRPage": {
+			"type": "xpath",
+			"value": "//div[@id='loyaltyDashboard']//b[./i]"
+		},
+		"eleUserStatusInSLRSection": {
+			"type": "xpath",
+			"value": "//div[contains(@class,'os_style')]//div[@class='mar_t_xs' and not(./b)]"
+		},
+		"elegoldstatus": {
+			"type": "xpath",
+			"value": "//div[@class='mar_t_xs']/img[contains(@src,'slr_gold')]"
+		}
+	}
+}

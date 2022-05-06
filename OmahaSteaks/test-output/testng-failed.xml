@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="com.omahasteaks.utils.config.TestListener"/>
+  </listeners>
+  <test thread-count="1" name="Chrome Desktop(failed)">
+    <parameter name="mode" value="desktop"/>
+    <parameter name="reRunFailedTests" value="0"/>
+    <parameter name="browser" value="chrome.local"/>
+    <parameter name="failurePercentage" value="100"/>
+    <classes>
+      <class name="com.omahasteaks.tests.ShippingOptions.TC_SOP_005_UserCanCompleteCheckoutWithExpressDelivery">
+        <methods>
+          <include name="start"/>
+          <include name="cleanUp"/>
+          <include name="TC_SOP_005_User_Can_Complete_Checkout_With_Express_Delivery_Shipping"/>
+          <include name="beforeMethod"/>
+          <include name="sendHtmlReport"/>
+        </methods>
+      </class> <!-- com.omahasteaks.tests.ShippingOptions.TC_SOP_005_UserCanCompleteCheckoutWithExpressDelivery -->
+    </classes>
+  </test> <!-- Chrome Desktop(failed) -->
+</suite> <!-- Failed suite [Suite] -->

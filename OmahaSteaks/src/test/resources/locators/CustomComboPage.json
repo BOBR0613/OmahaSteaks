@@ -1,0 +1,64 @@
+{
+	"default": {
+		"lbComboName": {
+			"type": "xpath",
+			"value": "//form[input[@name='fromForm']]//h1"
+		},
+		"lbEditCombo_mb": {
+			"type": "xpath",
+			"value": "//span[text()='Edit Items']"
+		},
+		"cbbShipTo": {
+			"type": "xpath",
+			"value": "//form//select[@name='SHIPTO']"
+		},
+		"txtNewShipTo": {
+			"type": "xpath",
+			"value": "//form//input[@name='NEWSHIPTO']"
+		},
+		"btnAddToCart": {
+			"type": "xpath",
+			"value": "//form//button[text()='Add To Cart']"
+		},
+		"btnSaveEdits": {
+			"type": "xpath",
+			"value": "//form//button[text()='Save Edits']"
+		},
+		"lstItemGroups": {
+			"type": "xpath",
+			"value": "//div[contains(@class,'cc_item_group_items')]"
+		},
+		"lstBtnSelectItems": {
+			"type": "xpath",
+			"value": "//div[@class='cc_item_group'][%d]//div[@class='os_grid_p']/div[contains(@class, 'cc_item')]//a[text()='Select']"
+		},
+		"btnRemoveItemByGroupIndex": {
+			"type": "xpath",
+			"value": "(//div[@class='cc_item_group'])[%d]//a[@class='cc_item_remove']"
+		},
+		"btnRemoveItemByGroupIndex_mb": {
+			"type": "xpath",
+			"value": "(//div[@class='cc_item_group os_grid_mar_b_m'])[%d]//a[@class='cc_item_remove']"
+		}	,
+		"eleNumberOfRemainItem": {
+			"type": "xpath",
+			"value": "//div[contains(@class,'cc_remaining_ct')]"
+		},
+		"lbComboName_mb": {
+			"type": "xpath",
+			"value": "//div[@class = 'clearfix os_bg_p_xd']//div[contains(@class,'os_txt_ds ')]"
+		},
+		"eleNumberOfRemainItem_mb": {
+			"type": "xpath",
+			"value": "//i[contains(@class,'cc_remaining_ct')]"
+		},
+		"lstBtnSelectItems_mb": {
+			"type": "xpath",
+			"value": "//div[@class = 'cc_item_group os_grid_mar_b_m'][%d]//div[@class='os_grid_p']//a[text()='Select']"
+		},
+		"lstSelectedItems": {
+			"type": "xpath",
+			"value": "//div[contains(@class,'cc_item_group_selected_c')]//div[contains(@class,'os_sh4')]"
+		}	
+	}
+}

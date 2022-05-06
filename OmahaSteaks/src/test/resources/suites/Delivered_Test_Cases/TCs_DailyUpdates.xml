@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="1" parallel="false">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="com.omahasteaks.utils.config.TestListener" /> 
+	</listeners>
+
+	<test name="Run Chrome Latest">
+		<parameter name="mode" value="desktop" />
+		<parameter name="browser" value="chrome.local" />
+		<parameter name="reRunFailedTests" value="0" />
+		<parameter name="failurePercentage" value="100" />
+
+		<classes>
+                <class name="com.omahasteaks.tests.Checkout_2Step.NegativeCases.TC_2SCON_006_PaymentAndReviewWithBlankAndInvalidCreditAndExpirationDate" />  
+                <class name="com.omahasteaks.tests.Checkout_2Step.PositiveCases.TC_2SCOP_008_SelectAndEditShippingMethodThenCompleteCheckout" />  
+           		<class name="com.omahasteaks.tests.Checkout_2Step.PositiveCases.TC_2SCOP_016_AddedInformationDisplayCorectlyInConfirmationPage" />
+                <class name="com.omahasteaks.tests.Checkout_2Step.PositiveCases.TC_2SCOP_020_CompleteCheckoutWithItemFromTodayOnlyDealsModal" />  
+                <class name="com.omahasteaks.tests.Checkout_2Step.PositiveCases.TC_2SCOP_023_TaxIsAppliedForTheItemsWithTaxableStatesInShippingAddress" /> 
+                <class name="com.omahasteaks.tests.Checkout_2Step.PositiveCases.TC_2SCOP_024_ShippingCostIsFREEWhenOrderingFreeShippingItem" />
+                <class name="com.omahasteaks.tests.EGiftCard.PositiveCases.TC_ECP_001_UserCanAddOnlyEGiftCardThenCompleteCheckout" />    
+                <class name="com.omahasteaks.tests.RewardCard.PositiveCases.TC_RCP_007_UserCanCheckoutWithRewardCardAndOneCreditCardInPaymentReviewPage" /> 
+                <class name="com.omahasteaks.tests.ShippingOptions.TC_SOP_004_UserCanCompleteCheckoutWithCustomDeliveryDate" />  
+                <class name="com.omahasteaks.tests.TreatYourself.TC_TYP_003_UserCanAddTreatYourselfSKUInShoppingCartThenCompleteCheckout" />
+
+ 		</classes> 
+	</test> 
+</suite>

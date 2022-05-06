@@ -1,0 +1,40 @@
+{
+	"default": {
+		"eleProgressTab": {
+			"type": "xpath",
+			"value": "//div[@class='os_progress_tabs']//a[b[text()=\"%s\"]]"
+		},
+		"elePromotionMessage": {
+			"type": "xpath",
+			"value": "//*[contains(@class,'sku_shipping')]/span[contains(text(),\"%s\")][1]"
+		},
+		"ele_FirstSKUFormInFreeExpressDeliveryTab": {
+			"type": "xpath",
+			"value": "(//div[@id='tab1div']//form[.//select[@title='Ship to']][.//input[@name='sku_asavail']][not(.//ancestor::div[contains(@class,'slide_pane')])])[1]"
+		},
+		"ele_FirstSKUFormInFreeRushDeliveryTab": {
+			"type": "xpath",
+			"value": "(//div[@id='tab2div']//form[.//select[@title='Ship to']][.//input[@name='sku_asavail']][not(.//ancestor::div[contains(@class,'slide_pane')])])[1]"
+		},
+		"eleSKUOutOfStock": {
+			"type": "xpath",
+			"value": ".//*[text()='Out of Stock']"
+		},
+		"eleFirstSku": {
+			"type": "xpath",
+			"value": "//*[@id='os_scroll_lnc']/div[4]/div/div[1]/form"
+		},            
+		"eleFirstIID": {
+			"type": "xpath",
+			"value": ".//*[@class='sku_iid']"
+		},
+		"eleFirstName": {
+			"type": "xpath",
+			"value": "./a/div[3]/div[1]"
+		},              
+		"eleFirstPrice": {
+			"type": "xpath",
+			"value": "./a/div[4]/div[2]/div[2]/span[1]"
+		}
+	}
+}

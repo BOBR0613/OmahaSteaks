@@ -1,0 +1,16 @@
+{
+	"default": {
+		"rdShippingMethod": {
+			"type": "xpath",
+			"value": "//span[text()=\"%s\"]//input[@name='shipmeth']"
+		},
+		"txtDelayDate": {
+			"type": "xpath",
+			"value": "//input[@name='delaydate']"
+		},
+		"eleErrorMessageInShippingOptions":{
+			"type":"xpath",
+			"value":"//table[//input[@name='delaydate']]/preceding-sibling::span/b"
+		}
+	}
+}

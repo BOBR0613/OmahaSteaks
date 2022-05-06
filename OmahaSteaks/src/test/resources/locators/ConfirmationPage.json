@@ -1,0 +1,13 @@
+{
+	"default":{
+		"elThankYou":{
+			"type":"xpath",
+			"value":"//div[@id='thankYou']/div"
+		},
+		"elThankYou_mb":{
+			"type":"xpath",
+			"value":"//div[@class='mainbody']/div[contains(text(),\"%s\")]"
+		}	
+		
+	}
+}

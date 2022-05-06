@@ -1,0 +1,47 @@
+{
+	"default":{
+		"txtEmailAddress":{
+			"type":"xpath",
+			"value":"//input[@name='USERNAME']"
+		},
+		"txtPassword":{
+			"type":"xpath",
+			"value":"//input[@name='PASSWORD']"
+		},
+		"btnLogin":{
+			"type":"xpath",
+			"value":"//input[@name='Login']|//input[@name='login']"
+		},
+		"btnLogin_mb":{
+			"type":"xpath",
+			"value":"//input[@name='Login']|//input[@name='login']"
+		},
+		"btnCreateNewAccount":{
+			"type": "xpath",
+			"value": "//a[img[@title='Create New Account']]"
+		},
+		"btnCreateNewAccount_mb":{
+			"type": "xpath",
+			"value": "//a[text()='Create New Account']"
+		}
+		
+	},
+	"ie": {
+		"txtEmailAddress": {
+			"type": "css",
+			"value": "[name='USERNAME']"
+		},
+		"txtPassword":{
+			"type":"css",
+			"value":"[name='PASSWORD']"
+		},
+		"btnLogin":{
+			"type":"css",
+			"value":"[name='Login']"
+		},
+		"btnCreateNewAccount":{
+			"type": "css",
+			"value": "img[title='Create New Account']"
+		}
+	}
+}

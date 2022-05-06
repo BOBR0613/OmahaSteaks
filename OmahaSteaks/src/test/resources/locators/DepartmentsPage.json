@@ -1,0 +1,68 @@
+{
+	"default": {
+		"eleAllSections": {
+			"type": "xpath",
+			"value": "//html"
+		},
+		"eleLinkInHeader": {
+			"type": "xpath",
+			"value": "//div[@id='os_hdr']//a[@href=\"%s\"]"
+		},
+		"eleLinkInHeader_mb": {
+			"type": "xpath",
+			"value": "//div[@id='os_nav_rel_util']//a[@href=\"%s\"]"
+		},
+		"eleImgInHeaderBySrc": {
+			"type": "xpath",
+			"value": "//div[@id='os_hdr']//img[@src=\"%s\"]"
+		},
+		"eleImgInHeaderBySrc_mb": {
+			"type": "xpath",
+			"value": "//div[@id='os_nav_rel_util']//img[@src=\"%s\"]"
+		},
+		"eleImgInHeaderByDataOriginal": {
+			"type": "xpath",
+			"value": "//div[@id='os_hdr']//img[@data-original=\"%s\"]"
+		},
+		"eleImgInHeaderByDataOriginal_mb": {
+			"type": "xpath",
+			"value": "//div[@id='os_nav_rel_util']//img[@data-original=\"%s\"]"
+		},
+		"eleLinkInFooter": {
+			"type": "xpath",
+			"value": "//div[@id='os_ftr']//a[@href=\"%s\"]"
+		},
+		"eleLinkInFooter_mb": {
+			"type": "xpath",
+			"value": "//div[@class='os_footer os_bg_p_xd pad_t_m pad_b_l']//a[@href=\"%s\"]"
+		},
+		"eleImgInFooterBySrc": {
+			"type": "xpath",
+			"value": "//div[@id='os_ftr']//img[@src=\"%s\"]"
+		},
+		"eleImgInFooterBySrc_mb": {
+			"type": "xpath",
+			"value": "//div[@class='os_footer os_bg_p_xd pad_t_m pad_b_l']//img[@src=\"%s\"]"
+		},
+		"eleImgInFooterByDataOriginal": {
+			"type": "xpath",
+			"value": "//div[@id='os_ftr']//img[@data-original=\"%s\"]"
+		},
+		"eleImgInFooterByDataOriginal_mb": {
+			"type": "xpath",
+			"value": "//div[@class='os_footer os_bg_p_xd pad_t_m pad_b_l']//img[@data-original=\"%s\"]"
+		},
+		"ele_FirstSKUFormByBoxPlan": {
+			"type": "xpath",
+			"value": "(//div[div[text()=\"%s\"]]//form[.//select[@title='Ship to']][.//input[@name='sku_asavail']][not(.//ancestor::div[contains(@class,'slide_pane')])])[2]"
+		},
+		"ele_EstArrivalDateByShippingMethod": {
+			"type": "xpath",
+			"value": "//div[@id='os_modal_i']//div[@id='osd_optinfo']//div[text()=\"%s\"]/following-sibling::div[b]"
+		},
+		"ele_ShippingMethod": {
+			"type": "xpath",
+			"value": "//div[@id='os_modal_i']//div[@id='osd_optinfo']//div[text()=\"%s\"]"
+		}
+	}
+}
