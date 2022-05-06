@@ -6,7 +6,7 @@ import java.util.Random;
  
 import com.omahasteaks.data.objects.Item;
 
-// additional category methods 
+// Additional category methods 
 public class Category {
 	private String categoryPath;
 	private List<Item> listItems;
